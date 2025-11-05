@@ -14,8 +14,8 @@ export interface WheneverOptions extends WatchOptions {
 }
 
 // overloads
-export function whenever<T extends Readonly<WatchSource<T | false | null | undefined>[]>>(sources: [...T], cb: WatchCallback<MapSources<T>, MapOldSources<T, false>>, options?: WheneverOptions): WatchHandle
 export function whenever<T>(source: WatchSource<T | false | null | undefined>, cb: WatchCallback<T>, options?: WheneverOptions): WatchHandle
+export function whenever<T extends Readonly<WatchSource<unknown>[]>>(sources: readonly [...T] | T, cb: WatchCallback<MapSources<T>, MapOldSources<T, false>>, options?: WheneverOptions): WatchHandle
 export function whenever<T extends object>(source: T, cb: WatchCallback<T>, options?: WheneverOptions): WatchHandle
 
 /**
@@ -27,7 +27,7 @@ export function whenever(source: any, cb: WatchCallback, options?: WheneverOptio
   const stop = watch(
     source,
     (v, ov, onInvalidate) => {
-      if (v) {
+      if (Array.isArray(v) ? v.some(Boolean) : v) {
         if (options?.once)
           nextTick(() => stop())
         cb(v, ov, onInvalidate)
