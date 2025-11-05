@@ -9,7 +9,7 @@ Reactive [ipcRenderer.invoke API](https://www.electronjs.org/docs/api/ipc-render
 ## Usage
 
 ```ts
-import { useIpcRendererInvoke } from '@vueuse/electron'
+import { useIpcRendererInvoke } from '@velocity1/vueuse-electron'
 import { computed } from 'vue'
 
 // enable nodeIntegration if you don't provide ipcRenderer explicitly

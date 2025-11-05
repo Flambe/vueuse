@@ -1,7 +1,7 @@
 /* this implementation is original ported from https://github.com/logaretm/vue-use-web by Abdelrahman Awad */
 
 import type { ConfigurableNavigator } from '../_configurable'
-import { tryOnScopeDispose } from '@vueuse/shared'
+import { tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import { ref as deepRef, shallowRef } from 'vue'
 import { defaultNavigator } from '../_configurable'
 import { useSupported } from '../useSupported'

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { reactify, useMousePressed, useToggle } from '@vueuse/core'
+import { reactify, useMousePressed, useToggle } from '@velocity1/vueuse-core'
 import { computed, reactive, useTemplateRef } from 'vue'
 import YAML from 'yaml'
 

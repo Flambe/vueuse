@@ -12,7 +12,7 @@ Automatically update the height of a textarea depending on the content.
 
 ```vue
 <script setup lang="ts">
-import { useTextareaAutosize } from '@vueuse/core'
+import { useTextareaAutosize } from '@velocity1/vueuse-core'
 
 const { textarea, input } = useTextareaAutosize()
 </script>
@@ -50,7 +50,7 @@ If you need support for the rows attribute on a textarea element, then you shoul
 
 ```vue
 <script setup lang="ts">
-import { useTextareaAutosize } from '@vueuse/core'
+import { useTextareaAutosize } from '@velocity1/vueuse-core'
 
 const { textarea, input } = useTextareaAutosize({ styleProp: 'minHeight' })
 </script>

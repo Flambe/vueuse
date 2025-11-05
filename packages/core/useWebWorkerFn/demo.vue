@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useDateFormat, useTimestamp, useWebWorkerFn } from '@vueuse/core'
+import { useDateFormat, useTimestamp, useWebWorkerFn } from '@velocity1/vueuse-core'
 import { computed, nextTick, shallowRef } from 'vue'
 
 function heavyTask() {

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useElementVisibility } from '@vueuse/core'
+import { useElementVisibility } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const el = useTemplateRef('el')

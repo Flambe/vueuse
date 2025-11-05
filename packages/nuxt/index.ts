@@ -2,7 +2,7 @@ import type { Import, Preset } from 'unimport'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { defineNuxtModule } from '@nuxt/kit'
-import { metadata } from '@vueuse/metadata'
+import { metadata } from '@velocity1/vueuse-metadata'
 import { isPackageExists } from 'local-pkg'
 
 const _dirname = dirname(fileURLToPath(import.meta.url))
@@ -33,7 +33,7 @@ const packages = [
   'router',
 ]
 
-const fullPackages = packages.map(p => `@vueuse/${p}`)
+const fullPackages = packages.map(p => `@velocity1/vueuse-${p}`)
 
 export interface VueUseNuxtOptions {
   /**
@@ -56,7 +56,7 @@ export interface VueUseNuxtOptions {
  * // nuxt.config.js
  * export default {
  *   buildModules: [
- *     '@vueuse/nuxt'
+ *     '@velocity1/vueuse-nuxt'
  *   ]
  * }
  * ```
@@ -122,7 +122,7 @@ export default defineNuxtModule<VueUseNuxtOptions>({
             continue
 
           if (pkg !== 'core' && !isPackageExists(
-            `@vueuse/${pkg}`,
+            `@velocity1/vueuse-${pkg}`,
             { paths: nuxt.options._layers.map(layer => layer.config.rootDir) },
           )) {
             continue
@@ -134,7 +134,7 @@ export default defineNuxtModule<VueUseNuxtOptions>({
             .flatMap((i): Import[] => {
               const names = [i.name, ...i.alias || []]
               return names.map(n => ({
-                from: `@vueuse/${i.importPath || i.package}`,
+                from: `@velocity1/vueuse-${i.importPath || i.package}`,
                 name: n,
                 as: n,
                 priority: -1,
@@ -148,7 +148,7 @@ export default defineNuxtModule<VueUseNuxtOptions>({
             .filter(i => i.name.length >= 4 && !disabledFunctions.includes(i.name))
 
           sources.push({
-            from: '@vueuse/core',
+            from: '@velocity1/vueuse-core',
             imports,
             priority: -1,
           })

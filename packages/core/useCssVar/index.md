@@ -9,7 +9,7 @@ Manipulate CSS variables
 ## Usage
 
 ```ts
-import { useCssVar } from '@vueuse/core'
+import { useCssVar } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const el = useTemplateRef('el')

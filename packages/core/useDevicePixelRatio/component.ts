@@ -1,6 +1,6 @@
-import type { ConfigurableWindow, UseDevicePixelRatioReturn } from '@vueuse/core'
+import type { ConfigurableWindow, UseDevicePixelRatioReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useDevicePixelRatio } from '@vueuse/core'
+import { useDevicePixelRatio } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UseDevicePixelRatioProps extends ConfigurableWindow {}

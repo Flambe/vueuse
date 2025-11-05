@@ -1,4 +1,4 @@
-import { debounceFilter } from '@vueuse/shared'
+import { debounceFilter } from '@velocity1/vueuse-shared'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { ref as deepRef, defineComponent, nextTick, toRaw } from 'vue'
 import { mount, nextTwoTick, useSetup } from '../../.test'

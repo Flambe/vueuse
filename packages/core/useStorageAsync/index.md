@@ -17,7 +17,7 @@ sometimes you may get the default initial value, not the real value stored in st
 beginning.
 
 ```ts
-import { useStorageAsync } from '@vueuse/core'
+import { useStorageAsync } from '@velocity1/vueuse-core'
 
 const accessToken = useStorageAsync('access.token', '', SomeAsyncStorage)
 
@@ -57,7 +57,7 @@ router.onReady(async () => {
 There is a callback named `onReady` in options:
 
 ```ts
-import { useStorageAsync } from '@vueuse/core'
+import { useStorageAsync } from '@velocity1/vueuse-core'
 
 // Use ES2024 Promise.withResolvers, you may use any Deferred object or EventBus to do same thing.
 const { promise, resolve } = Promise.withResolvers()

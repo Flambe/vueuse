@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { reactify, useStorage } from '@vueuse/core'
+import { reactify, useStorage } from '@velocity1/vueuse-core'
 import YAML from 'yaml'
 
 const stringify = reactify(

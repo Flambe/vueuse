@@ -22,7 +22,7 @@ This function will be removed in future version.
 Use as normal the `watch`, but return extra `pause()` and `resume()` functions to control.
 
 ```ts
-import { watchPausable } from '@vueuse/core'
+import { watchPausable } from '@velocity1/vueuse-core'
 import { nextTick, shallowRef } from 'vue'
 
 const source = shallowRef('foo')

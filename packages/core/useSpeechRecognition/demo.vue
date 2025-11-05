@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useSpeechRecognition } from '@vueuse/core'
+import { useSpeechRecognition } from '@velocity1/vueuse-core'
 import { shallowRef, watch } from 'vue'
 
 const lang = shallowRef('en-US')

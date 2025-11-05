@@ -13,7 +13,7 @@ Keep states in the global scope to be reusable across Vue instances.
 
 ```ts
 // store.ts
-import { createGlobalState } from '@vueuse/core'
+import { createGlobalState } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 export const useGlobalState = createGlobalState(
@@ -28,7 +28,7 @@ A bigger example:
 
 ```ts
 // store.ts
-import { createGlobalState } from '@vueuse/core'
+import { createGlobalState } from '@velocity1/vueuse-core'
 import { computed, shallowRef } from 'vue'
 
 export const useGlobalState = createGlobalState(
@@ -55,7 +55,7 @@ Store in `localStorage` with `useStorage`:
 
 ```ts twoslash include store
 // store.ts
-import { createGlobalState, useStorage } from '@vueuse/core'
+import { createGlobalState, useStorage } from '@velocity1/vueuse-core'
 
 export const useGlobalState = createGlobalState(
   () => useStorage('vueuse-local-storage', 'initialValue'),

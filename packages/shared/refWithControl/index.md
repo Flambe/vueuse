@@ -13,7 +13,7 @@ Fine-grained controls over ref and its reactivity.
 `refWithControl` uses `extendRef` to provide two extra functions `get` and `set` to have better control over when it should track/trigger the reactivity.
 
 ```ts
-import { refWithControl } from '@vueuse/core'
+import { refWithControl } from '@velocity1/vueuse-core'
 
 const num = refWithControl(0)
 const doubled = computed(() => num.value * 2)
@@ -42,13 +42,13 @@ console.log(doubled.value) // 100 (updated again since it's a reactive set)
 We also provide some shorthands for doing the get/set without track/triggering the reactivity system. The following lines are equivalent.
 
 ```ts
-import { refWithControl } from '@vueuse/core'
+import { refWithControl } from '@velocity1/vueuse-core'
 // ---cut---
 const foo = refWithControl('foo')
 ```
 
 ```ts
-import { refWithControl } from '@vueuse/core'
+import { refWithControl } from '@velocity1/vueuse-core'
 
 const foo = refWithControl('foo')
 // ---cut---
@@ -59,7 +59,7 @@ foo.peek() // an alias for `untrackedGet`
 ```
 
 ```ts
-import { refWithControl } from '@vueuse/core'
+import { refWithControl } from '@velocity1/vueuse-core'
 
 const foo = refWithControl('foo')
 // ---cut---
@@ -76,7 +76,7 @@ foo.lay('bar') // an alias for `silentSet`
 `onBeforeChange` option is offered to give control over if a new value should be accepted. For example:
 
 ```ts
-import { refWithControl } from '@vueuse/core'
+import { refWithControl } from '@velocity1/vueuse-core'
 // ---cut---
 const num = refWithControl(0, {
   onBeforeChange(value, oldValue) {
@@ -98,7 +98,7 @@ console.log(num.value) // 1 (change been dismissed)
 `onChanged` option offers a similar functionally as Vue's `watch` but being synchronized with less overhead compared to `watch`.
 
 ```ts
-import { refWithControl } from '@vueuse/core'
+import { refWithControl } from '@velocity1/vueuse-core'
 // ---cut---
 const num = refWithControl(0, {
   onChanged(value, oldValue) {

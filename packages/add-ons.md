@@ -2,11 +2,11 @@
 
 The core package aims to be lightweight and dependence free. While the add-ons are wrapping popular packages into the consistent API style.
 
-## Head - [`@vueuse/head`](https://github.com/vueuse/head) <carbon-link class="external-link"/>
+## Head - [`@velocity1/vueuse-head`](https://github.com/vueuse/head) <carbon-link class="external-link"/>
 
 Document head manager for Vue 3. SSR ready. Created and maintained by [@egoist](https://github.com/egoist)
 
-## Motion - [`@vueuse/motion`](https://github.com/vueuse/motion) <carbon-link class="external-link"/>
+## Motion - [`@velocity1/vueuse-motion`](https://github.com/vueuse/motion) <carbon-link class="external-link"/>
 
 **Vue Composables** putting your **components** in **motion**.
 
@@ -19,7 +19,7 @@ Document head manager for Vue 3. SSR ready. Created and maintained by [@egoist](
 
 > Created and maintained by [@Tahul](https://github.com/Tahul)
 
-## Gesture - [`@vueuse/gesture`](https://github.com/vueuse/gesture) <carbon-link class="external-link"/>
+## Gesture - [`@velocity1/vueuse-gesture`](https://github.com/vueuse/gesture) <carbon-link class="external-link"/>
 
 **Vue Composables** making your app **interactive**
 
@@ -31,20 +31,20 @@ Document head manager for Vue 3. SSR ready. Created and maintained by [@egoist](
 
 > Created and maintained by [@Tahul](https://github.com/Tahul)
 
-## Sound - [`@vueuse/sound`](https://github.com/vueuse/sound) <carbon-link class="external-link"/>
+## Sound - [`@velocity1/vueuse-sound`](https://github.com/vueuse/sound) <carbon-link class="external-link"/>
 
 Vue composables for playing sound effects.
 
 - 👂 Lets your website **communicate** using 2 **human senses** instead of 1
 - 🔥 Built with **Vue** Composition API
-- 🚚 Supports **Nuxt 3** using [**@vueuse/sound/nuxt**](https://github.com/vueuse/sound#nuxt)
+- 🚚 Supports **Nuxt 3** using [**@velocity1/vueuse-sound/nuxt**](https://github.com/vueuse/sound#nuxt)
 - ⚡️ **<1kb** bytes (gzip) in your **bundle**! **~10kb** loaded **async**.
 - ✨ Built with **TypeScript**
 - 🗣 Uses a powerful, battle-tested audio utility: [**Howler.js**](https://howlerjs.com/)
 
 > Created and maintained by [@Tahul](https://github.com/Tahul)
 
-## SchemaOrg - [`@vueuse/schema-org`](https://github.com/vueuse/schema-org) <carbon-link class="external-link"/>
+## SchemaOrg - [`@velocity1/vueuse-schema-org`](https://github.com/vueuse/schema-org) <carbon-link class="external-link"/>
 
 Schema.org for Vue. Supports typed and automated Google Rich Results
 
@@ -60,7 +60,7 @@ Schema.org for Vue. Supports typed and automated Google Rich Results
 <!--GENERATED LIST, DO NOT MODIFY MANUALLY-->
 <!--ADDONS_LIST_STARTS-->
 
-## Router - [`@vueuse/router`](https://vueuse.org/router/README.html)
+## Router - [`@velocity1/vueuse-router`](https://vueuse.org/router/README.html)
 
 Utilities for vue-router
 
@@ -68,7 +68,7 @@ Utilities for vue-router
 - [`useRouteParams`](https://vueuse.org/router/useRouteParams/) — shorthand for a reactive `route.params`
 - [`useRouteQuery`](https://vueuse.org/router/useRouteQuery/) — shorthand for a reactive `route.query`
 
-## Integrations - [`@vueuse/integrations`](https://vueuse.org/integrations/README.html)
+## Integrations - [`@velocity1/vueuse-integrations`](https://vueuse.org/integrations/README.html)
 
 Integration wrappers for utility libraries
 
@@ -85,7 +85,7 @@ Integration wrappers for utility libraries
 - [`useQRCode`](https://vueuse.org/integrations/useQRCode/) — wrapper for [`qrcode`](https://github.com/soldair/node-qrcode)
 - [`useSortable`](https://vueuse.org/integrations/useSortable/) — wrapper for [`sortable`](https://github.com/SortableJS/Sortable)
 
-## RxJS - [`@vueuse/rxjs`](https://vueuse.org/rxjs/README.html)
+## RxJS - [`@velocity1/vueuse-rxjs`](https://vueuse.org/rxjs/README.html)
 
 Enables RxJS reactive functions in Vue
 
@@ -97,7 +97,7 @@ Enables RxJS reactive functions in Vue
 - [`useSubscription`](https://vueuse.org/rxjs/useSubscription/) — use an RxJS [`Subscription`](https://rxjs.dev/guide/subscription) without worrying about unsubscribing from it or creating memory leaks
 - [`watchExtractedObservable`](https://vueuse.org/rxjs/watchExtractedObservable/) — watch the values of an RxJS [`Observable`](https://rxjs.dev/guide/observable) as extracted from one or more composables
 
-## Firebase - [`@vueuse/firebase`](https://vueuse.org/firebase/README.html)
+## Firebase - [`@velocity1/vueuse-firebase`](https://vueuse.org/firebase/README.html)
 
 Enables realtime bindings for Firebase
 
@@ -105,7 +105,7 @@ Enables realtime bindings for Firebase
 - [`useFirestore`](https://vueuse.org/firebase/useFirestore/) — reactive [Firestore](https://firebase.google.com/docs/firestore) binding
 - [`useRTDB`](https://vueuse.org/firebase/useRTDB/) — reactive [Firebase Realtime Database](https://firebase.google.com/docs/database) binding
 
-## Electron - [`@vueuse/electron`](https://vueuse.org/electron/README.html)
+## Electron - [`@velocity1/vueuse-electron`](https://vueuse.org/electron/README.html)
 
 Electron renderer process modules for VueUse
 

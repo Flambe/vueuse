@@ -12,7 +12,7 @@ See [Vue's docs](https://vuejs.org/guide/essentials/watchers.html#once-watchers)
 Similar to `watch`, but with `{ once: true }`
 
 ```ts
-import { watchOnce } from '@vueuse/core'
+import { watchOnce } from '@velocity1/vueuse-core'
 
 watchOnce(source, () => {
   // triggers only once

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { reactify, useAsyncState } from '@vueuse/core'
+import { reactify, useAsyncState } from '@velocity1/vueuse-core'
 import axios from 'axios'
 import YAML from 'yaml'
 

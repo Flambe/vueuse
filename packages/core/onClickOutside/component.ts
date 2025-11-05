@@ -1,5 +1,5 @@
-import type { OnClickOutsideOptions, RenderableComponent } from '@vueuse/core'
-import { onClickOutside } from '@vueuse/core'
+import type { OnClickOutsideOptions, RenderableComponent } from '@velocity1/vueuse-core'
+import { onClickOutside } from '@velocity1/vueuse-core'
 import { defineComponent, h, shallowRef } from 'vue'
 
 export interface OnClickOutsideProps extends RenderableComponent {

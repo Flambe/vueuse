@@ -11,7 +11,7 @@ Add extra attributes to Ref.
 > Please note the extra attribute will not be accessible in Vue's template.
 
 ```ts
-import { extendRef } from '@vueuse/core'
+import { extendRef } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const myRef = shallowRef('content')
@@ -25,7 +25,7 @@ extended.foo === 'extra data'
 Refs will be unwrapped and be reactive
 
 ```ts
-import { extendRef } from '@vueuse/core'
+import { extendRef } from '@velocity1/vueuse-core'
 // ---cut---
 const myRef = shallowRef('content')
 const extraRef = shallowRef('extra')

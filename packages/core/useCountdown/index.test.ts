@@ -1,4 +1,4 @@
-import type { Pausable } from '@vueuse/shared'
+import type { Pausable } from '@velocity1/vueuse-shared'
 import type { UseCountdownOptions } from './index'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { effectScope, shallowRef } from 'vue'

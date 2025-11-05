@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useInterval } from '@vueuse/core'
+import { useInterval } from '@velocity1/vueuse-core'
 
 const counter = useInterval(200)
 </script>

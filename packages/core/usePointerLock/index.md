@@ -9,7 +9,7 @@ Reactive [pointer lock](https://developer.mozilla.org/en-US/docs/Web/API/Pointer
 ## Basic Usage
 
 ```ts
-import { usePointerLock } from '@vueuse/core'
+import { usePointerLock } from '@velocity1/vueuse-core'
 
 const {
   isSupported,

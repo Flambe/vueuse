@@ -11,7 +11,7 @@ category: Watch
 Similar to `watch` with an extra option `count` which set up the number of times the callback function is triggered. After the count is reached, the watch will be stopped automatically.
 
 ```ts
-import { watchAtMost } from '@vueuse/core'
+import { watchAtMost } from '@velocity1/vueuse-core'
 
 watchAtMost(
   source,

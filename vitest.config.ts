@@ -8,10 +8,10 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@vueuse/shared': resolve(import.meta.dirname, 'packages/shared/index.ts'),
-      '@vueuse/core': resolve(import.meta.dirname, 'packages/core/index.ts'),
-      '@vueuse/math': resolve(import.meta.dirname, 'packages/math/index.ts'),
-      '@vueuse/components': resolve(import.meta.dirname, 'packages/components/index.ts'),
+      '@velocity1/vueuse-shared': resolve(import.meta.dirname, 'packages/shared/index.ts'),
+      '@velocity1/vueuse-core': resolve(import.meta.dirname, 'packages/core/index.ts'),
+      '@velocity1/vueuse-math': resolve(import.meta.dirname, 'packages/math/index.ts'),
+      '@velocity1/vueuse-components': resolve(import.meta.dirname, 'packages/components/index.ts'),
     },
     dedupe: [
       'vue',

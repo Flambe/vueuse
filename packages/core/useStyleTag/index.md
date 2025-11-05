@@ -13,7 +13,7 @@ Inject reactive `style` element in head.
 Provide a CSS string, then `useStyleTag` will automatically generate an id and inject it in `<head>`.
 
 ```ts
-import { useStyleTag } from '@vueuse/core'
+import { useStyleTag } from '@velocity1/vueuse-core'
 
 const {
   id,
@@ -42,7 +42,7 @@ This code will be injected to `<head>`:
 If you need to define your own id, you can pass `id` as first argument.
 
 ```ts
-import { useStyleTag } from '@vueuse/core'
+import { useStyleTag } from '@velocity1/vueuse-core'
 // ---cut---
 useStyleTag('.foo { margin-top: 32px; }', { id: 'custom-id' })
 ```
@@ -61,7 +61,7 @@ useStyleTag('.foo { margin-top: 32px; }', { id: 'custom-id' })
 You can pass media attributes as last argument within object.
 
 ```ts
-import { useStyleTag } from '@vueuse/core'
+import { useStyleTag } from '@velocity1/vueuse-core'
 // ---cut---
 useStyleTag('.foo { margin-top: 32px; }', { media: 'print' })
 ```

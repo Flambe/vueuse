@@ -1,6 +1,6 @@
-import type { BasicColorMode, UseColorModeOptions, UseColorModeReturn } from '@vueuse/core'
+import type { BasicColorMode, UseColorModeOptions, UseColorModeReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useColorMode } from '@vueuse/core'
+import { useColorMode } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UseColorModeProps extends UseColorModeOptions {}

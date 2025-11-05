@@ -1,5 +1,5 @@
 import type { MaybeRef, Ref, ShallowRef, UnwrapRef } from 'vue'
-import { noop, promiseTimeout, until } from '@vueuse/shared'
+import { noop, promiseTimeout, until } from '@velocity1/vueuse-shared'
 import { ref as deepRef, shallowRef, toValue } from 'vue'
 
 export interface UseAsyncStateReturnBase<Data, Params extends any[], Shallow extends boolean> {

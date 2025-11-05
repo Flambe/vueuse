@@ -10,7 +10,7 @@ A ref which will be reset to the default value after some time.
 ## Usage
 
 ```ts
-import { refAutoReset } from '@vueuse/core'
+import { refAutoReset } from '@velocity1/vueuse-core'
 
 const message = refAutoReset('default message', 1000)
 

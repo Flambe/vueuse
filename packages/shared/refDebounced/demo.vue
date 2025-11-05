@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { refDebounced } from '@vueuse/core'
+import { refDebounced } from '@velocity1/vueuse-core'
 import { shallowRef, watch } from 'vue'
 
 const input = shallowRef('')

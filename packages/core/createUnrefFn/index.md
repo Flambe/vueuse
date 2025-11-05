@@ -16,7 +16,7 @@ might be more pertinent in some cases where you want to evaluate the function on
 ## Usage
 
 ```ts
-import { createUnrefFn } from '@vueuse/core'
+import { createUnrefFn } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const url = shallowRef('https://httpbin.org/post')

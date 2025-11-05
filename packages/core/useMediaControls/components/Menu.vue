@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onClickOutside, useEventListener } from '@vueuse/core'
+import { onClickOutside, useEventListener } from '@velocity1/vueuse-core'
 import { shallowRef, useTemplateRef } from 'vue'
 
 const menu = useTemplateRef('menu')

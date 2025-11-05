@@ -1,4 +1,4 @@
-import { usePreferredReducedTransparency } from '@vueuse/core'
+import { usePreferredReducedTransparency } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export const UsePreferredReducedTransparency = /* #__PURE__ */ defineComponent({

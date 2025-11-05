@@ -1,5 +1,5 @@
 import type { ComputedRef, MaybeRef, MaybeRefOrGetter, Ref, UnwrapNestedRefs } from 'vue'
-import { noop, syncRef } from '@vueuse/shared'
+import { noop, syncRef } from '@velocity1/vueuse-shared'
 import { computed, isReadonly, isRef, reactive, toValue, watch } from 'vue'
 import { useClamp } from '../../math/useClamp'
 

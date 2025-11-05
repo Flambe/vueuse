@@ -1,4 +1,4 @@
-import { promiseTimeout } from '@vueuse/shared'
+import { promiseTimeout } from '@velocity1/vueuse-shared'
 import { describe, expect, it, vi } from 'vitest'
 import { nextTick, shallowRef } from 'vue'
 import { useAsyncState } from './index'

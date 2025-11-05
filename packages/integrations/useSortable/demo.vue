@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useSortable } from '@vueuse/integrations/useSortable'
+import { useSortable } from '@velocity1/vueuse-integrations/useSortable'
 import { shallowRef, useTemplateRef } from 'vue'
 
 const el = useTemplateRef<HTMLElement>('el')

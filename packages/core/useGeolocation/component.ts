@@ -1,6 +1,6 @@
-import type { UseGeolocationOptions, UseGeolocationReturn } from '@vueuse/core'
+import type { UseGeolocationOptions, UseGeolocationReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useGeolocation } from '@vueuse/core'
+import { useGeolocation } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UseGeolocationProps extends UseGeolocationOptions {}

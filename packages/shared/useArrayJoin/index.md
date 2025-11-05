@@ -11,7 +11,7 @@ Reactive `Array.join`
 ### Use with array of multiple refs
 
 ```ts
-import { useArrayJoin } from '@vueuse/core'
+import { useArrayJoin } from '@velocity1/vueuse-core'
 
 const item1 = ref('foo')
 const item2 = ref(0)
@@ -26,7 +26,7 @@ item1.value = 'bar'
 ### Use with reactive array
 
 ```ts
-import { useArrayJoin } from '@vueuse/core'
+import { useArrayJoin } from '@velocity1/vueuse-core'
 
 const list = ref(['string', 0, { prop: 'val' }, false, [1], [[2]], null, undefined, []])
 const result = useArrayJoin(list)
@@ -40,7 +40,7 @@ list.value = [null, 'string', undefined]
 ### Use with reactive separator
 
 ```ts
-import { useArrayJoin } from '@vueuse/core'
+import { useArrayJoin } from '@velocity1/vueuse-core'
 
 const list = ref(['string', 0, { prop: 'val' }])
 const separator = ref()

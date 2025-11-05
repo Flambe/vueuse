@@ -1,6 +1,6 @@
-import type { DeviceMotionOptions, UseDeviceMotionReturn } from '@vueuse/core'
+import type { DeviceMotionOptions, UseDeviceMotionReturn } from '@velocity1/vueuse-core'
 import type { SlotsType } from 'vue'
-import { useDeviceMotion } from '@vueuse/core'
+import { useDeviceMotion } from '@velocity1/vueuse-core'
 import { defineComponent } from 'vue'
 
 export interface UseDeviceMotionProps extends DeviceMotionOptions {}

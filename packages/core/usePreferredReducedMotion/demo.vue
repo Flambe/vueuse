@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { usePreferredReducedMotion } from '@vueuse/core'
+import { usePreferredReducedMotion } from '@velocity1/vueuse-core'
 
 const motion = usePreferredReducedMotion()
 </script>

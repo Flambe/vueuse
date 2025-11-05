@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useStyleTag } from '@vueuse/core'
+import { useStyleTag } from '@velocity1/vueuse-core'
 
 const customCSS = `
 .demo { background: #ad4c2e50; }

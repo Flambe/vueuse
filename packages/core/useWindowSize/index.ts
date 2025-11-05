@@ -1,5 +1,5 @@
 import type { ConfigurableWindow } from '../_configurable'
-import { tryOnMounted } from '@vueuse/shared'
+import { tryOnMounted } from '@velocity1/vueuse-shared'
 import { shallowRef, watch } from 'vue'
 import { defaultWindow } from '../_configurable'
 import { useEventListener } from '../useEventListener'

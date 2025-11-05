@@ -1,5 +1,5 @@
-import type { UseVirtualListOptions } from '@vueuse/core'
-import { useVirtualList } from '@vueuse/core'
+import type { UseVirtualListOptions } from '@velocity1/vueuse-core'
+import { useVirtualList } from '@velocity1/vueuse-core'
 import { defineComponent, h, toRefs } from 'vue'
 
 export interface UseVirtualListProps {

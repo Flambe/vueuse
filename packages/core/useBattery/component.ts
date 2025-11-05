@@ -1,6 +1,6 @@
-import type { ConfigurableNavigator, UseBatteryReturn } from '@vueuse/core'
+import type { ConfigurableNavigator, UseBatteryReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useBattery } from '@vueuse/core'
+import { useBattery } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UseBatteryProps extends ConfigurableNavigator {}

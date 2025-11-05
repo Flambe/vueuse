@@ -1,6 +1,6 @@
-import type { ConfigurableWindow, ReducedMotionType } from '@vueuse/core'
+import type { ConfigurableWindow, ReducedMotionType } from '@velocity1/vueuse-core'
 import type { ComputedRef, Reactive, SlotsType } from 'vue'
-import { usePreferredReducedMotion } from '@vueuse/core'
+import { usePreferredReducedMotion } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UsePreferredReducedMotionProps extends ConfigurableWindow {}

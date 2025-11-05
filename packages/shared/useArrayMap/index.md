@@ -11,7 +11,7 @@ Reactive `Array.map`
 ### Use with array of multiple refs
 
 ```ts
-import { useArrayMap } from '@vueuse/core'
+import { useArrayMap } from '@velocity1/vueuse-core'
 
 const item1 = ref(0)
 const item2 = ref(2)
@@ -28,7 +28,7 @@ item1.value = 1
 ### Use with reactive array
 
 ```ts
-import { useArrayMap } from '@vueuse/core'
+import { useArrayMap } from '@velocity1/vueuse-core'
 
 const list = ref([0, 1, 2, 3, 4])
 const result = useArrayMap(list, i => i * 2)

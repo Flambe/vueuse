@@ -1,6 +1,6 @@
 import type { MaybeRefOrGetter } from 'vue'
 import type { ConfigurableWindow } from '../_configurable'
-import { noop, tryOnMounted, useDebounceFn, useThrottleFn } from '@vueuse/shared'
+import { noop, tryOnMounted, useDebounceFn, useThrottleFn } from '@velocity1/vueuse-shared'
 import { computed, reactive, shallowRef, toValue } from 'vue'
 import { defaultWindow } from '../_configurable'
 import { unrefElement } from '../unrefElement'

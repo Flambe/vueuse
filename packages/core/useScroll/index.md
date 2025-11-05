@@ -10,7 +10,7 @@ Reactive scroll position and state.
 
 ```vue
 <script setup lang="ts">
-import { useScroll } from '@vueuse/core'
+import { useScroll } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const el = useTemplateRef<HTMLElement>('el')
@@ -25,7 +25,7 @@ const { x, y, isScrolling, arrivedState, directions } = useScroll(el)
 ### With offsets
 
 ```ts
-import { useScroll } from '@vueuse/core'
+import { useScroll } from '@velocity1/vueuse-core'
 // ---cut---
 const { x, y, isScrolling, arrivedState, directions } = useScroll(el, {
   offset: { top: 30, bottom: 30, right: 30, left: 30 },
@@ -38,7 +38,7 @@ Set the `x` and `y` values to make the element scroll to that position.
 
 ```vue
 <script setup lang="ts">
-import { useScroll } from '@vueuse/core'
+import { useScroll } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const el = useTemplateRef<HTMLElement>('el')
@@ -61,7 +61,7 @@ const { x, y } = useScroll(el)
 Set `behavior: smooth` to enable smooth scrolling. The `behavior` option defaults to `auto`, which means no smooth scrolling. See the `behavior` option on [`window.scrollTo()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo) for more information.
 
 ```ts
-import { useScroll } from '@vueuse/core'
+import { useScroll } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const el = useTemplateRef<HTMLElement>('el')
@@ -80,7 +80,7 @@ You can call the `measure()` method to manually update the scroll position and `
 This is useful, for example, after dynamic content changes or when you want to recalculate the scroll state outside of scroll events.
 
 ```ts
-import { useScroll } from '@vueuse/core'
+import { useScroll } from '@velocity1/vueuse-core'
 import { nextTick, onMounted, useTemplateRef, watch } from 'vue'
 
 const el = useTemplateRef<HTMLElement>('el')
@@ -111,8 +111,8 @@ function updateScrollState() {
 
 ```vue
 <script setup lang="ts">
-import type { UseScrollReturn } from '@vueuse/core'
-import { vScroll } from '@vueuse/components'
+import type { UseScrollReturn } from '@velocity1/vueuse-core'
+import { vScroll } from '@velocity1/vueuse-components'
 
 const data = ref([1, 2, 3, 4, 5, 6])
 

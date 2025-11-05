@@ -1,6 +1,6 @@
-import type { ColorSchemeType, ConfigurableWindow } from '@vueuse/core'
+import type { ColorSchemeType, ConfigurableWindow } from '@velocity1/vueuse-core'
 import type { ComputedRef, Reactive, SlotsType } from 'vue'
-import { usePreferredColorScheme } from '@vueuse/core'
+import { usePreferredColorScheme } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UsePreferredColorSchemeProps extends ConfigurableWindow {}

@@ -11,7 +11,7 @@ Run expensive functions without blocking the UI, using a simple syntax that make
 ### Basic example
 
 ```ts
-import { useWebWorkerFn } from '@vueuse/core'
+import { useWebWorkerFn } from '@velocity1/vueuse-core'
 
 const { workerFn } = useWebWorkerFn(() => {
   // some heavy works to do in web worker
@@ -21,7 +21,7 @@ const { workerFn } = useWebWorkerFn(() => {
 ### With dependencies
 
 ```ts {7-9}
-import { useWebWorkerFn } from '@vueuse/core'
+import { useWebWorkerFn } from '@velocity1/vueuse-core'
 
 const { workerFn, workerStatus, workerTerminate } = useWebWorkerFn(
   dates => dates.sort(dateFns.compareAsc),
@@ -37,7 +37,7 @@ const { workerFn, workerStatus, workerTerminate } = useWebWorkerFn(
 ### With local dependencies
 
 ```ts {9-9}
-import { useWebWorkerFn } from '@vueuse/core'
+import { useWebWorkerFn } from '@velocity1/vueuse-core'
 
 const pow = (a: number) => a * a
 

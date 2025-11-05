@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useTextareaAutosize } from '@vueuse/core'
+import { useTextareaAutosize } from '@velocity1/vueuse-core'
 
 const { textarea, input } = useTextareaAutosize()
 </script>

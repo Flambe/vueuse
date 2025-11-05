@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { usePreferredColorScheme } from '@vueuse/core'
+import { usePreferredColorScheme } from '@velocity1/vueuse-core'
 
 const colorScheme = usePreferredColorScheme()
 </script>

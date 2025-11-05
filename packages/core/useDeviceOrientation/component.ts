@@ -1,6 +1,6 @@
-import type { ConfigurableWindow, UseDeviceOrientationReturn } from '@vueuse/core'
+import type { ConfigurableWindow, UseDeviceOrientationReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useDeviceOrientation } from '@vueuse/core'
+import { useDeviceOrientation } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UseDeviceOrientationProps extends ConfigurableWindow {}

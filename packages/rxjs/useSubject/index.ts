@@ -1,7 +1,7 @@
 import type { Subject } from 'rxjs'
 import type { Ref } from 'vue'
 import type { UseObservableOptions } from '../useObservable'
-import { tryOnScopeDispose } from '@vueuse/shared'
+import { tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import { BehaviorSubject } from 'rxjs'
 import { ref as deepRef, watch } from 'vue'
 

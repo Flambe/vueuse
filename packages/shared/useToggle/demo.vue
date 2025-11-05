@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useToggle } from '@vueuse/core'
+import { useToggle } from '@velocity1/vueuse-core'
 
 const [value, toggle] = useToggle()
 </script>

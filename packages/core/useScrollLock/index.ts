@@ -1,6 +1,6 @@
-import type { Fn } from '@vueuse/shared'
+import type { Fn } from '@velocity1/vueuse-shared'
 import type { MaybeRefOrGetter } from 'vue'
-import { isIOS, toRef, tryOnScopeDispose } from '@vueuse/shared'
+import { isIOS, toRef, tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import { computed, shallowRef, toValue, watch } from 'vue'
 
 import { resolveElement } from '../_resolve-element'

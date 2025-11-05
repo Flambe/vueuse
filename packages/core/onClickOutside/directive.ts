@@ -1,7 +1,7 @@
-import type { OnClickOutsideHandler, OnClickOutsideOptions } from '@vueuse/core'
-import type { Fn } from '@vueuse/shared'
+import type { OnClickOutsideHandler, OnClickOutsideOptions } from '@velocity1/vueuse-core'
+import type { Fn } from '@velocity1/vueuse-shared'
 import type { ObjectDirective } from 'vue'
-import { onClickOutside } from '@vueuse/core'
+import { onClickOutside } from '@velocity1/vueuse-core'
 
 type StopHandle = Fn | { stop: Fn, cancel: Fn, trigger: (event: Event) => void }
 

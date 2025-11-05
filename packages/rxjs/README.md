@@ -1,13 +1,13 @@
-# @vueuse/rxjs
+# @velocity1/vueuse-rxjs
 
-[![NPM version](https://img.shields.io/npm/v/@vueuse/rxjs?color=a1b858)](https://www.npmjs.com/package/@vueuse/rxjs)
+[![NPM version](https://img.shields.io/npm/v/@velocity1/vueuse-rxjs?color=a1b858)](https://www.npmjs.com/package/@velocity1/vueuse-rxjs)
 
 > This is an add-on of [VueUse](https://github.com/antfu), enabling a natural way of using RxJS.
 
 ## Install
 
 ```bash
-npm i @vueuse/rxjs rxjs
+npm i @velocity1/vueuse-rxjs rxjs
 ```
 
 ## Functions
@@ -28,7 +28,7 @@ npm i @vueuse/rxjs rxjs
 ## Example
 
 ```ts
-import { from, fromEvent, useObservable } from '@vueuse/rxjs'
+import { from, fromEvent, useObservable } from '@velocity1/vueuse-rxjs'
 import { forkJoin, of } from 'rxjs'
 import { ajax } from 'rxjs/ajax'
 import { concatAll, map, mergeMap, pluck, scan, take } from 'rxjs/operators'

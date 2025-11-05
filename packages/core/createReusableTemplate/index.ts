@@ -1,5 +1,5 @@
 import type { ComponentObjectPropsOptions, DefineComponent, Slot } from 'vue'
-import { camelize, makeDestructurable } from '@vueuse/shared'
+import { camelize, makeDestructurable } from '@velocity1/vueuse-shared'
 import { defineComponent, shallowRef } from 'vue'
 
 type ObjectLiteralWithPotentialObjectLiterals = Record<string, Record<string, any> | undefined>

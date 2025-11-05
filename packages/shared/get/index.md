@@ -9,7 +9,7 @@ Shorthand for accessing `ref.value`
 ## Usage
 
 ```ts
-import { get } from '@vueuse/core'
+import { get } from '@velocity1/vueuse-core'
 
 const a = ref(42)
 

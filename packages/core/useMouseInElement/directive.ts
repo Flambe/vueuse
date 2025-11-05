@@ -1,7 +1,7 @@
-import type { MouseInElementOptions, UseMouseInElementReturn } from '@vueuse/core'
+import type { MouseInElementOptions, UseMouseInElementReturn } from '@velocity1/vueuse-core'
 import type { ObjectDirective, Reactive } from 'vue'
-import { useMouseInElement } from '@vueuse/core'
-import { reactiveOmit } from '@vueuse/shared'
+import { useMouseInElement } from '@velocity1/vueuse-core'
+import { reactiveOmit } from '@velocity1/vueuse-shared'
 import { reactive, watch } from 'vue'
 
 type MouseInElement = Omit<UseMouseInElementReturn, 'stop'>

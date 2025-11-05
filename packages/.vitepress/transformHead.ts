@@ -42,7 +42,7 @@ async function generateSVG(fn: VueUseFunction, output: string) {
     .split('\n')
   const data = {
     name: fn.name,
-    package: `@vueuse/${fn.package}`,
+    package: `@velocity1/vueuse-${fn.package}`,
     line1: lines[0] || '',
     line2: lines[1] || '',
     line3: lines[2] || '',

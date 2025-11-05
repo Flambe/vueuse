@@ -18,7 +18,7 @@ Shorthand for binding ref to template element.
 
 ```vue
 <script lang="ts">
-import { templateRef } from '@vueuse/core'
+import { templateRef } from '@velocity1/vueuse-core'
 
 export default {
   setup() {
@@ -37,7 +37,7 @@ export default {
 ### With JSX/TSX
 
 ```tsx
-import { templateRef } from '@vueuse/core'
+import { templateRef } from '@velocity1/vueuse-core'
 
 export default {
   setup() {

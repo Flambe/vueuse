@@ -10,7 +10,7 @@ Debounce execution of a ref value.
 ## Usage
 
 ```ts {5}
-import { refDebounced } from '@vueuse/core'
+import { refDebounced } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const input = shallowRef('foo')
@@ -31,7 +31,7 @@ function sleep(ms: number) {
 An example with object ref.
 
 ```js
-import { refDebounced } from '@vueuse/core'
+import { refDebounced } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const data = shallowRef({

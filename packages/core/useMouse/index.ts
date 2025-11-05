@@ -1,4 +1,4 @@
-import type { ConfigurableEventFilter } from '@vueuse/shared'
+import type { ConfigurableEventFilter } from '@velocity1/vueuse-shared'
 import type { MaybeRefOrGetter } from 'vue'
 import type { ConfigurableWindow } from '../_configurable'
 import type { Position } from '../types'

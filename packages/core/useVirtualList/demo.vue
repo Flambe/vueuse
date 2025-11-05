@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useVirtualList } from '@vueuse/core'
+import { useVirtualList } from '@velocity1/vueuse-core'
 import { computed, shallowRef } from 'vue'
 
 const index = shallowRef<number>()

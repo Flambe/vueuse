@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { UseDraggable as Draggable } from '@vueuse/components'
-import { isClient, useDraggable } from '@vueuse/core'
+import { UseDraggable as Draggable } from '@velocity1/vueuse-components'
+import { isClient, useDraggable } from '@velocity1/vueuse-core'
 import { shallowRef, useTemplateRef } from 'vue'
 
 const el = useTemplateRef<HTMLElement>('el')

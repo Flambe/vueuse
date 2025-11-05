@@ -1,11 +1,11 @@
 # Components
 
-In v5.0, we introduced a new package, `@vueuse/components` providing renderless component versions of composable functions.
+In v5.0, we introduced a new package, `@velocity1/vueuse-components` providing renderless component versions of composable functions.
 
 ## Install
 
 ```bash
-npm i @vueuse/core @vueuse/components
+npm i @velocity1/vueuse-core @velocity1/vueuse-components
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ For example of `onClickOutside`, instead of binding the component ref for functi
 
 ```vue
 <script setup>
-import { onClickOutside } from '@vueuse/core'
+import { onClickOutside } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const el = useTemplateRef('el')
@@ -37,7 +37,7 @@ We can now use the renderless component which the binding is done automatically:
 
 ```vue
 <script setup>
-import { OnClickOutside } from '@vueuse/components'
+import { OnClickOutside } from '@velocity1/vueuse-components'
 
 function close() {
   /* ... */

@@ -15,7 +15,7 @@ Create virtual lists with ease. Virtual lists (sometimes called [_virtual scroll
 ### Simple list
 
 ```ts
-import { useVirtualList } from '@vueuse/core'
+import { useVirtualList } from '@velocity1/vueuse-core'
 
 const { list, containerProps, wrapperProps } = useVirtualList(
   Array.from(Array.from({ length: 99999 }).keys()),
@@ -39,7 +39,7 @@ const { list, containerProps, wrapperProps } = useVirtualList(
 ### Reactive list
 
 ```ts
-import { useToggle, useVirtualList } from '@vueuse/core'
+import { useToggle, useVirtualList } from '@velocity1/vueuse-core'
 import { computed } from 'vue'
 
 const [isEven, toggle] = useToggle()
@@ -73,7 +73,7 @@ const { list, containerProps, wrapperProps } = useVirtualList(
 ### Horizontal list
 
 ```ts
-import { useVirtualList } from '@vueuse/core'
+import { useVirtualList } from '@velocity1/vueuse-core'
 
 const allItems = Array.from(Array.from({ length: 99999 }).keys())
 

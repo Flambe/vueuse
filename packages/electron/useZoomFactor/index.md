@@ -9,7 +9,7 @@ Reactive [WebFrame](https://www.electronjs.org/docs/api/web-frame#webframe) zoom
 ## Usage
 
 ```ts
-import { useZoomFactor } from '@vueuse/electron'
+import { useZoomFactor } from '@velocity1/vueuse-electron'
 
 // enable nodeIntegration if you don't provide webFrame explicitly
 // see: https://www.electronjs.org/docs/api/webview-tag#nodeintegration
@@ -22,7 +22,7 @@ factor.value = 2 // change current zoom factor
 Set initial zoom factor immediately
 
 ```ts
-import { useZoomFactor } from '@vueuse/electron'
+import { useZoomFactor } from '@velocity1/vueuse-electron'
 
 const factor = useZoomFactor(2)
 ```
@@ -30,7 +30,7 @@ const factor = useZoomFactor(2)
 Pass a `ref` and the factor will be updated when the source ref changes
 
 ```ts
-import { useZoomFactor } from '@vueuse/electron'
+import { useZoomFactor } from '@velocity1/vueuse-electron'
 import { shallowRef } from 'vue'
 
 const factor = shallowRef(1)

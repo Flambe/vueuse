@@ -1,5 +1,5 @@
 import type { ShallowRef } from 'vue'
-import { noop } from '@vueuse/shared'
+import { noop } from '@velocity1/vueuse-shared'
 import { reactive, shallowRef } from 'vue'
 
 export type UseAsyncQueueTask<T> = (...args: any[]) => T | Promise<T>

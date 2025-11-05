@@ -1,6 +1,6 @@
 import type { SlotsType } from 'vue'
-import { useObjectUrl } from '@vueuse/core'
-import { toRefs } from '@vueuse/shared'
+import { useObjectUrl } from '@velocity1/vueuse-core'
+import { toRefs } from '@velocity1/vueuse-shared'
 import { defineComponent } from 'vue'
 
 export interface UseObjectUrlProps {

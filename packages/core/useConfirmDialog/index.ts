@@ -1,6 +1,6 @@
-import type { EventHook, EventHookOn } from '@vueuse/shared'
+import type { EventHook, EventHookOn } from '@velocity1/vueuse-shared'
 import type { ComputedRef, ShallowRef } from 'vue'
-import { createEventHook, noop } from '@vueuse/shared'
+import { createEventHook, noop } from '@velocity1/vueuse-shared'
 import { computed, shallowRef } from 'vue'
 
 export type UseConfirmDialogRevealResult<C, D>

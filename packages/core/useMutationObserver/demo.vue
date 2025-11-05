@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useMutationObserver } from '@vueuse/core'
+import { useMutationObserver } from '@velocity1/vueuse-core'
 import { ref as deepRef, shallowRef, useTemplateRef } from 'vue'
 
 const el = useTemplateRef<HTMLElement>('el')

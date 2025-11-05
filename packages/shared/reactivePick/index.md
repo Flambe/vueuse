@@ -11,7 +11,7 @@ Reactively pick fields from a reactive object.
 ### Basic Usage
 
 ```ts
-import { reactivePick } from '@vueuse/core'
+import { reactivePick } from '@velocity1/vueuse-core'
 
 const obj = reactive({
   x: 0,
@@ -26,7 +26,7 @@ const picked = reactivePick(obj, 'x', 'elementX') // { x: number, elementX: numb
 ### Predicate Usage
 
 ```ts
-import { reactivePick } from '@vueuse/core'
+import { reactivePick } from '@velocity1/vueuse-core'
 
 const source = reactive({
   foo: 'foo',
@@ -46,7 +46,7 @@ source.qux = false
 
 ```vue
 <script setup lang="ts">
-import { reactivePick } from '@vueuse/core'
+import { reactivePick } from '@velocity1/vueuse-core'
 
 const props = defineProps<{
   value: string
@@ -70,7 +70,7 @@ const childProps = reactivePick(props, 'color', 'font')
 Instead of doing this
 
 ```ts
-import { useElementBounding } from '@vueuse/core'
+import { useElementBounding } from '@velocity1/vueuse-core'
 import { reactive } from 'vue'
 
 const { height, width } = useElementBounding() // object of refs
@@ -80,7 +80,7 @@ const size = reactive({ height, width })
 Now we can just have this
 
 ```ts
-import { reactivePick, useElementBounding } from '@vueuse/core'
+import { reactivePick, useElementBounding } from '@velocity1/vueuse-core'
 
 const size = reactivePick(useElementBounding(), 'height', 'width')
 ```

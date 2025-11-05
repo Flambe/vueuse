@@ -11,7 +11,7 @@ Template as Promise. Useful for constructing custom Dialogs, Modals, Toasts, etc
 
 ```vue
 <script setup lang="ts">
-import { createTemplatePromise } from '@vueuse/core'
+import { createTemplatePromise } from '@velocity1/vueuse-core'
 
 const TemplatePromise = createTemplatePromise<ReturnType>()
 
@@ -46,7 +46,7 @@ This function is migrated from [vue-template-promise](https://github.com/antfu/v
 `createTemplatePromise` returns a **Vue Component** that you can directly use in your template with `<script setup>`
 
 ```ts twoslash include main
-import { createTemplatePromise } from '@vueuse/core'
+import { createTemplatePromise } from '@velocity1/vueuse-core'
 
 const TemplatePromise = createTemplatePromise()
 const MyPromise = createTemplatePromise<boolean>() // with generic type
@@ -83,7 +83,7 @@ Once `resolve` or `reject` is called in the template, the promise will be resolv
 You can pass arguments to the `start` with arguments.
 
 ```ts twoslash include passing-arguments
-import { createTemplatePromise } from '@vueuse/core'
+import { createTemplatePromise } from '@velocity1/vueuse-core'
 
 const TemplatePromise = createTemplatePromise<boolean, [string, number]>()
 ```

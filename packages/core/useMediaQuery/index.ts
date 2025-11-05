@@ -2,7 +2,7 @@
 
 import type { MaybeRefOrGetter } from 'vue'
 import type { ConfigurableWindow } from '../_configurable'
-import { pxValue } from '@vueuse/shared'
+import { pxValue } from '@velocity1/vueuse-shared'
 import { computed, shallowRef, toValue, watchEffect } from 'vue'
 import { defaultWindow } from '../_configurable'
 import { useEventListener } from '../useEventListener'

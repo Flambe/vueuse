@@ -1,7 +1,7 @@
-import type { ShallowOrDeepRef } from '@vueuse/shared'
+import type { ShallowOrDeepRef } from '@velocity1/vueuse-shared'
 import type { Ref, WatchOptions } from 'vue'
 import type { ConfigurableDeepRefs } from '../_configurable'
-import { createRef } from '@vueuse/shared'
+import { createRef } from '@velocity1/vueuse-shared'
 import { watch } from 'vue'
 
 export interface UseCachedOptions<D extends boolean = true> extends ConfigurableDeepRefs<D>, WatchOptions {}

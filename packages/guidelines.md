@@ -212,8 +212,8 @@ export function useFetch<T>(url: MaybeRefOrGetter<string>): UseFetchReturn<T> & 
 - Only wrap the slot in an HTML element if the function needs a target to bind to
 
 ```ts
-import type { MouseOptions } from '@vueuse/core'
-import { useMouse } from '@vueuse/core'
+import type { MouseOptions } from '@velocity1/vueuse-core'
+import { useMouse } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export const UseMouse = defineComponent<MouseOptions>({
@@ -234,8 +234,8 @@ Sometimes a function may have multiple parameters, in that case, you maybe need 
 into a single interface for the component props.
 
 ```ts
-import type { TimeAgoOptions } from '@vueuse/core'
-import { useTimeAgo } from '@vueuse/core'
+import type { TimeAgoOptions } from '@velocity1/vueuse-core'
+import { useTimeAgo } from '@velocity1/vueuse-core'
 
 interface UseTimeAgoComponentOptions extends Omit<TimeAgoOptions<true>, 'controls'> {
   time: MaybeRef<Date | number | string>

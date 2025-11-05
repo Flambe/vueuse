@@ -20,7 +20,7 @@ Functions can be used on the template, and hooks are a handy skeleton for the bu
 
 ```vue
 <script setup lang="ts">
-import { useConfirmDialog } from '@vueuse/core'
+import { useConfirmDialog } from '@velocity1/vueuse-core'
 
 const { isRevealed, reveal, confirm, cancel, onReveal, onConfirm, onCancel }
   = useConfirmDialog()
@@ -53,7 +53,7 @@ If you prefer working with promises:
 
 ```vue
 <script setup lang="ts">
-import { useConfirmDialog } from '@vueuse/core'
+import { useConfirmDialog } from '@velocity1/vueuse-core'
 
 const {
   isRevealed,

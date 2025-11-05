@@ -9,7 +9,7 @@ Reactive [URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLS
 ## Usage
 
 ```ts
-import { useUrlSearchParams } from '@vueuse/core'
+import { useUrlSearchParams } from '@velocity1/vueuse-core'
 
 const params = useUrlSearchParams('history')
 
@@ -25,7 +25,7 @@ params.vueuse = 'awesome'
 When using with hash mode route, specify the `mode` to `hash`
 
 ```ts
-import { useUrlSearchParams } from '@vueuse/core'
+import { useUrlSearchParams } from '@velocity1/vueuse-core'
 
 const params = useUrlSearchParams('hash')
 
@@ -39,7 +39,7 @@ params.vueuse = 'awesome'
 When using with history mode route, but want to use hash as params, specify the `mode` to `hash-params`
 
 ```ts
-import { useUrlSearchParams } from '@vueuse/core'
+import { useUrlSearchParams } from '@velocity1/vueuse-core'
 
 const params = useUrlSearchParams('hash-params')
 
@@ -53,7 +53,7 @@ params.vueuse = 'awesome'
 You can provide a custom function to serialize URL parameters using the `stringify` option. This is useful when you need special formatting for your query string.
 
 ```js
-import { useUrlSearchParams } from '@vueuse/core'
+import { useUrlSearchParams } from '@velocity1/vueuse-core'
 
 // Custom stringify function that removes equal signs for empty values
 const params = useUrlSearchParams('history', {

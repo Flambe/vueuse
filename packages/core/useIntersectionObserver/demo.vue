@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useIntersectionObserver } from '@vueuse/core'
+import { useIntersectionObserver } from '@velocity1/vueuse-core'
 import { shallowRef, useTemplateRef } from 'vue'
 
 const root = useTemplateRef<HTMLElement>('root')

@@ -1,7 +1,7 @@
 {
-  "name": "@vueuse/router",
+  "name": "@velocity1/vueuse-router",
   "type": "module",
-  "version": "14.0.0",
+  "version": "14.0.1-beta.2",
   "description": "Utilities for vue-router",
   "author": "Anthony Fu <https://github.com/antfu>",
   "license": "MIT",
@@ -44,7 +44,7 @@
     "vue-router": "^4.0.0"
   },
   "dependencies": {
-    "@vueuse/shared": "workspace:*"
+    "@velocity1/vueuse-shared": "workspace:*"
   },
   "devDependencies": {
     "vue-router": "catalog:integrations"

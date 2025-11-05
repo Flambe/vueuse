@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useGamepad } from '@vueuse/core'
+import { useGamepad } from '@velocity1/vueuse-core'
 import Gamepad from './components/Gamepad.vue'
 
 const { isSupported, gamepads } = useGamepad()

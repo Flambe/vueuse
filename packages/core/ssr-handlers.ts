@@ -1,5 +1,5 @@
 /* eslint-disable no-restricted-globals */
-import type { Awaitable } from '@vueuse/shared'
+import type { Awaitable } from '@velocity1/vueuse-shared'
 import type { MaybeElementRef } from './unrefElement'
 
 export interface StorageLikeAsync {

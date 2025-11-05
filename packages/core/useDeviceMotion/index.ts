@@ -1,9 +1,9 @@
 /* this implementation is original ported from https://github.com/logaretm/vue-use-web by Abdelrahman Awad */
 
-import type { ConfigurableEventFilter } from '@vueuse/shared'
+import type { ConfigurableEventFilter } from '@velocity1/vueuse-shared'
 import type { Ref } from 'vue'
 import type { ConfigurableWindow } from '../_configurable'
-import { bypassFilter, createFilterWrapper } from '@vueuse/shared'
+import { bypassFilter, createFilterWrapper } from '@velocity1/vueuse-shared'
 import { ref as deepRef, shallowRef } from 'vue'
 import { defaultWindow } from '../_configurable'
 import { useEventListener } from '../useEventListener'

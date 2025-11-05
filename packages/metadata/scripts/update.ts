@@ -1,4 +1,4 @@
-import type { PackageIndexes, VueUseFunction, VueUsePackage } from '@vueuse/metadata'
+import type { PackageIndexes, VueUseFunction, VueUsePackage } from '@velocity1/vueuse-metadata'
 import { existsSync } from 'node:fs'
 import * as fs from 'node:fs/promises'
 import { join, relative, resolve } from 'node:path'

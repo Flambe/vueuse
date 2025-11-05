@@ -12,7 +12,7 @@ Extended [`toRefs`](https://vuejs.org/api/reactivity-utilities.html#torefs) that
 <!-- eslint-disable ts/no-redeclare -->
 
 ```ts
-import { toRefs } from '@vueuse/core'
+import { toRefs } from '@velocity1/vueuse-core'
 import { reactive, ref } from 'vue'
 
 const objRef = ref({ a: 'a', b: 0 })
@@ -34,7 +34,7 @@ const [a, b] = toRefs(arr)
 
 ```vue
 <script lang="ts">
-import { toRefs, useVModel } from '@vueuse/core'
+import { toRefs, useVModel } from '@velocity1/vueuse-core'
 
 export default {
   setup(props) {

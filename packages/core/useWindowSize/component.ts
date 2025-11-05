@@ -1,6 +1,6 @@
-import type { UseWindowSizeOptions, UseWindowSizeReturn } from '@vueuse/core'
+import type { UseWindowSizeOptions, UseWindowSizeReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useWindowSize } from '@vueuse/core'
+import { useWindowSize } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UseWindowSizeProps extends UseWindowSizeOptions {}

@@ -1,4 +1,4 @@
-import { isClient, tryOnMounted, useDebounceFn } from '@vueuse/shared'
+import { isClient, tryOnMounted, useDebounceFn } from '@velocity1/vueuse-shared'
 import { shallowRef } from 'vue'
 import { useCssVar } from '../useCssVar'
 import { useEventListener } from '../useEventListener'

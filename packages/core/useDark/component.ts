@@ -1,8 +1,8 @@
-import type { UseDarkOptions, UseDarkReturn } from '@vueuse/core'
-import type { ToggleFn } from '@vueuse/shared'
+import type { UseDarkOptions, UseDarkReturn } from '@velocity1/vueuse-core'
+import type { ToggleFn } from '@velocity1/vueuse-shared'
 import type { Reactive, SlotsType } from 'vue'
-import { useDark } from '@vueuse/core'
-import { useToggle } from '@vueuse/shared'
+import { useDark } from '@velocity1/vueuse-core'
+import { useToggle } from '@velocity1/vueuse-shared'
 import { defineComponent, reactive } from 'vue'
 
 export interface UseDarkProps extends UseDarkOptions {}

@@ -9,7 +9,7 @@ Reactive [navigator.language](https://developer.mozilla.org/en-US/docs/Web/API/N
 ## Usage
 
 ```ts
-import { useNavigatorLanguage } from '@vueuse/core'
+import { useNavigatorLanguage } from '@velocity1/vueuse-core'
 
 const { language } = useNavigatorLanguage()
 

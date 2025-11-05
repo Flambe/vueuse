@@ -76,7 +76,7 @@ export default antfu(
       'no-restricted-imports': ['error', {
         paths: [
           ...restricted,
-          '@vueuse/shared',
+          '@velocity1/vueuse-shared',
         ],
       }],
     },
@@ -89,7 +89,7 @@ export default antfu(
       'no-restricted-imports': ['error', {
         paths: [
           ...restricted,
-          '@vueuse/core',
+          '@velocity1/vueuse-core',
         ],
       }],
     },
@@ -101,7 +101,7 @@ export default antfu(
         paths: restricted,
         patterns: [{
           group: ['./*'],
-          message: 'Please use `@vueuse/core` instead.',
+          message: 'Please use `@velocity1/vueuse-core` instead.',
         }],
       }],
     },
@@ -113,7 +113,7 @@ export default antfu(
       'no-restricted-imports': ['error', {
         paths: restricted,
         patterns: [{
-          group: ['@vueuse/*', '!@vueuse/shared', '!@vueuse/core'],
+          group: ['@velocity1/vueuse-*', '!@velocity1/vueuse-shared', '!@velocity1/vueuse-core'],
         }],
       }],
     },

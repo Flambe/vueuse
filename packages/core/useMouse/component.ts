@@ -1,6 +1,6 @@
-import type { UseMouseOptions, UseMouseReturn } from '@vueuse/core'
+import type { UseMouseOptions, UseMouseReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useMouse } from '@vueuse/core'
+import { useMouse } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UseMouseProps extends UseMouseOptions {}

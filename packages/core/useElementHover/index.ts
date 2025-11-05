@@ -1,4 +1,4 @@
-import type { TimerHandle } from '@vueuse/shared'
+import type { TimerHandle } from '@velocity1/vueuse-shared'
 import type { MaybeRefOrGetter, ShallowRef } from 'vue'
 import type { ConfigurableWindow } from '../_configurable'
 import type { MaybeComputedElementRef } from '../unrefElement'

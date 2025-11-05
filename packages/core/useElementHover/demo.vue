@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { vElementHover } from '@vueuse/components'
-import { useElementHover } from '@vueuse/core'
+import { vElementHover } from '@velocity1/vueuse-components'
+import { useElementHover } from '@velocity1/vueuse-core'
 import { shallowRef, useTemplateRef } from 'vue'
 
 const el = useTemplateRef<HTMLButtonElement>('el')

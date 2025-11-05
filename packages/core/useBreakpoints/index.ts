@@ -1,6 +1,6 @@
 import type { MaybeRefOrGetter } from 'vue'
 import type { ConfigurableWindow } from '../_configurable'
-import { increaseWithUnit, pxValue, tryOnMounted } from '@vueuse/shared'
+import { increaseWithUnit, pxValue, tryOnMounted } from '@velocity1/vueuse-shared'
 import { computed, shallowRef, toValue } from 'vue'
 import { defaultWindow } from '../_configurable'
 import { useMediaQuery } from '../useMediaQuery'

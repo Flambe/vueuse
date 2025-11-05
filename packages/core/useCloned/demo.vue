@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useCloned } from '@vueuse/core'
+import { useCloned } from '@velocity1/vueuse-core'
 
 const template = { fruit: 'banana', drink: 'water' }
 

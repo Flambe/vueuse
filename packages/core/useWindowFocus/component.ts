@@ -1,6 +1,6 @@
-import type { ConfigurableWindow } from '@vueuse/core'
+import type { ConfigurableWindow } from '@velocity1/vueuse-core'
 import type { Reactive, ShallowRef, SlotsType } from 'vue'
-import { useWindowFocus } from '@vueuse/core'
+import { useWindowFocus } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UseWindowFocusProps extends ConfigurableWindow {}

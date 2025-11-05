@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useWindowSize } from '@vueuse/core'
+import { useWindowSize } from '@velocity1/vueuse-core'
 
 const { width, height } = useWindowSize()
 </script>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useDateFormat, useNow } from '@vueuse/core'
+import { useDateFormat, useNow } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const formatter = shallowRef('dddd YYYY-MM-DD HH:mm:ss')

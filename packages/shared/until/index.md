@@ -11,7 +11,7 @@ Promised one-time watch for changes
 #### Wait for some async data to be ready
 
 ```ts
-import { until, useAsyncState } from '@vueuse/core'
+import { until, useAsyncState } from '@velocity1/vueuse-core'
 
 const { state, isReady } = useAsyncState(
   fetch('https://jsonplaceholder.typicode.com/todos/1').then(t => t.json()),
@@ -30,7 +30,7 @@ const { state, isReady } = useAsyncState(
 > You can use `invoke` to call the async function.
 
 ```ts
-import { invoke, until, useCounter } from '@vueuse/core'
+import { invoke, until, useCounter } from '@velocity1/vueuse-core'
 
 const { count } = useCounter()
 
@@ -44,7 +44,7 @@ invoke(async () => {
 #### Timeout
 
 ```ts
-import { until } from '@vueuse/core'
+import { until } from '@velocity1/vueuse-core'
 // ---cut---
 // will be resolve until ref.value === true or 1000ms passed
 await until(ref).toBe(true, { timeout: 1000 })
@@ -62,7 +62,7 @@ catch (e) {
 #### More Examples
 
 ```ts
-import { until } from '@vueuse/core'
+import { until } from '@velocity1/vueuse-core'
 // ---cut---
 await until(ref).toBe(true)
 await until(ref).toMatch(v => v > 10 && v < 100)

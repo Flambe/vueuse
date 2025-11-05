@@ -9,7 +9,7 @@ Safe `onBeforeMount`. Call `onBeforeMount()` if it's inside a component lifecycl
 ## Usage
 
 ```ts
-import { tryOnBeforeMount } from '@vueuse/core'
+import { tryOnBeforeMount } from '@velocity1/vueuse-core'
 
 tryOnBeforeMount(() => {
 

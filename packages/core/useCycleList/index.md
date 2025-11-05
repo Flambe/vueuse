@@ -11,7 +11,7 @@ Cycle through a list of items.
 ## Usage
 
 ```ts
-import { useCycleList } from '@vueuse/core'
+import { useCycleList } from '@velocity1/vueuse-core'
 
 const { state, next, prev, go } = useCycleList([
   'Dog',

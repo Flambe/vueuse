@@ -9,7 +9,7 @@ Reactive online state. A wrapper of `useNetwork`.
 ## Usage
 
 ```ts
-import { useOnline } from '@vueuse/core'
+import { useOnline } from '@velocity1/vueuse-core'
 
 const online = useOnline()
 ```

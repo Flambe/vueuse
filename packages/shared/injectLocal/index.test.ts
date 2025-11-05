@@ -1,5 +1,5 @@
 import type { InjectionKey } from 'vue'
-import { injectLocal, provideLocal } from '@vueuse/shared'
+import { injectLocal, provideLocal } from '@velocity1/vueuse-shared'
 import { describe, expect, it } from 'vitest'
 import { defineComponent, getCurrentInstance, h, nextTick } from 'vue'
 import { mount, useSetup } from '../../.test'

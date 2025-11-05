@@ -9,7 +9,7 @@ Reactively convert a ref to string.
 ## Usage
 
 ```ts
-import { useToString } from '@vueuse/core'
+import { useToString } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const number = shallowRef(3.14)

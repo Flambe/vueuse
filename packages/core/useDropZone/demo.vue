@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useDropZone } from '@vueuse/core'
+import { useDropZone } from '@velocity1/vueuse-core'
 import { shallowRef, useTemplateRef } from 'vue'
 
 const filesData = shallowRef<{ name: string, size: number, type: string, lastModified: number }[]>([])

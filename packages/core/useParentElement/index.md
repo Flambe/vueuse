@@ -12,7 +12,7 @@ When no argument is passed, it will return the parent element of the current com
 
 ```vue
 <script setup lang="ts">
-import { useParentElement } from '@vueuse/core'
+import { useParentElement } from '@velocity1/vueuse-core'
 
 const parentEl = useParentElement()
 
@@ -26,7 +26,7 @@ It can also accept a `ref` as the first argument.
 
 ```vue
 <script setup lang="ts">
-import { useParentElement } from '@vueuse/core'
+import { useParentElement } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const tooltip = shallowRef<HTMLElement | undefined>()

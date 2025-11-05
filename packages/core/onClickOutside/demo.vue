@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type { OnClickOutsideHandler } from '@vueuse/core'
-import { vOnClickOutside } from '@vueuse/components'
-import { onClickOutside } from '@vueuse/core'
+import type { OnClickOutsideHandler } from '@velocity1/vueuse-core'
+import { vOnClickOutside } from '@velocity1/vueuse-components'
+import { onClickOutside } from '@velocity1/vueuse-core'
 import { shallowRef, useTemplateRef } from 'vue'
 
 const modal = shallowRef(false)

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useStepper } from '@vueuse/core'
+import { useStepper } from '@velocity1/vueuse-core'
 import { reactive } from 'vue'
 
 const form = reactive({

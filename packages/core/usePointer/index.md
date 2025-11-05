@@ -9,7 +9,7 @@ Reactive [pointer state](https://developer.mozilla.org/en-US/docs/Web/API/Pointe
 ## Basic Usage
 
 ```ts
-import { usePointer } from '@vueuse/core'
+import { usePointer } from '@velocity1/vueuse-core'
 
 const { x, y, pressure, pointerType } = usePointer()
 ```

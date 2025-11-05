@@ -10,7 +10,7 @@ Listen for clicks outside of an element. Useful for modal or dropdown.
 
 ```vue
 <script setup lang="ts">
-import { onClickOutside } from '@vueuse/core'
+import { onClickOutside } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const target = useTemplateRef<HTMLElement>('target')
@@ -73,7 +73,7 @@ onClickOutside(
 
 ```vue
 <script setup lang="ts">
-import { vOnClickOutside } from '@vueuse/components'
+import { vOnClickOutside } from '@velocity1/vueuse-components'
 import { shallowRef } from 'vue'
 
 const modal = shallowRef(false)
@@ -96,7 +96,7 @@ You can also set the handler as an array to set the configuration items of the i
 
 ```vue
 <script setup lang="ts">
-import { vOnClickOutside } from '@vueuse/components'
+import { vOnClickOutside } from '@velocity1/vueuse-components'
 import { shallowRef, useTemplateRef } from 'vue'
 
 const modal = shallowRef(false)

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { VueUseFunction } from '@vueuse/metadata'
+import type { VueUseFunction } from '@velocity1/vueuse-metadata'
 import { computed } from 'vue'
 import { renderMarkdown } from '../utils'
 

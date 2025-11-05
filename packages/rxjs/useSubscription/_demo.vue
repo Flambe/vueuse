@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useSubscription } from '@vueuse/rxjs'
+import { useSubscription } from '@velocity1/vueuse-rxjs'
 import { interval } from 'rxjs'
 import { shallowRef } from 'vue'
 

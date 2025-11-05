@@ -1,7 +1,7 @@
 {
-  "name": "@vueuse/core",
+  "name": "@velocity1/vueuse-core",
   "type": "module",
-  "version": "14.0.0",
+  "version": "14.0.1-beta.2",
   "description": "Collection of essential Vue Composition Utilities",
   "author": "Anthony Fu <https://github.com/antfu>",
   "license": "MIT",
@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "@types/web-bluetooth": "catalog:types",
-    "@vueuse/metadata": "workspace:*",
-    "@vueuse/shared": "workspace:*"
+    "@velocity1/vueuse-metadata": "workspace:*",
+    "@velocity1/vueuse-shared": "workspace:*"
   }
 }

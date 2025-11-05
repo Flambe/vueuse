@@ -1,5 +1,5 @@
 import type { Component, Ref } from 'vue'
-import { tryOnMounted } from '@vueuse/shared'
+import { tryOnMounted } from '@velocity1/vueuse-shared'
 import { customRef, getCurrentInstance, onUpdated } from 'vue'
 
 /**

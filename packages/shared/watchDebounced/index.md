@@ -12,7 +12,7 @@ Debounced watch
 Similar to `watch`, but offering extra options `debounce` and `maxWait` which will be applied to the callback function.
 
 ```ts
-import { watchDebounced } from '@vueuse/core'
+import { watchDebounced } from '@velocity1/vueuse-core'
 
 watchDebounced(
   source,
@@ -24,7 +24,7 @@ watchDebounced(
 It's essentially a shorthand for the following code:
 
 ```ts
-import { debounceFilter, watchWithFilter } from '@vueuse/core'
+import { debounceFilter, watchWithFilter } from '@velocity1/vueuse-core'
 
 watchWithFilter(
   source,

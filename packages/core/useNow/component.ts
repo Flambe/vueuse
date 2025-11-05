@@ -1,6 +1,6 @@
-import type { UseNowOptions, UseNowReturn } from '@vueuse/core'
+import type { UseNowOptions, UseNowReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useNow } from '@vueuse/core'
+import { useNow } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UseNowProps extends Omit<UseNowOptions<true>, 'controls'> {}

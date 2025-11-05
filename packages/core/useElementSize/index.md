@@ -10,7 +10,7 @@ Reactive size of an HTML element. [ResizeObserver MDN](https://developer.mozilla
 
 ```vue
 <script setup lang="ts">
-import { useElementSize } from '@vueuse/core'
+import { useElementSize } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const el = useTemplateRef('el')
@@ -39,7 +39,7 @@ const { width, height } = useElementSize(el)
 
 ```vue
 <script setup lang="ts">
-import { vElementSize } from '@vueuse/components'
+import { vElementSize } from '@velocity1/vueuse-components'
 
 function onResize({ width, height }: { width: number, height: number }) {
   console.log(width, height)

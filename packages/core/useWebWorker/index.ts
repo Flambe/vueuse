@@ -2,7 +2,7 @@
 
 import type { Ref, ShallowRef } from 'vue'
 import type { ConfigurableWindow } from '../_configurable'
-import { tryOnScopeDispose } from '@vueuse/shared'
+import { tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import { ref as deepRef, shallowRef } from 'vue'
 import { defaultWindow } from '../_configurable'
 

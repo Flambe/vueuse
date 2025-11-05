@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useFocusTrap } from '@vueuse/integrations/useFocusTrap'
+import { useFocusTrap } from '@velocity1/vueuse-integrations/useFocusTrap'
 import { useTemplateRef } from 'vue'
 
 const target = useTemplateRef<HTMLElement>('target')

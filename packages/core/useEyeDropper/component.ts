@@ -1,6 +1,6 @@
-import type { UseEyeDropperOptions, UseEyeDropperReturn } from '@vueuse/core'
+import type { UseEyeDropperOptions, UseEyeDropperReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useEyeDropper } from '@vueuse/core'
+import { useEyeDropper } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UseEyeDropperProps extends UseEyeDropperOptions {}

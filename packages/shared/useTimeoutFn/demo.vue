@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useTimeoutFn } from '@vueuse/core'
+import { useTimeoutFn } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const defaultText = 'Please wait for 3 seconds'

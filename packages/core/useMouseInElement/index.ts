@@ -1,6 +1,6 @@
 import type { MaybeElementRef } from '../unrefElement'
 import type { UseMouseOptions } from '../useMouse'
-import { tryOnMounted } from '@vueuse/shared'
+import { tryOnMounted } from '@velocity1/vueuse-shared'
 import { shallowRef, watch } from 'vue'
 import { defaultWindow } from '../_configurable'
 import { unrefElement } from '../unrefElement'

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { usePreferredDark } from '@vueuse/core'
+import { usePreferredDark } from '@velocity1/vueuse-core'
 
 const prefersDark = usePreferredDark()
 </script>

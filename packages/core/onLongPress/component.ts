@@ -1,6 +1,6 @@
-import type { OnLongPressOptions, RenderableComponent, UseOnLongPressReturn } from '@vueuse/core'
+import type { OnLongPressOptions, RenderableComponent, UseOnLongPressReturn } from '@velocity1/vueuse-core'
 import type { SlotsType } from 'vue'
-import { onLongPress } from '@vueuse/core'
+import { onLongPress } from '@velocity1/vueuse-core'
 import { defineComponent, h, shallowRef } from 'vue'
 
 export interface OnLongPressProps extends RenderableComponent {

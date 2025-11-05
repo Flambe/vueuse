@@ -9,7 +9,7 @@ Reactive keys pressed state, with magical keys combination support.
 ## Usage
 
 ```ts
-import { useMagicKeys } from '@vueuse/core'
+import { useMagicKeys } from '@velocity1/vueuse-core'
 
 const { shift, space, a /* keys you want to monitor */ } = useMagicKeys()
 
@@ -31,7 +31,7 @@ Check out [all the possible keycodes](https://developer.mozilla.org/en-US/docs/W
 You can magically use combinations (shortcuts/hotkeys) by connecting keys with `+` or `_`.
 
 ```ts
-import { useMagicKeys } from '@vueuse/core'
+import { useMagicKeys } from '@velocity1/vueuse-core'
 
 const keys = useMagicKeys()
 const shiftCtrlA = keys['Shift+Ctrl+A']
@@ -43,7 +43,7 @@ watch(shiftCtrlA, (v) => {
 ```
 
 ```ts
-import { useMagicKeys } from '@vueuse/core'
+import { useMagicKeys } from '@velocity1/vueuse-core'
 
 const { Ctrl_A_B, space, alt_s /* ... */ } = useMagicKeys()
 
@@ -56,7 +56,7 @@ watch(Ctrl_A_B, (v) => {
 You can also use `whenever` function to make it shorter
 
 ```ts
-import { useMagicKeys, whenever } from '@vueuse/core'
+import { useMagicKeys, whenever } from '@velocity1/vueuse-core'
 
 const keys = useMagicKeys()
 
@@ -70,7 +70,7 @@ whenever(keys.shift_space, () => {
 A special property `current` is provided to representing all the keys been pressed currently.
 
 ```ts
-import { useMagicKeys, whenever } from '@vueuse/core'
+import { useMagicKeys, whenever } from '@velocity1/vueuse-core'
 
 const { current } = useMagicKeys()
 
@@ -85,7 +85,7 @@ whenever(
 ### Key Aliasing
 
 ```ts
-import { useMagicKeys, whenever } from '@vueuse/core'
+import { useMagicKeys, whenever } from '@velocity1/vueuse-core'
 
 const { shift_cool } = useMagicKeys({
   aliasMap: {
@@ -103,8 +103,8 @@ By default, we have some [preconfigured alias for common practices](https://gith
 You might have some `<input />` elements in your apps, and you don't want to trigger the magic keys handling when users focused on those inputs. There is an example of using `useActiveElement` and `logicAnd` to do that.
 
 ```ts
-import { useActiveElement, useMagicKeys, whenever } from '@vueuse/core'
-import { logicAnd } from '@vueuse/math'
+import { useActiveElement, useMagicKeys, whenever } from '@velocity1/vueuse-core'
+import { logicAnd } from '@velocity1/vueuse-math'
 
 const activeElement = useActiveElement()
 const notUsingInput = computed(() =>
@@ -121,7 +121,7 @@ whenever(logicAnd(tab, notUsingInput), () => {
 ### Custom Event Handler
 
 ```ts
-import { useMagicKeys, whenever } from '@vueuse/core'
+import { useMagicKeys, whenever } from '@velocity1/vueuse-core'
 
 const { ctrl_s } = useMagicKeys({
   passive: false,
@@ -141,7 +141,7 @@ whenever(ctrl_s, () => console.log('Ctrl+S have been pressed'))
 By default, the values of `useMagicKeys()` are `Ref<boolean>`. If you want to use the object in the template, you can set it to reactive mode.
 
 ```ts
-import { useMagicKeys } from '@vueuse/core'
+import { useMagicKeys } from '@velocity1/vueuse-core'
 // ---cut---
 const keys = useMagicKeys({ reactive: true })
 ```

@@ -1,7 +1,7 @@
 {
-  "name": "@vueuse/integrations",
+  "name": "@velocity1/vueuse-integrations",
   "type": "module",
-  "version": "14.0.0",
+  "version": "14.0.1-beta.2",
   "description": "Integration wrappers for utility libraries",
   "author": "Anthony Fu <https://github.com/antfu>",
   "license": "MIT",
@@ -107,8 +107,8 @@
     }
   },
   "dependencies": {
-    "@vueuse/core": "workspace:*",
-    "@vueuse/shared": "workspace:*"
+    "@velocity1/vueuse-core": "workspace:*",
+    "@velocity1/vueuse-shared": "workspace:*"
   },
   "devDependencies": {
     "@types/nprogress": "catalog:types",

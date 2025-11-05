@@ -1,4 +1,4 @@
-import { isClient } from '@vueuse/shared'
+import { isClient } from '@velocity1/vueuse-shared'
 
 export interface ConfigurableWindow {
   /*

@@ -10,8 +10,8 @@ Collection of essential Vue Composition Utilities
 </p>
 
 <p align="center">
-<a href="https://www.npmjs.com/package/@vueuse/core" target="__blank"><img src="https://img.shields.io/npm/v/@vueuse/core?color=a1b858&label=" alt="NPM version"></a>
-<a href="https://www.npmjs.com/package/@vueuse/core" target="__blank"><img alt="NPM Downloads" src="https://img.shields.io/npm/dm/@vueuse/core?color=50a36f&label="></a>
+<a href="https://www.npmjs.com/package/@velocity1/vueuse-core" target="__blank"><img src="https://img.shields.io/npm/v/@velocity1/vueuse-core?color=a1b858&label=" alt="NPM version"></a>
+<a href="https://www.npmjs.com/package/@velocity1/vueuse-core" target="__blank"><img alt="NPM Downloads" src="https://img.shields.io/npm/dm/@velocity1/vueuse-core?color=50a36f&label="></a>
 <a href="https://app.codecov.io/gh/vueuse/vueuse"><img alt="Codecov" src="https://img.shields.io/codecov/c/github/vueuse/vueuse?color=42b883&labelColor=354a5e"></a>
 <a href="https://vueuse.org" target="__blank"><img src="https://img.shields.io/static/v1?label=&message=docs%20%26%20demos&color=1e8a7a" alt="Docs & Demos"></a>
 <img alt="Function Count" src="https://vueuse.org/badge-function-count.svg">
@@ -38,7 +38,7 @@ Collection of essential Vue Composition Utilities
 ## 🦄 Usage
 
 ```ts
-import { useLocalStorage, useMouse, usePreferredDark } from '@vueuse/core'
+import { useLocalStorage, useMouse, usePreferredDark } from '@velocity1/vueuse-core'
 
 const { x, y } = useMouse()
 
@@ -64,7 +64,7 @@ Refer to [functions list](https://vueuse.org/functions) or [documentations](http
 > From v12.0, VueUse no longer supports Vue 2. Please use v11.x for Vue 2 support.
 
 ```bash
-npm i @vueuse/core
+npm i @velocity1/vueuse-core
 ```
 
 [Add ons](https://vueuse.org/add-ons.html) | [Nuxt Module](https://vueuse.org/guide/index.html#nuxt)
@@ -78,9 +78,9 @@ npm i @vueuse/core
 ### CDN
 
 ```vue
-<script src="https://unpkg.com/@vueuse/shared"></script>
+<script src="https://unpkg.com/@velocity1/vueuse-shared"></script>
 
-<script src="https://unpkg.com/@vueuse/core"></script>
+<script src="https://unpkg.com/@velocity1/vueuse-core"></script>
 ```
 
 It will be exposed to global as `window.VueUse`

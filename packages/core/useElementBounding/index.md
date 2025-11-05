@@ -10,7 +10,7 @@ Reactive [bounding box](https://developer.mozilla.org/en-US/docs/Web/API/Element
 
 ```vue
 <script setup lang="ts">
-import { useElementBounding } from '@vueuse/core'
+import { useElementBounding } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const el = useTemplateRef('el')
@@ -36,7 +36,7 @@ const { x, y, top, right, bottom, left, width, height } = useElementBounding(el)
 
 ```vue
 <script setup lang="ts">
-import { vElementBounding } from '@vueuse/components'
+import { vElementBounding } from '@velocity1/vueuse-components'
 
 interface BoundingType {
   height: number

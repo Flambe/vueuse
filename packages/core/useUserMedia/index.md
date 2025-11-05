@@ -11,7 +11,7 @@ Reactive [`mediaDevices.getUserMedia`](https://developer.mozilla.org/en-US/docs/
 
 ```vue
 <script setup lang="ts">
-import { useUserMedia } from '@vueuse/core'
+import { useUserMedia } from '@velocity1/vueuse-core'
 import { useTemplateRef, watchEffect } from 'vue'
 
 const { stream, start } = useUserMedia()
@@ -32,7 +32,7 @@ watchEffect(() => {
 ### Devices
 
 ```ts
-import { useDevicesList, useUserMedia } from '@vueuse/core'
+import { useDevicesList, useUserMedia } from '@velocity1/vueuse-core'
 import { computed, reactive } from 'vue'
 
 const {

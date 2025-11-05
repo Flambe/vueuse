@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useConfirmDialog } from '@vueuse/core'
+import { useConfirmDialog } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const message = shallowRef('')

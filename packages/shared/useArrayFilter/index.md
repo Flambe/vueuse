@@ -11,7 +11,7 @@ Reactive `Array.filter`
 ### Use with array of multiple refs
 
 ```ts
-import { useArrayFilter } from '@vueuse/core'
+import { useArrayFilter } from '@velocity1/vueuse-core'
 
 const item1 = ref(0)
 const item2 = ref(2)
@@ -28,7 +28,7 @@ item2.value = 1
 ### Use with reactive array
 
 ```ts
-import { useArrayFilter } from '@vueuse/core'
+import { useArrayFilter } from '@velocity1/vueuse-core'
 
 const list = ref([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
 const result = useArrayFilter(list, i => i % 2 === 0)

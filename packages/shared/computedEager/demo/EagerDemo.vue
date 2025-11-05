@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computedEager } from '@vueuse/core'
+import { computedEager } from '@velocity1/vueuse-core'
 import { onUpdated } from 'vue'
 import { count } from './state'
 

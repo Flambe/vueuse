@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { timestamp, useLastChanged, useTimeAgo } from '@vueuse/core'
+import { timestamp, useLastChanged, useTimeAgo } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const input = shallowRef('')

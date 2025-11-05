@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { reactify, useMediaControls } from '@vueuse/core'
+import { reactify, useMediaControls } from '@velocity1/vueuse-core'
 import { computed, reactive, shallowRef, useTemplateRef } from 'vue'
 import YAML from 'yaml'
 import Menu from './components/Menu.vue'

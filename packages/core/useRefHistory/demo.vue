@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { formatDate, useRefHistory } from '@vueuse/core'
+import { formatDate, useRefHistory } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 function format(ts: number) {

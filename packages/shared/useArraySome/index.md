@@ -11,7 +11,7 @@ Reactive `Array.some`
 ### Use with array of multiple refs
 
 ```ts
-import { useArraySome } from '@vueuse/core'
+import { useArraySome } from '@velocity1/vueuse-core'
 
 const item1 = ref(0)
 const item2 = ref(2)
@@ -28,7 +28,7 @@ item1.value = 11
 ### Use with reactive array
 
 ```ts
-import { useArraySome } from '@vueuse/core'
+import { useArraySome } from '@velocity1/vueuse-core'
 
 const list = ref([0, 2, 4, 6, 8])
 const result = useArraySome(list, i => i > 10)

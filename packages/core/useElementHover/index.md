@@ -10,7 +10,7 @@ Reactive element's hover state.
 
 ```vue
 <script setup lang="ts">
-import { useElementHover } from '@vueuse/core'
+import { useElementHover } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const myHoverableElement = useTemplateRef<HTMLButtonElement>('myHoverableElement')
@@ -28,7 +28,7 @@ const isHovered = useElementHover(myHoverableElement)
 
 ```vue
 <script setup lang="ts">
-import { vElementHover } from '@vueuse/components'
+import { vElementHover } from '@velocity1/vueuse-components'
 import { shallowRef } from 'vue'
 
 const isHovered = shallowRef(false)
@@ -48,7 +48,7 @@ You can also provide hover options:
 
 ```vue
 <script setup lang="ts">
-import { vElementHover } from '@vueuse/components'
+import { vElementHover } from '@velocity1/vueuse-components'
 import { shallowRef } from 'vue'
 
 const isHovered = shallowRef(false)

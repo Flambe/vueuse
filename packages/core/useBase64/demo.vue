@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useBase64 } from '@vueuse/core'
+import { useBase64 } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const text = shallowRef('')

@@ -11,7 +11,7 @@ reactive unique array
 ### Use with array of multiple refs
 
 ```ts
-import { useArrayUnique } from '@vueuse/core'
+import { useArrayUnique } from '@velocity1/vueuse-core'
 
 const item1 = ref(0)
 const item2 = ref(1)
@@ -28,7 +28,7 @@ item5.value = 1
 ### Use with reactive array
 
 ```ts
-import { useArrayUnique } from '@vueuse/core'
+import { useArrayUnique } from '@velocity1/vueuse-core'
 
 const list = reactive([1, 2, 2, 3])
 const result = useArrayUnique(list)
@@ -41,7 +41,7 @@ list.push(1)
 ### Use with custom function
 
 ```ts
-import { useArrayUnique } from '@vueuse/core'
+import { useArrayUnique } from '@velocity1/vueuse-core'
 
 const list = reactive([
   { id: 1, name: 'foo' },

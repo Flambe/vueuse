@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useResizeObserver } from '@vueuse/core'
+import { useResizeObserver } from '@velocity1/vueuse-core'
 import { shallowRef, useTemplateRef } from 'vue'
 
 const el = useTemplateRef('el')

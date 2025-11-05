@@ -20,7 +20,7 @@ npm i focus-trap@^7
 
 ```vue
 <script setup lang="ts">
-import { useFocusTrap } from '@vueuse/integrations/useFocusTrap'
+import { useFocusTrap } from '@velocity1/vueuse-integrations/useFocusTrap'
 import { useTemplateRef } from 'vue'
 
 const target = useTemplateRef<HTMLDivElement>('target')
@@ -47,7 +47,7 @@ const { hasFocus, activate, deactivate } = useFocusTrap(target)
 
 ```vue
 <script setup lang="ts">
-import { useFocusTrap } from '@vueuse/integrations/useFocusTrap'
+import { useFocusTrap } from '@velocity1/vueuse-integrations/useFocusTrap'
 import { useTemplateRef } from 'vue'
 
 const targetOne = useTemplateRef<HTMLDivElement>('targetOne')
@@ -80,7 +80,7 @@ const { hasFocus, activate, deactivate } = useFocusTrap([targetOne, targetTwo])
 
 ```vue
 <script setup lang="ts">
-import { useFocusTrap } from '@vueuse/integrations/useFocusTrap'
+import { useFocusTrap } from '@velocity1/vueuse-integrations/useFocusTrap'
 import { computed, shallowRef, useTemplateRef } from 'vue'
 
 const left = useTemplateRef('left')
@@ -114,7 +114,7 @@ const { activate } = useFocusTrap(target)
 
 ```vue
 <script setup lang="ts">
-import { useFocusTrap } from '@vueuse/integrations/useFocusTrap'
+import { useFocusTrap } from '@velocity1/vueuse-integrations/useFocusTrap'
 import { useTemplateRef } from 'vue'
 
 const target = useTemplateRef<HTMLDivElement>('target')
@@ -136,7 +136,7 @@ This function can't properly activate focus on elements with conditional renderi
 
 ```vue
 <script setup lang="ts">
-import { useFocusTrap } from '@vueuse/integrations/useFocusTrap'
+import { useFocusTrap } from '@velocity1/vueuse-integrations/useFocusTrap'
 import { nextTick, useTemplateRef } from 'vue'
 
 const target = useTemplateRef<HTMLDivElement>('target')
@@ -171,7 +171,7 @@ With the `UseFocusTrap` component, Focus Trap will be activated automatically on
 
 ```vue
 <script setup lang="ts">
-import { UseFocusTrap } from '@vueuse/integrations/useFocusTrap/component'
+import { UseFocusTrap } from '@velocity1/vueuse-integrations/useFocusTrap/component'
 import { shallowRef } from 'vue'
 
 const show = shallowRef(false)

@@ -1,6 +1,6 @@
-import type { ElementSize, RenderableComponent, UseElementSizeReturn, UseResizeObserverOptions } from '@vueuse/core'
+import type { ElementSize, RenderableComponent, UseElementSizeReturn, UseResizeObserverOptions } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useElementSize } from '@vueuse/core'
+import { useElementSize } from '@velocity1/vueuse-core'
 import { defineComponent, h, reactive, shallowRef, toRefs, toValue } from 'vue'
 
 export interface UseElementSizeProps extends Partial<ElementSize>, UseResizeObserverOptions, RenderableComponent {}

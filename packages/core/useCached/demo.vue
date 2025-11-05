@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useCached } from '@vueuse/core'
+import { useCached } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 interface Value {

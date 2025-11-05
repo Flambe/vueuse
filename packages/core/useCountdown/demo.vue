@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useCountdown, useEventListener } from '@vueuse/core'
+import { useCountdown, useEventListener } from '@velocity1/vueuse-core'
 import { shallowRef, useTemplateRef } from 'vue'
 
 const countdownSeconds = shallowRef(5)

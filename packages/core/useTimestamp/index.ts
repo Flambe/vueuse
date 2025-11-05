@@ -1,6 +1,6 @@
-import type { Pausable } from '@vueuse/shared'
+import type { Pausable } from '@velocity1/vueuse-shared'
 import type { ShallowRef } from 'vue'
-import { timestamp, useIntervalFn } from '@vueuse/shared'
+import { timestamp, useIntervalFn } from '@velocity1/vueuse-shared'
 import { shallowRef } from 'vue'
 import { useRafFn } from '../useRafFn'
 

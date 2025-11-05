@@ -1,4 +1,4 @@
-import type { PackageIndexes, VueUseFunction } from '@vueuse/metadata'
+import type { PackageIndexes, VueUseFunction } from '@velocity1/vueuse-metadata'
 import { existsSync } from 'node:fs'
 import * as fs from 'node:fs/promises'
 import { join, resolve } from 'node:path'
@@ -83,14 +83,14 @@ export async function updateImport({ packages, functions }: PackageIndexes) {
     if (name === 'core') {
       imports.push(
         'export * from \'./types\'',
-        'export * from \'@vueuse/shared\'',
+        'export * from \'@velocity1/vueuse-shared\'',
         'export * from \'./ssr-handlers\'',
       )
     }
 
     if (name === 'nuxt') {
       imports.push(
-        'export * from \'@vueuse/core\'',
+        'export * from \'@velocity1/vueuse-core\'',
       )
     }
 
@@ -186,7 +186,7 @@ export async function updateFunctionsMD({ packages, functions }: PackageIndexes)
   const addons = Object.values(packages)
     .filter(i => i.addon && !i.deprecated)
     .map(({ docs, name, display, description }) => {
-      return `## ${display} - [\`@vueuse/${name}\`](${docs})\n\n${description?.trim()}\n\n${
+      return `## ${display} - [\`@velocity1/vueuse-${name}\`](${docs})\n\n${description?.trim()}\n\n${
         stringifyFunctions(functions.filter(i => i.package === name), false)}`.trim()
     })
     .join('\n\n')

@@ -1,6 +1,6 @@
 import type { ConfigurableDocument } from '../_configurable'
 import type { MaybeElement, MaybeElementRef } from '../unrefElement'
-import { until } from '@vueuse/shared'
+import { until } from '@velocity1/vueuse-shared'
 import { shallowRef } from 'vue'
 import { defaultDocument } from '../_configurable'
 import { unrefElement } from '../unrefElement'

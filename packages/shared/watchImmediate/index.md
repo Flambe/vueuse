@@ -11,7 +11,7 @@ Shorthand for watching value with `{immediate: true}`
 Similar to `watch`, but with `{ immediate: true }`
 
 ```ts
-import { watchImmediate } from '@vueuse/core'
+import { watchImmediate } from '@velocity1/vueuse-core'
 
 const obj = ref('vue-use')
 

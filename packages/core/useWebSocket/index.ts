@@ -1,6 +1,6 @@
-import type { Fn, TimerHandle } from '@vueuse/shared'
+import type { Fn, TimerHandle } from '@velocity1/vueuse-shared'
 import type { MaybeRefOrGetter, Ref, ShallowRef } from 'vue'
-import { isClient, isWorker, toRef, tryOnScopeDispose, useIntervalFn } from '@vueuse/shared'
+import { isClient, isWorker, toRef, tryOnScopeDispose, useIntervalFn } from '@velocity1/vueuse-shared'
 import { ref as deepRef, shallowRef, toValue, watch } from 'vue'
 import { useEventListener } from '../useEventListener'
 

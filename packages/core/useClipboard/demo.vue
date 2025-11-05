@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useClipboard, usePermission } from '@vueuse/core'
+import { useClipboard, usePermission } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const input = shallowRef('')

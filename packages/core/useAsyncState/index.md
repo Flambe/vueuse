@@ -9,7 +9,7 @@ Reactive async state. Will not block your setup function and will trigger change
 ## Usage
 
 ```ts
-import { useAsyncState } from '@vueuse/core'
+import { useAsyncState } from '@velocity1/vueuse-core'
 import axios from 'axios'
 
 const { state, isReady, isLoading } = useAsyncState(
@@ -26,7 +26,7 @@ You can also trigger it manually. This is useful when you want to control when t
 
 ```vue
 <script setup lang="ts">
-import { useAsyncState } from '@vueuse/core'
+import { useAsyncState } from '@velocity1/vueuse-core'
 
 const { state, execute, executeImmediate } = useAsyncState(action, '', { immediate: false })
 

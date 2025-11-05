@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { reactify, useMediaQuery } from '@vueuse/core'
+import { reactify, useMediaQuery } from '@velocity1/vueuse-core'
 import { computed, reactive } from 'vue'
 import YAML from 'yaml'
 

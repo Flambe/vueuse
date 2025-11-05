@@ -1,6 +1,6 @@
 import type { MaybeRefOrGetter } from 'vue'
 import type { PointerType, Position } from '../types'
-import { isClient, toRefs } from '@vueuse/shared'
+import { isClient, toRefs } from '@velocity1/vueuse-shared'
 import { computed, ref as deepRef, toValue } from 'vue'
 import { defaultWindow } from '../_configurable'
 import { useEventListener } from '../useEventListener'

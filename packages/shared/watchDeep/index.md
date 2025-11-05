@@ -11,7 +11,7 @@ Shorthand for watching value with `{deep: true}`
 Similar to `watch`, but with `{ deep: true }`
 
 ```ts
-import { watchDeep } from '@vueuse/core'
+import { watchDeep } from '@velocity1/vueuse-core'
 
 const nestedObject = ref({ foo: { bar: { deep: 5 } } })
 

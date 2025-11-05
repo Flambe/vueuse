@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { watchTriggerable } from '@vueuse/core'
+import { watchTriggerable } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const log = shallowRef('')

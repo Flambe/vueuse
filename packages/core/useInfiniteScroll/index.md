@@ -10,7 +10,7 @@ Infinite scrolling of the element.
 
 ```vue
 <script setup lang="ts">
-import { useInfiniteScroll } from '@vueuse/core'
+import { useInfiniteScroll } from '@velocity1/vueuse-core'
 import { ref, useTemplateRef } from 'vue'
 
 const el = useTemplateRef<HTMLElement>('el')
@@ -69,7 +69,7 @@ Make sure to indicate when there is no more content to load with `canLoadMore`, 
 
 ```vue
 <script setup lang="ts">
-import { vInfiniteScroll } from '@vueuse/components'
+import { vInfiniteScroll } from '@velocity1/vueuse-components'
 import { ref } from 'vue'
 
 const data = ref([1, 2, 3, 4, 5, 6])

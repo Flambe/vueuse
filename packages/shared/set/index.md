@@ -9,7 +9,7 @@ Shorthand for `ref.value = x`
 ## Usage
 
 ```ts
-import { set } from '@vueuse/core'
+import { set } from '@velocity1/vueuse-core'
 
 const a = ref(0)
 

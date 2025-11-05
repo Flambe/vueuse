@@ -1,13 +1,13 @@
-# @vueuse/integrations
+# @velocity1/vueuse-integrations
 
-[![NPM version](https://img.shields.io/npm/v/@vueuse/integrations?color=a1b858)](https://www.npmjs.com/package/@vueuse/integrations)
+[![NPM version](https://img.shields.io/npm/v/@velocity1/vueuse-integrations?color=a1b858)](https://www.npmjs.com/package/@velocity1/vueuse-integrations)
 
 > This is an add-on of [VueUse](https://github.com/vueuse/vueuse), providing integration wrappers for utility libraries.
 
 ## Install
 
 ```bash
-npm i @vueuse/integrations
+npm i @velocity1/vueuse-integrations
 ```
 
 ## Functions
@@ -36,9 +36,9 @@ For better tree-shaking result, import functions from submodules, for example:
 
 ```ts
 // Don't
-import { useAxios } from '@vueuse/integrations'
+import { useAxios } from '@velocity1/vueuse-integrations'
 
-import { useAxios } from '@vueuse/integrations/useAxios'
+import { useAxios } from '@velocity1/vueuse-integrations/useAxios'
 ```
 
 ## License

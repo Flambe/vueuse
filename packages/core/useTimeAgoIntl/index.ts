@@ -1,4 +1,4 @@
-import type { Pausable } from '@vueuse/shared'
+import type { Pausable } from '@velocity1/vueuse-shared'
 import type { ComputedRef, MaybeRefOrGetter } from 'vue'
 import { computed, toValue } from 'vue'
 import { useNow } from '../useNow'

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useDeviceMotion } from '@vueuse/core'
+import { useDeviceMotion } from '@velocity1/vueuse-core'
 
 const {
   acceleration,

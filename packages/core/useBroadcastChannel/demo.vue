@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useBroadcastChannel } from '@vueuse/core'
+import { useBroadcastChannel } from '@velocity1/vueuse-core'
 import { shallowRef, watch } from 'vue'
 
 const {

@@ -1,5 +1,5 @@
+import { useAnimate } from '@velocity1/vueuse-core'
 import { flushPromises, mount } from '@vue/test-utils'
-import { useAnimate } from '@vueuse/core'
 import { describe, expect, it, vi } from 'vitest'
 import { defineComponent, shallowRef } from 'vue'
 // import { useAnimate } from './index'

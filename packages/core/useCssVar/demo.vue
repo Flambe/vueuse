@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useCssVar } from '@vueuse/core'
+import { useCssVar } from '@velocity1/vueuse-core'
 import { shallowRef, useTemplateRef } from 'vue'
 
 const el = useTemplateRef('el')

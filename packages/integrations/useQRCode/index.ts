@@ -1,5 +1,5 @@
 import type { MaybeRefOrGetter } from 'vue'
-import { isClient, toRef } from '@vueuse/shared'
+import { isClient, toRef } from '@velocity1/vueuse-shared'
 import QRCode from 'qrcode'
 import { shallowRef, watch } from 'vue'
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useEventListener, useMounted, useUrlSearchParams } from '@vueuse/core'
+import { useEventListener, useMounted, useUrlSearchParams } from '@velocity1/vueuse-core'
 import Fuse from 'fuse.js'
 import { computed } from 'vue'
 import { categoryNames, functions } from '../../../../packages/metadata/metadata'

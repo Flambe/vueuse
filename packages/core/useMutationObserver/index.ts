@@ -1,7 +1,7 @@
 import type { MaybeRefOrGetter } from 'vue'
 import type { ConfigurableWindow } from '../_configurable'
 import type { MaybeComputedElementRef, MaybeElement } from '../unrefElement'
-import { notNullish, toArray, tryOnScopeDispose } from '@vueuse/shared'
+import { notNullish, toArray, tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import { computed, toValue, watch } from 'vue'
 import { defaultWindow } from '../_configurable'
 import { unrefElement } from '../unrefElement'

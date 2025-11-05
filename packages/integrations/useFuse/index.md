@@ -29,7 +29,7 @@ yarn add fuse.js
 ## Usage
 
 ```ts
-import { useFuse } from '@vueuse/integrations/useFuse'
+import { useFuse } from '@velocity1/vueuse-integrations/useFuse'
 import { shallowRef } from 'vue'
 
 const data = [

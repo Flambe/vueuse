@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onLongPress } from '@vueuse/core'
+import { onLongPress } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const htmlRef = shallowRef<HTMLElement | null>(null)

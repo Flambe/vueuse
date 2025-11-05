@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useFocus } from '@vueuse/core'
+import { useFocus } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const text = useTemplateRef<HTMLElement>('text')

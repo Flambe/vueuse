@@ -9,7 +9,7 @@ Reactive [prefers-contrast](https://developer.mozilla.org/en-US/docs/Web/CSS/@me
 ## Usage
 
 ```ts
-import { usePreferredContrast } from '@vueuse/core'
+import { usePreferredContrast } from '@velocity1/vueuse-core'
 
 const preferredContrast = usePreferredContrast()
 ```

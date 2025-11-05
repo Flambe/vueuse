@@ -10,7 +10,7 @@ Reactive numeric projection from one domain to another.
 ## Usage
 
 ```ts
-import { useProjection } from '@vueuse/math'
+import { useProjection } from '@velocity1/vueuse-math'
 
 const input = ref(0)
 const projected = useProjection(input, [0, 10], [0, 100])

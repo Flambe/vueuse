@@ -11,7 +11,7 @@ can easily react to changes in the users' authentication status.
 
 ```vue
 <script setup lang="ts">
-import { useAuth } from '@vueuse/firebase/useAuth'
+import { useAuth } from '@velocity1/vueuse-firebase/useAuth'
 import { initializeApp } from 'firebase/app'
 import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth'
 

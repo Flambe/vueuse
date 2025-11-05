@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useDisplayMedia } from '@vueuse/core'
+import { useDisplayMedia } from '@velocity1/vueuse-core'
 import { useTemplateRef, watchEffect } from 'vue'
 
 const video = useTemplateRef<HTMLVideoElement>('video')

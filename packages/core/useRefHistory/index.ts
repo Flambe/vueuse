@@ -1,8 +1,8 @@
-import type { ConfigurableEventFilter, Fn, WatchOptionFlush } from '@vueuse/shared'
+import type { ConfigurableEventFilter, Fn, WatchOptionFlush } from '@velocity1/vueuse-shared'
 import type { Ref } from 'vue'
 import type { CloneFn } from '../useCloned'
 import type { UseManualRefHistoryReturn } from '../useManualRefHistory'
-import { pausableFilter, watchIgnorable } from '@vueuse/shared'
+import { pausableFilter, watchIgnorable } from '@velocity1/vueuse-shared'
 import { useManualRefHistory } from '../useManualRefHistory'
 
 export interface UseRefHistoryOptions<Raw, Serialized = Raw> extends ConfigurableEventFilter {

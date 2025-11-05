@@ -1,4 +1,4 @@
-import { defaultWindow } from '@vueuse/core'
+import { defaultWindow } from '@velocity1/vueuse-core'
 import { describe, expect, it } from 'vitest'
 import { defineComponent, h, nextTick, onMounted, shallowRef, useTemplateRef } from 'vue'
 import { mount } from '../../.test'

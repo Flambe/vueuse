@@ -9,7 +9,7 @@ Reactive `Math` methods.
 ## Usage
 
 ```ts
-import { useMath } from '@vueuse/math'
+import { useMath } from '@velocity1/vueuse-math'
 
 const base = ref(2)
 const exponent = ref(3)

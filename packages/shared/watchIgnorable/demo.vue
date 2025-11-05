@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { watchIgnorable } from '@vueuse/core'
+import { watchIgnorable } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const log = shallowRef('')

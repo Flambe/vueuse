@@ -10,7 +10,7 @@ Tracks the visibility of an element within the viewport.
 
 ```vue
 <script setup lang="ts">
-import { useElementVisibility } from '@vueuse/core'
+import { useElementVisibility } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const target = useTemplateRef<HTMLDivElement>('target')
@@ -30,7 +30,7 @@ If you wish to trigger your callback sooner before the element is fully visible,
 the `rootMargin` option (See [MDN IntersectionObserver/rootMargin](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver/rootMargin)).
 
 ```ts
-import { useElementVisibility } from '@vueuse/core'
+import { useElementVisibility } from '@velocity1/vueuse-core'
 // ---cut---
 const targetIsVisible = useElementVisibility(target, {
   rootMargin: '0px 0px 100px 0px',
@@ -61,7 +61,7 @@ const targetIsVisible = useElementVisibility(target, {
 
 ```vue
 <script setup lang="ts">
-import { vElementVisibility } from '@vueuse/components'
+import { vElementVisibility } from '@velocity1/vueuse-components'
 import { shallowRef, useTemplateRef } from 'vue'
 
 const target = useTemplateRef<HTMLDivElement>('target')

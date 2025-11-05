@@ -1,6 +1,6 @@
-import type { UseIntersectionObserverOptions } from '@vueuse/core'
+import type { UseIntersectionObserverOptions } from '@velocity1/vueuse-core'
 import type { ObjectDirective } from 'vue'
-import { useIntersectionObserver } from '@vueuse/core'
+import { useIntersectionObserver } from '@velocity1/vueuse-core'
 
 type BindingValueFunction = IntersectionObserverCallback
 

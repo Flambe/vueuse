@@ -10,7 +10,7 @@ Fires when users start typing on non-editable elements.
 
 ```vue
 <script setup lang="ts">
-import { onStartTyping } from '@vueuse/core'
+import { onStartTyping } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const input = useTemplateRef('input')

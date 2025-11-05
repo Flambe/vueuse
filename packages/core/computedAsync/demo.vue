@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computedAsync, reactify } from '@vueuse/core'
+import { computedAsync, reactify } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 import YAML from 'yaml'
 

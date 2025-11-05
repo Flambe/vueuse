@@ -1,6 +1,6 @@
 import type { ComputedRef, Ref } from 'vue'
 import type { CloneFn } from '../useCloned'
-import { timestamp } from '@vueuse/shared'
+import { timestamp } from '@velocity1/vueuse-shared'
 import { computed, ref as deepRef, markRaw } from 'vue'
 import { cloneFnJSON } from '../useCloned'
 

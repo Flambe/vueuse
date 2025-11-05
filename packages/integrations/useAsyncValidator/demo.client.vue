@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Rules } from 'async-validator'
-import { useAsyncValidator } from '@vueuse/integrations/useAsyncValidator'
+import { useAsyncValidator } from '@velocity1/vueuse-integrations/useAsyncValidator'
 import { reactive } from 'vue'
 
 const form = reactive({ email: '', name: '', age: '' })

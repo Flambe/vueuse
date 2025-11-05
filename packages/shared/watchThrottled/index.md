@@ -12,7 +12,7 @@ Throttled watch.
 Similar to `watch`, but offering an extra option `throttle` which will be applied to the callback function.
 
 ```ts
-import { watchThrottled } from '@vueuse/core'
+import { watchThrottled } from '@velocity1/vueuse-core'
 
 watchThrottled(
   source,
@@ -24,7 +24,7 @@ watchThrottled(
 It's essentially a shorthand for the following code:
 
 ```ts
-import { throttleFilter, watchWithFilter } from '@vueuse/core'
+import { throttleFilter, watchWithFilter } from '@velocity1/vueuse-core'
 
 watchWithFilter(
   source,

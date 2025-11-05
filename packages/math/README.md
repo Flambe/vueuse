@@ -1,13 +1,13 @@
-# @vueuse/math
+# @velocity1/vueuse-math
 
-[![NPM version](https://img.shields.io/npm/v/@vueuse/math?color=a1b858)](https://www.npmjs.com/package/@vueuse/math)
+[![NPM version](https://img.shields.io/npm/v/@velocity1/vueuse-math?color=a1b858)](https://www.npmjs.com/package/@velocity1/vueuse-math)
 
 > This is an extension of [VueUse](https://github.com/vueuse/vueuse), enables math usage for composable functions.
 
 ## Install
 
 ```bash
-npm i @vueuse/math @vueuse/core
+npm i @velocity1/vueuse-math @velocity1/vueuse-core
 ```
 
 ## License

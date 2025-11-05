@@ -1,7 +1,7 @@
 import type { ComputedRef, MaybeRefOrGetter, ShallowRef } from 'vue'
 import type { PointerType, Position } from '../types'
 import type { UseSwipeDirection } from '../useSwipe'
-import { toRef, tryOnMounted } from '@vueuse/shared'
+import { toRef, tryOnMounted } from '@velocity1/vueuse-shared'
 import { computed, reactive, readonly, shallowRef } from 'vue'
 import { useEventListener } from '../useEventListener'
 

@@ -10,7 +10,7 @@ Keep target refs in sync with a source ref
 ## Usage
 
 ```ts
-import { syncRefs } from '@vueuse/core'
+import { syncRefs } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const source = shallowRef('hello')
@@ -30,7 +30,7 @@ console.log(target.value) // foo
 You can also pass an array of refs to sync.
 
 ```ts
-import { syncRefs } from '@vueuse/core'
+import { syncRefs } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const source = shallowRef('hello')
@@ -78,7 +78,7 @@ export interface SyncRefOptions {
 When setting `{ flush: 'pre' }`, the target reference will be updated at [the end of the current "tick"](https://vuejs.org/guide/essentials/watchers.html#callback-flush-timing) before rendering starts.
 
 ```ts
-import { syncRefs } from '@vueuse/core'
+import { syncRefs } from '@velocity1/vueuse-core'
 import { nextTick, shallowRef } from 'vue'
 
 const source = shallowRef('hello')

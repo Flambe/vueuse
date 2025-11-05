@@ -1,7 +1,7 @@
 import type { MaybeRefOrGetter, Ref } from 'vue'
 import type { Router } from 'vue-router'
 import type { ReactiveRouteOptionsWithTransform, RouteQueryValueRaw } from '../_types'
-import { tryOnScopeDispose } from '@vueuse/shared'
+import { tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import { customRef, nextTick, toValue, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 

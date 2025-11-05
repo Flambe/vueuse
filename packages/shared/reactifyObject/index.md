@@ -9,7 +9,7 @@ Apply `reactify` to an object
 ## Usage
 
 ```ts
-import { reactifyObject } from '@vueuse/core'
+import { reactifyObject } from '@velocity1/vueuse-core'
 
 const reactifiedConsole = reactifyObject(console)
 

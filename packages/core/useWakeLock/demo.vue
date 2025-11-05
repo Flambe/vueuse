@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useWakeLock } from '@vueuse/core'
+import { useWakeLock } from '@velocity1/vueuse-core'
 import { computed, reactive } from 'vue'
 
 const wakeLock = reactive(useWakeLock())

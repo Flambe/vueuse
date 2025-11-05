@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { timestamp, useTimeAgo } from '@vueuse/core'
+import { timestamp, useTimeAgo } from '@velocity1/vueuse-core'
 import { computed, shallowRef } from 'vue'
 
 const slider = shallowRef(0)

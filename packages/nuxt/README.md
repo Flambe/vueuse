@@ -1,6 +1,6 @@
-# @vueuse/nuxt
+# @velocity1/vueuse-nuxt
 
-[![NPM version](https://img.shields.io/npm/v/@vueuse/nuxt?color=a1b858)](https://www.npmjs.com/package/@vueuse/nuxt)
+[![NPM version](https://img.shields.io/npm/v/@velocity1/vueuse-nuxt?color=a1b858)](https://www.npmjs.com/package/@velocity1/vueuse-nuxt)
 
 > This is an add-on of [VueUse](https://github.com/vueuse/vueuse), which provides better Nuxt integration auto-import capabilities.
 
@@ -15,14 +15,14 @@ npx nuxt@latest module add vueuse
 Or use npm:
 
 ```bash
-npm i @vueuse/nuxt @vueuse/core
+npm i @velocity1/vueuse-nuxt @velocity1/vueuse-core
 ```
 
 ```ts
 // nuxt.config
 export default defineNuxtConfig({
   modules: [
-    '@vueuse/nuxt',
+    '@velocity1/vueuse-nuxt',
   ],
 })
 ```
@@ -41,7 +41,7 @@ The following utils are **disabled** from auto-import for Nuxt to avoid conflict
 - `useStorage`
 - `useImage`
 
-You can always use them by explicitly importing from `@vueuse/core`
+You can always use them by explicitly importing from `@velocity1/vueuse-core`
 
 ## License
 

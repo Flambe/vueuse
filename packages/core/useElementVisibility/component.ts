@@ -1,6 +1,6 @@
-import type { RenderableComponent, UseElementVisibilityOptions, UseElementVisibilityReturn } from '@vueuse/core'
+import type { RenderableComponent, UseElementVisibilityOptions, UseElementVisibilityReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useElementVisibility } from '@vueuse/core'
+import { useElementVisibility } from '@velocity1/vueuse-core'
 import { defineComponent, h, reactive, shallowRef } from 'vue'
 
 export interface UseElementVisibilityProps extends UseElementVisibilityOptions, RenderableComponent {}

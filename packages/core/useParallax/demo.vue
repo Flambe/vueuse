@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { CSSProperties } from 'vue'
-import { reactify, useMediaQuery, useParallax } from '@vueuse/core'
+import { reactify, useMediaQuery, useParallax } from '@velocity1/vueuse-core'
 import { computed, reactive, useTemplateRef } from 'vue'
 import YAML from 'yaml'
 

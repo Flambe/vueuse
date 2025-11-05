@@ -230,7 +230,7 @@ const serialized = store.serialize()
 `
     : ''
   const packageNote = packages.find(p => p.name === pkg)!.addon
-    ? `Available in the <a href="/${pkg}/README">@vueuse/${pkg}</a> add-on.\n`
+    ? `Available in the <a href="/${pkg}/README">@velocity1/vueuse-${pkg}</a> add-on.\n`
     : ''
 
   const footer = `${typingSection}\n\n${sourceSection}\n${ContributorsSection}\n${changelogSection}\n`

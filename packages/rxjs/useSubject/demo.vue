@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { tryOnScopeDispose } from '@vueuse/core'
-import { useSubject } from '@vueuse/rxjs'
+import { tryOnScopeDispose } from '@velocity1/vueuse-core'
+import { useSubject } from '@velocity1/vueuse-rxjs'
 import { BehaviorSubject } from 'rxjs'
 import { onMounted, watch } from 'vue'
 

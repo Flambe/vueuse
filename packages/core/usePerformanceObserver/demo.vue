@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { usePerformanceObserver } from '@vueuse/core'
+import { usePerformanceObserver } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const entrys = shallowRef<PerformanceEntry[]>([])

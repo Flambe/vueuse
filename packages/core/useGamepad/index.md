@@ -12,7 +12,7 @@ Provides reactive bindings for the [Gamepad API](https://developer.mozilla.org/e
 
 ```vue
 <script setup lang="ts">
-import { useGamepad } from '@vueuse/core'
+import { useGamepad } from '@velocity1/vueuse-core'
 import { computed } from 'vue'
 
 const { isSupported, gamepads } = useGamepad()
@@ -31,7 +31,7 @@ const gamepad = computed(() => gamepads.value.find(g => g.mapping === 'standard'
 Currently the Gamepad API does not have event support to update the state of the gamepad. To update the gamepad state, `requestAnimationFrame` is used to poll for gamepad changes. You can control this polling by using the `pause` and `resume` functions provided by `useGamepad`
 
 ```ts
-import { useGamepad } from '@vueuse/core'
+import { useGamepad } from '@velocity1/vueuse-core'
 
 const { pause, resume, gamepads } = useGamepad()
 
@@ -49,7 +49,7 @@ resume()
 The `onConnected` and `onDisconnected` events will trigger when a gamepad is connected or disconnected.
 
 ```ts
-import { useGamepad } from '@vueuse/core'
+import { useGamepad } from '@velocity1/vueuse-core'
 // ---cut---
 const { gamepads, onConnected, onDisconnected } = useGamepad()
 
@@ -69,7 +69,7 @@ onDisconnected((index) => {
 <!-- eslint-disable import/first -->
 
 ```ts
-import { useGamepad } from '@vueuse/core'
+import { useGamepad } from '@velocity1/vueuse-core'
 
 const { gamepads, onConnected, onDisconnected } = useGamepad()
 const gamepad = gamepads.value[0]!
@@ -98,7 +98,7 @@ To make the Gamepad API easier to use, we provide mappings to map a controller t
 
 ```vue
 <script setup>
-import { mapGamepadToXbox360Controller } from '@vueuse/core'
+import { mapGamepadToXbox360Controller } from '@velocity1/vueuse-core'
 
 const controller = mapGamepadToXbox360Controller(gamepad)
 </script>

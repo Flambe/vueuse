@@ -18,7 +18,7 @@ Function provides modifiers in options
 
 ```vue no-twoslash
 <script setup lang="ts">
-import { onLongPress } from '@vueuse/core'
+import { onLongPress } from '@velocity1/vueuse-core'
 import { shallowRef, useTemplateRef } from 'vue'
 
 const htmlRefHook = useTemplateRef<HTMLElement>('htmlRefHook')
@@ -59,7 +59,7 @@ onLongPress(
 
 ```vue no-twoslash
 <script setup lang="ts">
-import { OnLongPress } from '@vueuse/components'
+import { OnLongPress } from '@velocity1/vueuse-components'
 import { shallowRef } from 'vue'
 
 const longPressedComponent = shallowRef(false)
@@ -93,7 +93,7 @@ function resetComponent() {
 
 ```vue
 <script setup lang="ts">
-import { vOnLongPress } from '@vueuse/components'
+import { vOnLongPress } from '@velocity1/vueuse-components'
 import { shallowRef } from 'vue'
 
 const longPressedDirective = shallowRef(false)

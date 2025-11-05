@@ -1,6 +1,6 @@
-import type { RenderableComponent, UseElementBoundingOptions, UseElementBoundingReturn } from '@vueuse/core'
+import type { RenderableComponent, UseElementBoundingOptions, UseElementBoundingReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useElementBounding } from '@vueuse/core'
+import { useElementBounding } from '@velocity1/vueuse-core'
 import { defineComponent, h, reactive, shallowRef } from 'vue'
 
 export interface UseElementBoundingProps extends UseElementBoundingOptions, RenderableComponent {}

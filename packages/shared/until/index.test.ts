@@ -1,6 +1,6 @@
 import type { Equal, Expect } from '@type-challenges/utils'
 import type { Ref, ShallowRef } from 'vue'
-import { invoke } from '@vueuse/shared'
+import { invoke } from '@velocity1/vueuse-shared'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { ref as deepRef, shallowRef } from 'vue'
 import { until } from './index'

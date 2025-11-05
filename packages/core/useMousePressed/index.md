@@ -9,7 +9,7 @@ Reactive mouse pressing state. Triggered by `mousedown` `touchstart` on target e
 ## Basic Usage
 
 ```ts
-import { useMousePressed } from '@vueuse/core'
+import { useMousePressed } from '@velocity1/vueuse-core'
 
 const { pressed } = useMousePressed()
 ```
@@ -17,7 +17,7 @@ const { pressed } = useMousePressed()
 Touching is enabled by default. To make it only detects mouse changes, set `touch` to `false`
 
 ```ts
-import { useMousePressed } from '@vueuse/core'
+import { useMousePressed } from '@velocity1/vueuse-core'
 // ---cut---
 const { pressed } = useMousePressed({ touch: false })
 ```
@@ -26,7 +26,7 @@ To only capture `mousedown` and `touchstart` on specific element, you can specif
 
 ```vue
 <script setup lang="ts">
-import { useMousePressed } from '@vueuse/core'
+import { useMousePressed } from '@velocity1/vueuse-core'
 // ---cut---
 import { useTemplateRef } from 'vue'
 

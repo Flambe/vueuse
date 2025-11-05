@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { MaybeElement } from '@vueuse/core'
-import { reactify, useAnimate } from '@vueuse/core'
+import type { MaybeElement } from '@velocity1/vueuse-core'
+import { reactify, useAnimate } from '@velocity1/vueuse-core'
 import { reactive, useTemplateRef } from 'vue'
 import YAML from 'yaml'
 

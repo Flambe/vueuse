@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { syncRef } from '@vueuse/core'
+import { syncRef } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const a = shallowRef('')

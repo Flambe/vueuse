@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { reactify, useFetch, useToggle } from '@vueuse/core'
+import { reactify, useFetch, useToggle } from '@velocity1/vueuse-core'
 import { computed, reactive, shallowRef } from 'vue'
 import YAML from 'yaml'
 

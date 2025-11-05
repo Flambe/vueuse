@@ -1,6 +1,6 @@
-import type { RenderableComponent, UsePointerLockOptions, UsePointerLockReturn } from '@vueuse/core'
+import type { RenderableComponent, UsePointerLockOptions, UsePointerLockReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { usePointerLock } from '@vueuse/core'
+import { usePointerLock } from '@velocity1/vueuse-core'
 import { defineComponent, h, reactive, shallowRef } from 'vue'
 
 export interface UsePointerLockProps extends RenderableComponent, UsePointerLockOptions {}

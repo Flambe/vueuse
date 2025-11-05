@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { formatDate, useCounter, useManualRefHistory } from '@vueuse/core'
+import { formatDate, useCounter, useManualRefHistory } from '@velocity1/vueuse-core'
 
 function format(ts: number) {
   return formatDate(new Date(ts), 'YYYY-MM-DD HH:mm:ss')

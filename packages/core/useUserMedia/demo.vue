@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useDevicesList, useUserMedia } from '@vueuse/core'
+import { useDevicesList, useUserMedia } from '@velocity1/vueuse-core'
 import { reactive, shallowRef, useTemplateRef, watchEffect } from 'vue'
 
 const currentCamera = shallowRef<string>()

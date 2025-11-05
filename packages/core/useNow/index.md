@@ -9,13 +9,13 @@ Reactive current Date instance.
 ## Usage
 
 ```ts
-import { useNow } from '@vueuse/core'
+import { useNow } from '@velocity1/vueuse-core'
 
 const now = useNow()
 ```
 
 ```ts
-import { useNow } from '@vueuse/core'
+import { useNow } from '@velocity1/vueuse-core'
 // ---cut---
 const { now, pause, resume } = useNow({ controls: true })
 ```

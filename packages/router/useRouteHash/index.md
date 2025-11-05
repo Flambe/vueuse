@@ -9,7 +9,7 @@ Shorthand for a reactive `route.hash`.
 ## Usage
 
 ```ts
-import { useRouteHash } from '@vueuse/router'
+import { useRouteHash } from '@velocity1/vueuse-router'
 
 const search = useRouteHash()
 

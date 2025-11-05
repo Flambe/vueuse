@@ -10,7 +10,7 @@ Normalize value/ref/getter to `ref` or `computed`.
 ## Usage
 
 ```ts
-import { toRef } from '@vueuse/core'
+import { toRef } from '@velocity1/vueuse-core'
 
 const foo = ref('hi')
 

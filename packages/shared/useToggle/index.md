@@ -9,7 +9,7 @@ A boolean switcher with utility functions.
 ## Usage
 
 ```ts
-import { useToggle } from '@vueuse/core'
+import { useToggle } from '@velocity1/vueuse-core'
 
 const [value, toggle] = useToggle()
 ```
@@ -17,7 +17,7 @@ const [value, toggle] = useToggle()
 When you pass a ref, `useToggle` will return a simple toggle function instead:
 
 ```ts
-import { useDark, useToggle } from '@vueuse/core'
+import { useDark, useToggle } from '@velocity1/vueuse-core'
 
 const isDark = useDark()
 const toggleDark = useToggle(isDark)

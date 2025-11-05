@@ -9,7 +9,7 @@ Shorthand for a reactive `route.params`.
 ## Usage
 
 ```ts
-import { useRouteParams } from '@vueuse/router'
+import { useRouteParams } from '@velocity1/vueuse-router'
 
 const userId = useRouteParams('userId')
 

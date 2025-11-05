@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { useImage } from '@vueuse/core'
+import { useImage } from '@velocity1/vueuse-core'
 import { ref as deepRef } from 'vue'
 
 const imageOptions = deepRef({ src: 'https://place-hold.it/300x200' })

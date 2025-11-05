@@ -1,6 +1,6 @@
-import type { MouseInElementOptions, RenderableComponent, UseMouseInElementReturn } from '@vueuse/core'
+import type { MouseInElementOptions, RenderableComponent, UseMouseInElementReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useMouseInElement } from '@vueuse/core'
+import { useMouseInElement } from '@velocity1/vueuse-core'
 import { defineComponent, h, reactive, shallowRef } from 'vue'
 
 export interface UseMouseInElementProps extends MouseInElementOptions, RenderableComponent {}

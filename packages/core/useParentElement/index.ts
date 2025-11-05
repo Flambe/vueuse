@@ -1,5 +1,5 @@
 import type { MaybeRefOrGetter, ShallowRef } from 'vue'
-import { tryOnMounted } from '@vueuse/shared'
+import { tryOnMounted } from '@velocity1/vueuse-shared'
 import { shallowRef, toValue, watch } from 'vue'
 import { unrefElement } from '../unrefElement'
 import { useCurrentElement } from '../useCurrentElement'

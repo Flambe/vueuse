@@ -16,8 +16,8 @@ npm i drauu@^0
 
 ```vue
 <script setup lang="ts">
-import { toRefs } from '@vueuse/core'
-import { useDrauu } from '@vueuse/integrations/useDrauu'
+import { toRefs } from '@velocity1/vueuse-core'
+import { useDrauu } from '@velocity1/vueuse-integrations/useDrauu'
 import { useTemplateRef } from 'vue'
 
 const target = useTemplateRef<SVGSVGElement>('target')

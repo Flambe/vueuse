@@ -17,7 +17,7 @@ npm i change-case@^5
 ## Usage
 
 ```ts
-import { useChangeCase } from '@vueuse/integrations/useChangeCase'
+import { useChangeCase } from '@velocity1/vueuse-integrations/useChangeCase'
 
 // `changeCase` will be a computed
 const changeCase = useChangeCase('hello world', 'camelCase')
@@ -45,7 +45,7 @@ or passing a `ref` to it, the returned `computed` will change along with the sou
 Can be passed into `options` for customization
 
 ```ts
-import { useChangeCase } from '@vueuse/integrations/useChangeCase'
+import { useChangeCase } from '@velocity1/vueuse-integrations/useChangeCase'
 import { shallowRef } from 'vue'
 
 const input = shallowRef('helloWorld')

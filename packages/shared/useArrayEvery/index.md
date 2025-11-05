@@ -11,7 +11,7 @@ Reactive `Array.every`
 ### Use with array of multiple refs
 
 ```ts
-import { useArrayEvery } from '@vueuse/core'
+import { useArrayEvery } from '@velocity1/vueuse-core'
 
 const item1 = ref(0)
 const item2 = ref(2)
@@ -28,7 +28,7 @@ item1.value = 1
 ### Use with reactive array
 
 ```ts
-import { useArrayEvery } from '@vueuse/core'
+import { useArrayEvery } from '@velocity1/vueuse-core'
 
 const list = ref([0, 2, 4, 6, 8])
 const result = useArrayEvery(list, i => i % 2 === 0)

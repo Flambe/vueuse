@@ -1,18 +1,18 @@
-# @vueuse/electron
+# @velocity1/vueuse-electron
 
-[![NPM version](https://img.shields.io/npm/v/@vueuse/electron?color=a1b858)](https://www.npmjs.com/package/@vueuse/electron)
+[![NPM version](https://img.shields.io/npm/v/@velocity1/vueuse-electron?color=a1b858)](https://www.npmjs.com/package/@velocity1/vueuse-electron)
 
 > This is an add-on of [VueUse](https://github.com/vueuse/vueuse), enables electron renderer process API as Composition API.
 
 ## Install
 
 ```bash
-npm i @vueuse/electron electron
+npm i @velocity1/vueuse-electron electron
 ```
 
 ## Functions
 
-`@vueuse/electron` provides the following functions
+`@velocity1/vueuse-electron` provides the following functions
 
 <!--GENERATED LIST, DO NOT MODIFY MANUALLY-->
 <!--FUNCTIONS_LIST_STARTS-->

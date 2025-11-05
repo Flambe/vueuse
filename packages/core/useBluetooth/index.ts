@@ -1,6 +1,6 @@
 import type { ComputedRef, ShallowRef } from 'vue'
 import type { ConfigurableNavigator } from '../_configurable'
-import { tryOnMounted, tryOnScopeDispose } from '@vueuse/shared'
+import { tryOnMounted, tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import { readonly, shallowRef, watch } from 'vue'
 
 import { defaultNavigator } from '../_configurable'

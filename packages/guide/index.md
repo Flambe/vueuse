@@ -9,7 +9,7 @@ VueUse is a collection of utility functions based on [Composition API](https://v
 > From v12.0, VueUse no longer supports Vue 2. Please use v11.x for Vue 2 support.
 
 ```bash
-npm i @vueuse/core
+npm i @velocity1/vueuse-core
 ```
 
 [Add ons](/add-ons.html) | [Nuxt Module](/guide/index.html#nuxt)
@@ -23,9 +23,9 @@ npm i @vueuse/core
 ### CDN
 
 ```vue
-<script src="https://unpkg.com/@vueuse/shared"></script>
+<script src="https://unpkg.com/@velocity1/vueuse-shared"></script>
 
-<script src="https://unpkg.com/@vueuse/core"></script>
+<script src="https://unpkg.com/@velocity1/vueuse-core"></script>
 ```
 
 It will be exposed to global as `window.VueUse`
@@ -43,7 +43,7 @@ npx nuxt@latest module add vueuse
 Or use npm:
 
 ```bash
-npm i -D @vueuse/nuxt @vueuse/core
+npm i -D @velocity1/vueuse-nuxt @velocity1/vueuse-core
 ```
 
 Nuxt 3
@@ -52,7 +52,7 @@ Nuxt 3
 // nuxt.config.ts
 export default defineNuxtConfig({
   modules: [
-    '@vueuse/nuxt',
+    '@velocity1/vueuse-nuxt',
   ],
 })
 ```
@@ -63,7 +63,7 @@ And then use VueUse function anywhere in your Nuxt app. For example:
 <script setup lang="ts">
 // ---cut-start---
 // Actually auto-imported, but here we need to tell TwoSlash about it
-import { useMouse } from '@vueuse/core'
+import { useMouse } from '@velocity1/vueuse-core'
 // ---cut-end---
 const { x, y } = useMouse()
 </script>
@@ -75,11 +75,11 @@ const { x, y } = useMouse()
 
 ## Usage Example
 
-Simply importing the functions you need from `@vueuse/core`
+Simply importing the functions you need from `@velocity1/vueuse-core`
 
 ```vue twoslash
 <script setup>
-import { useLocalStorage, useMouse, usePreferredDark } from '@vueuse/core'
+import { useLocalStorage, useMouse, usePreferredDark } from '@velocity1/vueuse-core'
 
 // tracks mouse position
 const { x, y } = useMouse()

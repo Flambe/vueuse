@@ -9,7 +9,7 @@ Reactive [DeviceMotionEvent](https://developer.mozilla.org/en-US/docs/Web/API/De
 ## Usage
 
 ```ts
-import { useDeviceMotion } from '@vueuse/core'
+import { useDeviceMotion } from '@velocity1/vueuse-core'
 
 const {
   acceleration,

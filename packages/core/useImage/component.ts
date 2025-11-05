@@ -1,7 +1,7 @@
-import type { UseImageOptions, UseImageReturn } from '@vueuse/core'
+import type { UseImageOptions, UseImageReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType, UnwrapRef } from 'vue'
 import type { RenderableComponent } from '../types'
-import { useImage } from '@vueuse/core'
+import { useImage } from '@velocity1/vueuse-core'
 import { defineComponent, h, reactive } from 'vue'
 
 export interface UseImageProps extends UseImageOptions, RenderableComponent {}

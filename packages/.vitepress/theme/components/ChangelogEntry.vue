@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { CommitInfo } from '@vueuse/metadata'
+import type { CommitInfo } from '@velocity1/vueuse-metadata'
 import type { PropType } from 'vue'
 import { computed, onMounted, shallowRef } from 'vue'
 import { renderCommitMessage } from '../utils'

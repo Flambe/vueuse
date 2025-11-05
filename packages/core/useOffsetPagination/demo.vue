@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useOffsetPagination } from '@vueuse/core'
+import { useOffsetPagination } from '@velocity1/vueuse-core'
 import { ref as deepRef, shallowRef } from 'vue'
 
 interface User {

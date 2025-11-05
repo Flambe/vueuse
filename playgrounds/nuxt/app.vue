@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useColorMode, useWindowSize } from '@vueuse/core'
+import { useColorMode, useWindowSize } from '@velocity1/vueuse-core'
 import { onMounted, reactive, shallowRef } from 'vue'
 
 const mounted = shallowRef(false)

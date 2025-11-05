@@ -1,5 +1,5 @@
 import type { FunctionDirective } from 'vue'
-import { useScrollLock } from '@vueuse/core'
+import { useScrollLock } from '@velocity1/vueuse-core'
 import { shallowRef, watch } from 'vue'
 
 function onScrollLock(): FunctionDirective<

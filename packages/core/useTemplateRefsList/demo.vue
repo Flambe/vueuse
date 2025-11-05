@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useTemplateRefsList } from '@vueuse/core'
+import { useTemplateRefsList } from '@velocity1/vueuse-core'
 import { nextTick, shallowRef, watch } from 'vue'
 
 const count = shallowRef(5)

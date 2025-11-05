@@ -13,7 +13,7 @@ The results are not cleared automatically. Call `clear()` in case you no longer 
 ## Usage
 
 ```ts
-import { useMemoize } from '@vueuse/core'
+import { useMemoize } from '@velocity1/vueuse-core'
 
 const getUser = useMemoize(
   async (userId: number): Promise<UserData> =>
@@ -36,7 +36,7 @@ getUser.clear() // Clear full cache
 Combine with `computed` or `computedAsync` to achieve reactivity:
 
 ```ts
-import { computedAsync, useMemoize } from '@vueuse/core'
+import { computedAsync, useMemoize } from '@velocity1/vueuse-core'
 
 const getUser = useMemoize(
   async (userId: number): Promise<UserData> =>
@@ -60,7 +60,7 @@ Using `JSON.stringify` as the default key generator can be **slow for large or c
 #### Basic Example
 
 ```ts
-import { useMemoize } from '@vueuse/core'
+import { useMemoize } from '@velocity1/vueuse-core'
 // ---cut---
 const getUser = useMemoize(
   async (userId: number, headers: AxiosRequestHeaders): Promise<UserData> =>

@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { useEyeDropper } from '@vueuse/core'
+import { useEyeDropper } from '@velocity1/vueuse-core'
 
 const { isSupported, open, sRGBHex } = useEyeDropper()
 </script>

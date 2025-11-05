@@ -10,7 +10,7 @@ Reactive window scroll
 
 ```vue
 <script setup lang="ts">
-import { useWindowScroll } from '@vueuse/core'
+import { useWindowScroll } from '@velocity1/vueuse-core'
 
 const { x, y } = useWindowScroll()
 </script>

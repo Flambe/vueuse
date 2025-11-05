@@ -10,7 +10,7 @@ Two-way refs synchronization.
 ## Usage
 
 ```ts
-import { syncRef } from '@vueuse/core'
+import { syncRef } from '@velocity1/vueuse-core'
 
 const a = ref('a')
 const b = ref('b')
@@ -31,7 +31,7 @@ console.log(b.value) // bar
 ### One directional
 
 ```ts
-import { syncRef } from '@vueuse/core'
+import { syncRef } from '@velocity1/vueuse-core'
 
 const a = ref('a')
 const b = ref('b')
@@ -42,7 +42,7 @@ const stop = syncRef(a, b, { direction: 'rtl' })
 ### Custom Transform
 
 ```ts
-import { syncRef } from '@vueuse/core'
+import { syncRef } from '@velocity1/vueuse-core'
 
 const a = ref(10)
 const b = ref(2)

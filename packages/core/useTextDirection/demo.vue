@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useTextDirection } from '@vueuse/core'
+import { useTextDirection } from '@velocity1/vueuse-core'
 
 import { computed } from 'vue'
 

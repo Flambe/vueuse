@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { rand, TransitionPresets, useTransition } from '@vueuse/core'
+import { rand, TransitionPresets, useTransition } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const duration = 1500

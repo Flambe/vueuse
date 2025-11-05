@@ -1,6 +1,6 @@
 import type { Ref } from 'vue'
 import type { ConfigurableNavigator, ConfigurableWindow } from '../_configurable'
-import { createEventHook, tryOnMounted } from '@vueuse/shared'
+import { createEventHook, tryOnMounted } from '@velocity1/vueuse-shared'
 import { computed, ref as deepRef } from 'vue'
 import { defaultNavigator } from '../_configurable'
 import { useEventListener } from '../useEventListener'

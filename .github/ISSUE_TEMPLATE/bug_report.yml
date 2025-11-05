@@ -36,7 +36,7 @@ body:
     id: system-info
     attributes:
       label: System Info
-      description: Output of `npx envinfo --system --npmPackages '{vue,@vueuse/*}' --binaries --browsers`
+      description: Output of `npx envinfo --system --npmPackages '{vue,@velocity1/vueuse-*}' --binaries --browsers`
       render: Shell
       placeholder: System, Binaries, Browsers
     validations:

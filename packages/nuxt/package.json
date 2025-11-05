@@ -1,7 +1,7 @@
 {
-  "name": "@vueuse/nuxt",
+  "name": "@velocity1/vueuse-nuxt",
   "type": "module",
-  "version": "14.0.0",
+  "version": "14.0.1-beta.2",
   "description": "VueUse Nuxt Module",
   "author": "Anthony Fu <https://github.com/antfu>",
   "license": "MIT",
@@ -44,8 +44,8 @@
   },
   "dependencies": {
     "@nuxt/kit": "catalog:integrations",
-    "@vueuse/core": "workspace:*",
-    "@vueuse/metadata": "workspace:*",
+    "@velocity1/vueuse-core": "workspace:*",
+    "@velocity1/vueuse-metadata": "workspace:*",
     "local-pkg": "catalog:integrations"
   },
   "devDependencies": {

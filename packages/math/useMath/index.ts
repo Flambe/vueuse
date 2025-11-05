@@ -1,5 +1,5 @@
-import type { ArgumentsType, Reactified } from '@vueuse/shared'
-import { reactify } from '@vueuse/shared'
+import type { ArgumentsType, Reactified } from '@velocity1/vueuse-shared'
+import { reactify } from '@velocity1/vueuse-shared'
 
 export type UseMathKeys = keyof { [K in keyof Math as Math[K] extends (...args: any) => any ? K : never]: unknown }
 

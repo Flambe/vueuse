@@ -9,7 +9,7 @@ Computed reactive object. Instead of returning a ref that `computed` does, `reac
 ## Usage
 
 ```ts
-import { reactiveComputed } from '@vueuse/core'
+import { reactiveComputed } from '@velocity1/vueuse-core'
 
 const state = reactiveComputed(() => {
   return {

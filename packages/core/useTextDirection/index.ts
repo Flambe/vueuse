@@ -1,6 +1,6 @@
 import type { ConfigurableDocument } from '../_configurable'
 import type { MaybeElement } from '../unrefElement'
-import { tryOnMounted } from '@vueuse/shared'
+import { tryOnMounted } from '@velocity1/vueuse-shared'
 
 import { computed, ref as deepRef } from 'vue'
 import { defaultDocument } from '../_configurable'

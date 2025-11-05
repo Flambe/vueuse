@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useColorMode, useCycleList } from '@vueuse/core'
+import { useColorMode, useCycleList } from '@velocity1/vueuse-core'
 import { watchEffect } from 'vue'
 
 const mode = useColorMode({

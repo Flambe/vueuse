@@ -2,7 +2,7 @@
 
 import type { MaybeRef, Ref } from 'vue'
 import type { ConfigurableNavigator } from '../_configurable'
-import { tryOnScopeDispose } from '@vueuse/shared'
+import { tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import { ref as deepRef, shallowRef, watch } from 'vue'
 import { defaultNavigator } from '../_configurable'
 import { useSupported } from '../useSupported'

@@ -1,6 +1,6 @@
-import type { ConfigurableWindow, UsePageLeaveReturn } from '@vueuse/core'
+import type { ConfigurableWindow, UsePageLeaveReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { usePageLeave } from '@vueuse/core'
+import { usePageLeave } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UsePageLeaveProps extends ConfigurableWindow {}

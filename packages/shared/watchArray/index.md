@@ -11,7 +11,7 @@ Watch for an array with additions and removals.
 Similar to `watch`, but provides the added and removed elements to the callback function. Pass `{ deep: true }` if the list is updated in place with `push`, `splice`, etc.
 
 ```ts
-import { watchArray } from '@vueuse/core'
+import { watchArray } from '@velocity1/vueuse-core'
 
 const list = ref([1, 2, 3])
 

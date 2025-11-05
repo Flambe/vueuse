@@ -9,7 +9,7 @@ Create and read and write local files with [FileSystemAccessAPI](https://develop
 ## Usage
 
 ```ts
-import { useFileSystemAccess } from '@vueuse/core'
+import { useFileSystemAccess } from '@velocity1/vueuse-core'
 
 const {
   isSupported,

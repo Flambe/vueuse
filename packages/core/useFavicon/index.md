@@ -9,7 +9,7 @@ Reactive favicon
 ## Usage
 
 ```ts {3}
-import { useFavicon } from '@vueuse/core'
+import { useFavicon } from '@velocity1/vueuse-core'
 
 const icon = useFavicon()
 
@@ -21,7 +21,7 @@ icon.value = 'dark.png' // change current icon
 You can pass a `ref` to it, changes from of the source ref will be reflected to your favicon automatically.
 
 ```ts {7}
-import { useFavicon, usePreferredDark } from '@vueuse/core'
+import { useFavicon, usePreferredDark } from '@velocity1/vueuse-core'
 import { computed } from 'vue'
 
 const isDark = usePreferredDark()
@@ -33,7 +33,7 @@ useFavicon(favicon)
 When a source ref is passed, the return ref will be identical to the source ref
 
 ```ts
-import { useFavicon } from '@vueuse/core'
+import { useFavicon } from '@velocity1/vueuse-core'
 // ---cut---
 const source = shallowRef('icon.png')
 const icon = useFavicon(source)

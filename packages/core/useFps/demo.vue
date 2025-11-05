@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useFps } from '@vueuse/core'
+import { useFps } from '@velocity1/vueuse-core'
 
 const fps = useFps()
 </script>

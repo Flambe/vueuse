@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useMouse } from '@vueuse/core'
+import { useMouse } from '@velocity1/vueuse-core'
 
 const { x, y } = useMouse()
 </script>

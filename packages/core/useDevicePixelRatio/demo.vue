@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { reactify, useDevicePixelRatio } from '@vueuse/core'
+import { reactify, useDevicePixelRatio } from '@velocity1/vueuse-core'
 import { reactive } from 'vue'
 import YAML from 'yaml'
 

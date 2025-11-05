@@ -1,5 +1,5 @@
 import type { App, InjectionKey } from 'vue'
-import { injectLocal, provideLocal } from '@vueuse/shared'
+import { injectLocal, provideLocal } from '@velocity1/vueuse-shared'
 import { hasInjectionContext } from 'vue'
 
 const ssrWidthSymbol = Symbol('vueuse-ssr-width') as InjectionKey<number | null>

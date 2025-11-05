@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useCycleList } from '@vueuse/core'
+import { useCycleList } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const list = shallowRef([

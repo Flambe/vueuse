@@ -9,7 +9,7 @@ Reactive [Firebase Realtime Database](https://firebase.google.com/docs/database)
 ## Usage
 
 ```ts
-import { useRTDB } from '@vueuse/firebase/useRTDB'
+import { useRTDB } from '@velocity1/vueuse-firebase/useRTDB'
 import { initializeApp } from 'firebase/app'
 import { getDatabase } from 'firebase/database'
 
@@ -32,8 +32,8 @@ or use `createGlobalState` from the core package
 // @filename: store.ts
 // ---cut---
 // store.ts
-import { createGlobalState } from '@vueuse/core'
-import { useRTDB } from '@vueuse/firebase/useRTDB'
+import { createGlobalState } from '@velocity1/vueuse-core'
+import { useRTDB } from '@velocity1/vueuse-firebase/useRTDB'
 
 export const useTodos = createGlobalState(
   () => useRTDB(db.ref('todos')),

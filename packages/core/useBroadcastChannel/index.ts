@@ -1,6 +1,6 @@
 import type { ComputedRef, Ref, ShallowRef } from 'vue'
 import type { ConfigurableWindow } from '../_configurable'
-import { tryOnMounted, tryOnScopeDispose } from '@vueuse/shared'
+import { tryOnMounted, tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import { ref as deepRef, shallowRef } from 'vue'
 import { defaultWindow } from '../_configurable'
 import { useEventListener } from '../useEventListener'

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useUrlSearchParams } from '@vueuse/core'
+import { useUrlSearchParams } from '@velocity1/vueuse-core'
 
 const params = useUrlSearchParams('history')
 params.foo = 'bar'

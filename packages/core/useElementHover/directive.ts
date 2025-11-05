@@ -1,6 +1,6 @@
-import type { UseElementHoverOptions } from '@vueuse/core'
+import type { UseElementHoverOptions } from '@velocity1/vueuse-core'
 import type { ObjectDirective } from 'vue'
-import { useElementHover } from '@vueuse/core'
+import { useElementHover } from '@velocity1/vueuse-core'
 import { watch } from 'vue'
 
 type BindingValueFunction = (state: boolean) => void

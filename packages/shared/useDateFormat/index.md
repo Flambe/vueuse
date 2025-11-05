@@ -56,7 +56,7 @@ by [dayjs](https://github.com/iamkun/dayjs).
 
 ```vue
 <script setup lang="ts">
-import { useDateFormat, useNow } from '@vueuse/core'
+import { useDateFormat, useNow } from '@velocity1/vueuse-core'
 
 const formatted = useDateFormat(useNow(), 'YYYY-MM-DD HH:mm:ss')
 </script>
@@ -70,7 +70,7 @@ const formatted = useDateFormat(useNow(), 'YYYY-MM-DD HH:mm:ss')
 
 ```vue
 <script setup lang="ts">
-import { useDateFormat, useNow } from '@vueuse/core'
+import { useDateFormat, useNow } from '@velocity1/vueuse-core'
 
 const formatted = useDateFormat(useNow(), 'YYYY-MM-DD (ddd)', { locales: 'en-US' })
 </script>
@@ -84,7 +84,7 @@ const formatted = useDateFormat(useNow(), 'YYYY-MM-DD (ddd)', { locales: 'en-US'
 
 ```vue
 <script setup lang="ts">
-import { useDateFormat } from '@vueuse/core'
+import { useDateFormat } from '@velocity1/vueuse-core'
 
 function customMeridiem(hours: number, minutes: number, isLowercase?: boolean, hasPeriod?: boolean) {
   const m = hours > 11 ? (isLowercase ? 'μμ' : 'ΜΜ') : (isLowercase ? 'πμ' : 'ΠΜ')

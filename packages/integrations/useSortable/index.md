@@ -24,7 +24,7 @@ npm i sortablejs@^1
 
 ```vue
 <script setup lang="ts">
-import { useSortable } from '@vueuse/integrations/useSortable'
+import { useSortable } from '@velocity1/vueuse-integrations/useSortable'
 import { shallowRef, useTemplateRef } from 'vue'
 
 const el = useTemplateRef<HTMLElement>('el')
@@ -46,7 +46,7 @@ useSortable(el, list)
 
 ```vue
 <script setup lang="ts">
-import { useSortable } from '@vueuse/integrations/useSortable'
+import { useSortable } from '@velocity1/vueuse-integrations/useSortable'
 import { shallowRef, useTemplateRef } from 'vue'
 
 const el = useTemplateRef<HTMLElement>('el')
@@ -79,7 +79,7 @@ option('animation', animation)
 
 ```vue
 <script setup lang="ts">
-import { useSortable } from '@vueuse/integrations/useSortable'
+import { useSortable } from '@velocity1/vueuse-integrations/useSortable'
 import { shallowRef } from 'vue'
 
 const list = shallowRef([{ id: 1, name: 'a' }, { id: 2, name: 'b' }, { id: 3, name: 'c' }])
@@ -101,7 +101,7 @@ useSortable('#dv', list)
 If you want to handle the `onUpdate` yourself, you can pass in `onUpdate` parameters, and we also exposed a function to move the item position.
 
 ```ts
-import { moveArrayElement, useSortable } from '@vueuse/integrations/useSortable'
+import { moveArrayElement, useSortable } from '@velocity1/vueuse-integrations/useSortable'
 
 useSortable(el, list, {
   onUpdate: (e) => {

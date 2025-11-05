@@ -9,7 +9,7 @@ Apply default value to a ref.
 ## Usage
 
 ```ts
-import { refDefault, useStorage } from '@vueuse/core'
+import { refDefault, useStorage } from '@velocity1/vueuse-core'
 
 const raw = useStorage('key')
 const state = refDefault(raw, 'default')

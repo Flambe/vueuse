@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useIDBKeyval } from '@vueuse/integrations/useIDBKeyval'
-import { reactify } from '@vueuse/shared'
+import { useIDBKeyval } from '@velocity1/vueuse-integrations/useIDBKeyval'
+import { reactify } from '@velocity1/vueuse-shared'
 import YAML from 'yaml'
 
 const stringify = reactify(

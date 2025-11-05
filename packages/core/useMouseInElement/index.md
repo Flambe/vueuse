@@ -10,7 +10,7 @@ Reactive mouse position related to an element
 
 ```vue
 <script setup lang="ts">
-import { useMouseInElement } from '@vueuse/core'
+import { useMouseInElement } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const target = useTemplateRef<HTMLDivElement>('target')
@@ -41,8 +41,8 @@ const { x, y, isOutside } = useMouseInElement(target)
 
 ```vue
 <script setup lang="ts">
-import { vMouseInElement } from '@vueuse/components'
-import { UseMouseSourceType } from '@vueuse/core'
+import { vMouseInElement } from '@velocity1/vueuse-components'
+import { UseMouseSourceType } from '@velocity1/vueuse-core'
 
 interface MouseInElementType {
   x: number

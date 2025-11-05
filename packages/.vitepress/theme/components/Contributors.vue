@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ContributorInfo } from '@vueuse/metadata'
+import type { ContributorInfo } from '@velocity1/vueuse-metadata'
 import { computed } from 'vue'
 // @ts-expect-error missing types
 import _contributors from '/virtual-contributors'

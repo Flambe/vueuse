@@ -1,4 +1,4 @@
-import { useCloned } from '@vueuse/core'
+import { useCloned } from '@velocity1/vueuse-core'
 import { describe, expect, it } from 'vitest'
 import { ref as deepRef, nextTick } from 'vue'
 

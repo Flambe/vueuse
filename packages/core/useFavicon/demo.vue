@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useFavicon } from '@vueuse/core'
+import { useFavicon } from '@velocity1/vueuse-core'
 import { computed, shallowRef } from 'vue'
 
 const type = shallowRef('vueuse')

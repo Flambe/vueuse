@@ -1,7 +1,7 @@
 {
-  "name": "@vueuse/electron",
+  "name": "@velocity1/vueuse-electron",
   "type": "module",
-  "version": "14.0.0",
+  "version": "14.0.1-beta.2",
   "description": "Electron renderer process modules for VueUse",
   "author": "Archer Gu<https://github.com/ArcherGu>",
   "license": "MIT",
@@ -43,7 +43,7 @@
     "vue": "^3.5.0"
   },
   "dependencies": {
-    "@vueuse/shared": "workspace:*"
+    "@velocity1/vueuse-shared": "workspace:*"
   },
   "devDependencies": {
     "electron": "catalog:integrations"

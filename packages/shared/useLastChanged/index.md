@@ -9,7 +9,7 @@ Records the timestamp of the last change
 ## Usage
 
 ```ts
-import { useLastChanged } from '@vueuse/core'
+import { useLastChanged } from '@velocity1/vueuse-core'
 import { nextTick } from 'vue'
 
 const a = ref(0)
@@ -25,7 +25,7 @@ console.log(lastChanged.value) // 1704709379457
 By default the change is recorded on the next tick (`watch()` with `flush: 'post'`). If you want to record the change immediately, pass `flush: 'sync'` as the second argument.
 
 ```ts
-import { useLastChanged } from '@vueuse/core'
+import { useLastChanged } from '@velocity1/vueuse-core'
 
 const a = ref(0)
 const lastChanged = useLastChanged(a, { flush: 'sync' })

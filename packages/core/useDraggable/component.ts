@@ -1,6 +1,6 @@
-import type { Position, RenderableComponent, UseDraggableOptions } from '@vueuse/core'
+import type { Position, RenderableComponent, UseDraggableOptions } from '@velocity1/vueuse-core'
 import type { SlotsType } from 'vue'
-import { isClient, useDraggable, useStorage } from '@vueuse/core'
+import { isClient, useDraggable, useStorage } from '@velocity1/vueuse-core'
 import { computed, defineComponent, h, reactive, shallowRef, toValue } from 'vue'
 
 export interface UseDraggableProps extends UseDraggableOptions, RenderableComponent {

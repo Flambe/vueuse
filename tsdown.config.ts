@@ -1,4 +1,4 @@
-import type { PackageIndexes, PackageManifest } from '@vueuse/metadata'
+import type { PackageIndexes, PackageManifest } from '@velocity1/vueuse-metadata'
 import type { Format, Options, UserConfig } from 'tsdown'
 import { globSync } from 'tinyglobby'
 import metadata from './packages/metadata/index.json' with { type: 'json' }
@@ -23,8 +23,8 @@ export function createTsDownConfig(
   const iifeName = 'VueUse'
   const iifeGlobals = {
     'vue': 'Vue',
-    '@vueuse/shared': 'VueUse',
-    '@vueuse/core': 'VueUse',
+    '@velocity1/vueuse-shared': 'VueUse',
+    '@velocity1/vueuse-core': 'VueUse',
     ...(globals || {}),
   }
 

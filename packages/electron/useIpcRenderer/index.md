@@ -9,7 +9,7 @@ Provides [ipcRenderer](https://www.electronjs.org/docs/api/ipc-renderer) and all
 ## Usage
 
 ```ts
-import { useIpcRenderer } from '@vueuse/electron'
+import { useIpcRenderer } from '@velocity1/vueuse-electron'
 import { computed } from 'vue'
 
 // enable nodeIntegration if you don't provide ipcRenderer explicitly

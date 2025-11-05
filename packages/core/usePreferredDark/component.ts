@@ -1,6 +1,6 @@
-import type { ConfigurableWindow } from '@vueuse/core'
+import type { ConfigurableWindow } from '@velocity1/vueuse-core'
 import type { ComputedRef, Reactive, SlotsType } from 'vue'
-import { usePreferredDark } from '@vueuse/core'
+import { usePreferredDark } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UsePreferredDarkProps extends ConfigurableWindow {}

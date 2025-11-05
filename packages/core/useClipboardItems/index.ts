@@ -1,6 +1,6 @@
 import type { ComputedRef, MaybeRefOrGetter, Ref, ShallowRef } from 'vue'
 import type { ConfigurableNavigator } from '../_configurable'
-import { useTimeoutFn } from '@vueuse/shared'
+import { useTimeoutFn } from '@velocity1/vueuse-shared'
 import { ref as deepRef, readonly, shallowReadonly, shallowRef, toValue } from 'vue'
 import { defaultNavigator } from '../_configurable'
 import { useEventListener } from '../useEventListener'

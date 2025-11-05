@@ -9,7 +9,7 @@ Reactive `Array.reduce`.
 ## Usage
 
 ```ts
-import { useArrayReduce } from '@vueuse/core'
+import { useArrayReduce } from '@velocity1/vueuse-core'
 
 const sum = useArrayReduce([ref(1), ref(2), ref(3)], (sum, val) => sum + val)
 // sum.value: 6
@@ -18,7 +18,7 @@ const sum = useArrayReduce([ref(1), ref(2), ref(3)], (sum, val) => sum + val)
 ### Use with reactive array
 
 ```ts
-import { useArrayReduce } from '@vueuse/core'
+import { useArrayReduce } from '@velocity1/vueuse-core'
 
 const list = reactive([1, 2])
 const sum = useArrayReduce(list, (sum, val) => sum + val)
@@ -30,7 +30,7 @@ list.push(3)
 ### Use with initialValue
 
 ```ts
-import { useArrayReduce } from '@vueuse/core'
+import { useArrayReduce } from '@velocity1/vueuse-core'
 
 const list = reactive([{ num: 1 }, { num: 2 }])
 const sum = useArrayReduce(list, (sum, val) => sum + val.num, 0)

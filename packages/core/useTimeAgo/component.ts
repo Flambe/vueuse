@@ -1,6 +1,6 @@
-import type { UseTimeAgoOptions, UseTimeAgoReturn } from '@vueuse/core'
+import type { UseTimeAgoOptions, UseTimeAgoReturn } from '@velocity1/vueuse-core'
 import type { MaybeRef, Reactive, SlotsType } from 'vue'
-import { useTimeAgo } from '@vueuse/core'
+import { useTimeAgo } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UseTimeAgoProps extends Omit<UseTimeAgoOptions<true>, 'controls'> {

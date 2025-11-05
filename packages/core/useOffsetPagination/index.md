@@ -9,7 +9,7 @@ Reactive offset pagination.
 ## Usage
 
 ```ts
-import { useOffsetPagination } from '@vueuse/core'
+import { useOffsetPagination } from '@velocity1/vueuse-core'
 
 function fetchData({ currentPage, currentPageSize }: { currentPage: number, currentPageSize: number }) {
   fetch(currentPage, currentPageSize).then((responseData) => {

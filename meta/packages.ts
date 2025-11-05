@@ -1,4 +1,4 @@
-import type { PackageManifest } from '@vueuse/metadata'
+import type { PackageManifest } from '@velocity1/vueuse-metadata'
 
 export const packages: PackageManifest[] = [
   {

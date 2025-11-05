@@ -1,6 +1,6 @@
-import type { UseOffsetPaginationOptions, UseOffsetPaginationReturn } from '@vueuse/core'
+import type { UseOffsetPaginationOptions, UseOffsetPaginationReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useOffsetPagination } from '@vueuse/core'
+import { useOffsetPagination } from '@velocity1/vueuse-core'
 import { defineComponent, reactive, toValue } from 'vue'
 
 export interface UseOffsetPaginationProps extends UseOffsetPaginationOptions {}

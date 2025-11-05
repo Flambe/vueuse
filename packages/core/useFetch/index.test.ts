@@ -1,5 +1,5 @@
 import type { AfterFetchContext, OnFetchErrorContext } from './index'
-import { until } from '@vueuse/shared'
+import { until } from '@velocity1/vueuse-shared'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { ref as deepRef, nextTick, shallowRef } from 'vue'
 import { isBelowNode18 } from '../../.test'

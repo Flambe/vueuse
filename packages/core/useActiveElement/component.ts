@@ -1,6 +1,6 @@
-import type { UseActiveElementOptions, UseActiveElementReturn } from '@vueuse/core'
+import type { UseActiveElementOptions, UseActiveElementReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useActiveElement } from '@vueuse/core'
+import { useActiveElement } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UseActiveElementProps extends UseActiveElementOptions {}

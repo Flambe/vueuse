@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useProjection } from '@vueuse/math'
+import { useProjection } from '@velocity1/vueuse-math'
 import { shallowRef } from 'vue'
 
 const from = shallowRef<[number, number]>([0, 10])

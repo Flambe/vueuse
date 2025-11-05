@@ -9,7 +9,7 @@ Use EventListener with ease. Register using [addEventListener](https://developer
 ## Usage
 
 ```ts
-import { useEventListener } from '@vueuse/core'
+import { useEventListener } from '@velocity1/vueuse-core'
 
 useEventListener(document, 'visibilitychange', (evt) => {
   console.log(evt)
@@ -20,7 +20,7 @@ You can also pass a ref as the event target, `useEventListener` will unregister 
 
 ```vue
 <script setup lang="ts">
-import { useEventListener } from '@vueuse/core'
+import { useEventListener } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const element = useTemplateRef('element')
@@ -42,7 +42,7 @@ useEventListener(element, 'keydown', (e) => {
 You can also call the returned to unregister the listener.
 
 ```ts
-import { useEventListener } from '@vueuse/core'
+import { useEventListener } from '@velocity1/vueuse-core'
 
 const cleanup = useEventListener(document, 'keydown', (e) => {
   console.log(e.key)
@@ -54,7 +54,7 @@ cleanup() // This will unregister the listener.
 Note if your components also run in SSR (Server Side Rendering), you might get errors (like `document is not defined`) because DOM APIs like `document` and `window` are not available in Node.js. To avoid that you can put the logic inside `onMounted` hook.
 
 ```ts
-import { useEventListener } from '@vueuse/core'
+import { useEventListener } from '@velocity1/vueuse-core'
 // ---cut---
 // onMounted will only be called in the client side
 // so it guarantees the DOM APIs are available.

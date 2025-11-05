@@ -1,6 +1,6 @@
-import type { UseElementVisibilityOptions } from '@vueuse/core'
+import type { UseElementVisibilityOptions } from '@velocity1/vueuse-core'
 import type { ObjectDirective } from 'vue'
-import { useElementVisibility } from '@vueuse/core'
+import { useElementVisibility } from '@velocity1/vueuse-core'
 import { watch } from 'vue'
 
 type BindingValueFunction = (state: boolean) => void

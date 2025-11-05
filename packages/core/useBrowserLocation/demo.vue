@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { reactify, useBrowserLocation } from '@vueuse/core'
+import { reactify, useBrowserLocation } from '@velocity1/vueuse-core'
 import YAML from 'yaml'
 
 const stringify = reactify(

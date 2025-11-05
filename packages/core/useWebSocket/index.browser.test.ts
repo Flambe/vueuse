@@ -1,4 +1,4 @@
-import { useWebSocket } from '@vueuse/core'
+import { useWebSocket } from '@velocity1/vueuse-core'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 
 describe('useWebSocket', () => {

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useEventBus } from '@vueuse/core'
+import { useEventBus } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const { on, emit } = useEventBus<string>('vue-use-event-bus')

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { reactify, useDeviceOrientation } from '@vueuse/core'
+import { reactify, useDeviceOrientation } from '@velocity1/vueuse-core'
 import { reactive } from 'vue'
 import YAML from 'yaml'
 

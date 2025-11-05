@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useShare } from '@vueuse/core'
-import { isClient } from '@vueuse/shared'
+import { useShare } from '@velocity1/vueuse-core'
+import { isClient } from '@velocity1/vueuse-shared'
 import { ref as deepRef } from 'vue'
 
 const options = deepRef({

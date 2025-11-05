@@ -10,7 +10,7 @@ Reactive load an image in the browser, you can wait the result to display it or 
 
 ```vue
 <script setup lang="ts">
-import { useImage } from '@vueuse/core'
+import { useImage } from '@velocity1/vueuse-core'
 
 const avatarUrl = 'https://place.dog/300/200'
 const { isLoading } = useImage({ src: avatarUrl })

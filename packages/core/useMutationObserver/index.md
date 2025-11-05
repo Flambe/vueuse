@@ -10,7 +10,7 @@ Watch for changes being made to the DOM tree. [MutationObserver MDN](https://dev
 
 ```vue
 <script setup lang="ts">
-import { useMutationObserver } from '@vueuse/core'
+import { useMutationObserver } from '@velocity1/vueuse-core'
 import { ref, useTemplateRef } from 'vue'
 
 const el = useTemplateRef('el')

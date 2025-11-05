@@ -1,5 +1,5 @@
 import type { ConfigurableDocument, ConfigurableNavigator } from '../_configurable'
-import { whenever } from '@vueuse/shared'
+import { whenever } from '@velocity1/vueuse-shared'
 import { computed, shallowRef } from 'vue'
 import { defaultDocument, defaultNavigator } from '../_configurable'
 import { useDocumentVisibility } from '../useDocumentVisibility'

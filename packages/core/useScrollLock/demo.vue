@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useScroll, useScrollLock, useToggle } from '@vueuse/core'
+import { useScroll, useScrollLock, useToggle } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const el = useTemplateRef<HTMLElement>('el')

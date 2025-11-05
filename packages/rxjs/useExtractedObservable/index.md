@@ -17,7 +17,7 @@ of [`watch`](https://vuejs.org/guide/essentials/watchers.html#basic-example).
 <!-- TODO: import rxjs error if enable twoslash -->
 
 ```ts no-twoslash
-import { useExtractedObservable } from '@vueuse/rxjs'
+import { useExtractedObservable } from '@velocity1/vueuse-rxjs'
 import ObservableSocket from 'observable-socket'
 import { computed } from 'vue'
 import { makeSocket, useUser } from '../some/lib/func'
@@ -32,7 +32,7 @@ configuration. Without this, RxJS will treat any error in the supplied `Observab
 be thrown in a new call stack and reported to `window.onerror` (or `process.on('error')` if you happen to be in Node).
 
 ```ts no-twoslash
-import { useExtractedObservable } from '@vueuse/rxjs'
+import { useExtractedObservable } from '@velocity1/vueuse-rxjs'
 import { interval } from 'rxjs'
 import { mapTo, scan, startWith, tap } from 'rxjs/operators'
 import { shallowRef } from 'vue'
@@ -65,7 +65,7 @@ You can also supply an optional `onComplete` configuration if you need to attach
 observable completes.
 
 ```ts no-twoslash
-import { useExtractedObservable } from '@vueuse/rxjs'
+import { useExtractedObservable } from '@velocity1/vueuse-rxjs'
 import { interval } from 'rxjs'
 import { mapTo, scan, startWith, takeWhile } from 'rxjs/operators'
 import { shallowRef } from 'vue'
@@ -94,7 +94,7 @@ const count = useExtractedObservable(
 If you want, you can also pass `watch` options as the last argument:
 
 ```ts no-twoslash
-import { useExtractedObservable } from '@vueuse/rxjs'
+import { useExtractedObservable } from '@velocity1/vueuse-rxjs'
 import { interval } from 'rxjs'
 import { mapTo, scan, startWith, takeWhile } from 'rxjs/operators'
 import { shallowRef } from 'vue'

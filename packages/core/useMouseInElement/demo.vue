@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { reactify, useMouseInElement } from '@vueuse/core'
+import { reactify, useMouseInElement } from '@velocity1/vueuse-core'
 import { reactive, useTemplateRef } from 'vue'
 import YAML from 'yaml'
 import Area from './Area.vue'

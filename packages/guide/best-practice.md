@@ -5,7 +5,7 @@
 Most of the functions in VueUse return an **object of refs** that you can use [ES6's object destructure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) syntax on to take what you need. For example:
 
 ```ts twoslash
-import { useMouse } from '@vueuse/core'
+import { useMouse } from '@velocity1/vueuse-core'
 
 // "x" and "y" are refs
 const { x, y } = useMouse()
@@ -20,7 +20,7 @@ console.log(mouse.x.value)
 If you prefer to use them as object properties, you can unwrap the refs by using `reactive()`. For example:
 
 ```ts twoslash
-import { useMouse } from '@vueuse/core'
+import { useMouse } from '@velocity1/vueuse-core'
 import { reactive } from 'vue'
 
 const mouse = reactive(useMouse())
@@ -36,7 +36,7 @@ Similar to Vue's `watch` and `computed` that will be disposed when the component
 For example, `useEventListener` will call `removeEventListener` when the component is unmounted.
 
 ```ts twoslash
-import { useEventListener } from '@vueuse/core'
+import { useEventListener } from '@velocity1/vueuse-core'
 // ---cut---
 // will cleanup automatically
 useEventListener('mousemove', () => {})
@@ -47,7 +47,7 @@ All VueUse functions follow this convention.
 To manually dispose the side-effects, some functions return a stop handler just like the `watch` function. For example:
 
 ```ts twoslash
-import { useEventListener } from '@vueuse/core'
+import { useEventListener } from '@velocity1/vueuse-core'
 // ---cut---
 const stop = useEventListener('mousemove', () => {})
 
@@ -90,7 +90,7 @@ The `useTitle` composable helps you get and set the current page's `document.tit
 
 ```ts twoslash
 // @lib: dom
-import { useDark, useTitle } from '@vueuse/core'
+import { useDark, useTitle } from '@velocity1/vueuse-core'
 import { watch } from 'vue'
 // ---cut---
 const isDark = useDark()
@@ -108,7 +108,7 @@ watch(isDark, () => {
 You can pass a ref into `useTitle` instead of using the returned ref.
 
 ```ts twoslash
-import { useDark, useTitle } from '@vueuse/core'
+import { useDark, useTitle } from '@velocity1/vueuse-core'
 import { computed } from 'vue'
 // ---cut---
 const isDark = useDark()
@@ -122,7 +122,7 @@ useTitle(title)
 Since VueUse 9.0, we introduced a new convention for passing a "Reactive Getter" as the argument, which works great with reactive objects and [Reactivity Transform](https://vuejs.org/guide/extras/reactivity-transform.html#reactivity-transform).
 
 ```ts twoslash
-import { useDark, useTitle } from '@vueuse/core'
+import { useDark, useTitle } from '@velocity1/vueuse-core'
 // ---cut---
 const isDark = useDark()
 

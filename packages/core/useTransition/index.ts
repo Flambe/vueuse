@@ -1,6 +1,6 @@
 import type { ComputedRef, MaybeRef, MaybeRefOrGetter, Ref } from 'vue'
 import type { ConfigurableWindow } from '../_configurable'
-import { identity as linear, promiseTimeout, tryOnScopeDispose } from '@vueuse/shared'
+import { identity as linear, promiseTimeout, tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import { computed, shallowRef, toValue, watch } from 'vue'
 import { defaultWindow } from '../_configurable'
 

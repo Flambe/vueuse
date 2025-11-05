@@ -32,7 +32,7 @@ In Receiver Component
 // @filename: provider.ts
 // @include: main
 // ---cut---
-import { computedInject } from '@vueuse/core'
+import { computedInject } from '@velocity1/vueuse-core'
 
 import { ArrayKey } from './provider'
 

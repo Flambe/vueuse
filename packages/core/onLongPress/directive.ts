@@ -1,6 +1,6 @@
-import type { OnLongPressOptions } from '@vueuse/core'
+import type { OnLongPressOptions } from '@velocity1/vueuse-core'
 import type { ObjectDirective } from 'vue'
-import { onLongPress } from '@vueuse/core'
+import { onLongPress } from '@velocity1/vueuse-core'
 
 type BindingValueFunction = (evt: PointerEvent) => void
 

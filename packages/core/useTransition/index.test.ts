@@ -1,4 +1,4 @@
-import { promiseTimeout } from '@vueuse/shared'
+import { promiseTimeout } from '@velocity1/vueuse-shared'
 import { describe, expect, it, vi } from 'vitest'
 import { ref as deepRef, shallowRef } from 'vue'
 import { executeTransition, transition, useTransition } from './index'

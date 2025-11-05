@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { ShallowRef } from 'vue'
-import { reactify, useFileSystemAccess } from '@vueuse/core'
+import { reactify, useFileSystemAccess } from '@velocity1/vueuse-core'
 import { reactive, shallowRef } from 'vue'
 import YAML from 'yaml'
 

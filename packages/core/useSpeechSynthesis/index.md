@@ -11,7 +11,7 @@ Reactive [SpeechSynthesis](https://developer.mozilla.org/en-US/docs/Web/API/Spee
 ## Usage
 
 ```ts
-import { useSpeechSynthesis } from '@vueuse/core'
+import { useSpeechSynthesis } from '@velocity1/vueuse-core'
 
 const {
   isSupported,
@@ -31,7 +31,7 @@ const {
 The following shows the default values of the options, they will be directly passed to [SpeechSynthesis API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis).
 
 ```ts
-import { useSpeechSynthesis } from '@vueuse/core'
+import { useSpeechSynthesis } from '@velocity1/vueuse-core'
 // ---cut---
 useSpeechSynthesis({
   lang: 'en-US',

@@ -16,7 +16,7 @@ When using with Nuxt 3, this function will **NOT** be auto imported in favor of 
 :::
 
 ```ts
-import { useStorage } from '@vueuse/core'
+import { useStorage } from '@velocity1/vueuse-core'
 
 // bind object
 const state = useStorage('my-store', { hello: 'hi', greeting: 'Hello' })
@@ -39,7 +39,7 @@ state.value = null
 By default, `useStorage` will use the value from storage if it is present and ignores the default value. Be aware that when you are adding more properties to the default value, the key might be `undefined` if client's storage does not have that key.
 
 ```ts
-import { useStorage } from '@vueuse/core'
+import { useStorage } from '@velocity1/vueuse-core'
 // ---cut---
 localStorage.setItem('my-store', '{"hello": "hello"}')
 
@@ -51,7 +51,7 @@ console.log(state.value.greeting) // undefined, since the value is not presented
 To solve that, you can enable `mergeDefaults` option.
 
 ```ts
-import { useStorage } from '@vueuse/core'
+import { useStorage } from '@velocity1/vueuse-core'
 // ---cut---
 localStorage.setItem('my-store', '{"hello": "nihao"}')
 
@@ -69,7 +69,7 @@ console.log(state.value.greeting) // 'hello', from merged default value
 When setting it to true, it will perform a **shallow merge** for objects. You can pass a function to perform custom merge (e.g. deep merge), for example:
 
 ```ts
-import { useStorage } from '@vueuse/core'
+import { useStorage } from '@velocity1/vueuse-core'
 // ---cut---
 const state = useStorage(
   'my-store',
@@ -86,7 +86,7 @@ By default, `useStorage` will smartly use the corresponding serializer based on 
 You can also provide your own serialization function to `useStorage`:
 
 ```ts
-import { useStorage } from '@vueuse/core'
+import { useStorage } from '@velocity1/vueuse-core'
 
 useStorage(
   'key',
@@ -104,7 +104,7 @@ useStorage(
 Please note when you provide `null` as the default value, `useStorage` can't assume the data type from it. In this case, you can provide a custom serializer or reuse the built-in ones explicitly.
 
 ```ts
-import { StorageSerializers, useStorage } from '@vueuse/core'
+import { StorageSerializers, useStorage } from '@velocity1/vueuse-core'
 
 const objectLike = useStorage('key', null, undefined, { serializer: StorageSerializers.object })
 objectLike.value = { foo: 'bar' }

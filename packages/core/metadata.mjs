@@ -1,1 +1,1 @@
-export * from '@vueuse/metadata'
+export * from '@velocity1/vueuse-metadata'

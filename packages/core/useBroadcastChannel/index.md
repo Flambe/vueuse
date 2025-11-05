@@ -19,7 +19,7 @@ Messages are broadcasted via a message event fired at all BroadcastChannel
 objects listening to the channel.
 
 ```ts
-import { useBroadcastChannel } from '@vueuse/core'
+import { useBroadcastChannel } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const {

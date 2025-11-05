@@ -1,6 +1,6 @@
 import type { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios'
 import type { Ref, ShallowRef } from 'vue'
-import { noop, until } from '@vueuse/shared'
+import { noop, until } from '@velocity1/vueuse-shared'
 import axios, { AxiosError } from 'axios'
 import { ref as deepRef, shallowRef } from 'vue'
 

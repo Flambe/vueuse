@@ -1,4 +1,4 @@
-import type { WindowEventName } from '@vueuse/core'
+import type { WindowEventName } from '@velocity1/vueuse-core'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { useIdle } from '.'
 

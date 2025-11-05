@@ -1,5 +1,5 @@
 import type { Unsubscribable } from 'rxjs'
-import { tryOnScopeDispose } from '@vueuse/shared'
+import { tryOnScopeDispose } from '@velocity1/vueuse-shared'
 
 export function useSubscription(
   subscription: Unsubscribable,

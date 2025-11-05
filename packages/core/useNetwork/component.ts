@@ -1,6 +1,6 @@
-import type { ConfigurableWindow, UseNetworkReturn } from '@vueuse/core'
+import type { ConfigurableWindow, UseNetworkReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useNetwork } from '@vueuse/core'
+import { useNetwork } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UseNetworkProps extends ConfigurableWindow {}

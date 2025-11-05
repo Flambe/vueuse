@@ -1,4 +1,4 @@
-import type { TimerHandle } from '@vueuse/shared'
+import type { TimerHandle } from '@velocity1/vueuse-shared'
 import type { Position } from '../types'
 import type { MaybeElementRef } from '../unrefElement'
 import { computed } from 'vue'

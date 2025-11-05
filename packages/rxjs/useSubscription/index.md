@@ -11,7 +11,7 @@ Use an RxJS [`Subscription`](https://rxjs.dev/guide/subscription) without worryi
 <!-- TODO: import rxjs error if enable twoslash -->
 
 ```ts no-twoslash
-import { useSubscription } from '@vueuse/rxjs'
+import { useSubscription } from '@velocity1/vueuse-rxjs'
 import { interval } from 'rxjs'
 
 const count = ref(0)

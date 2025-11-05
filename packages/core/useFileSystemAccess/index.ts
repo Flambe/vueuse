@@ -1,4 +1,4 @@
-import type { Awaitable } from '@vueuse/shared'
+import type { Awaitable } from '@velocity1/vueuse-shared'
 import type { ComputedRef, MaybeRefOrGetter, ShallowRef } from 'vue'
 import type { ConfigurableWindow } from '../_configurable'
 import { computed, shallowRef, toValue, watch } from 'vue'

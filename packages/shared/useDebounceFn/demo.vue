@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useDebounceFn } from '@vueuse/core'
+import { useDebounceFn } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const updated = shallowRef(0)

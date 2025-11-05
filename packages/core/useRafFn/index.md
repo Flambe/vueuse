@@ -9,7 +9,7 @@ Call function on every `requestAnimationFrame`. With controls of pausing and res
 ## Usage
 
 ```ts
-import { useRafFn } from '@vueuse/core'
+import { useRafFn } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const count = shallowRef(0)

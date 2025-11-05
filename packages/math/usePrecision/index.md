@@ -9,7 +9,7 @@ Reactively set the precision of a number.
 ## Usage
 
 ```ts
-import { usePrecision } from '@vueuse/math'
+import { usePrecision } from '@velocity1/vueuse-math'
 
 const value = ref(3.1415)
 const result = usePrecision(value, 2) // 3.14

@@ -10,7 +10,7 @@ Reactive utility to track if an element or one of its decendants has focus. It i
 
 ```vue
 <script setup lang="ts">
-import { useFocusWithin } from '@vueuse/core'
+import { useFocusWithin } from '@velocity1/vueuse-core'
 import { ref, watch } from 'vue'
 
 const target = ref()

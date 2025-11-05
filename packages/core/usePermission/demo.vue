@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { reactify, usePermission } from '@vueuse/core'
+import { reactify, usePermission } from '@velocity1/vueuse-core'
 import { computed, reactive } from 'vue'
 import YAML from 'yaml'
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useSpeechSynthesis } from '@vueuse/core'
+import { useSpeechSynthesis } from '@velocity1/vueuse-core'
 import { computed, ref as deepRef, onMounted, shallowRef, watch } from 'vue'
 
 const voice = deepRef<SpeechSynthesisVoice>(undefined as unknown as SpeechSynthesisVoice)

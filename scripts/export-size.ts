@@ -24,7 +24,7 @@ async function run() {
       output: false,
       bundler: 'rollup',
       external: ['vue', ...(pkg.external || [])],
-      includes: ['@vueuse/shared'],
+      includes: ['@velocity1/vueuse-shared'],
     })
 
     md += `<kbd>${packageJSON.name}</kbd>\n\n`

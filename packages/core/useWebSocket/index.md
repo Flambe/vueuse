@@ -9,7 +9,7 @@ Reactive [WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/
 ## Usage
 
 ```ts
-import { useWebSocket } from '@vueuse/core'
+import { useWebSocket } from '@velocity1/vueuse-core'
 
 const { status, data, send, open, close } = useWebSocket('ws://websocketurl')
 ```
@@ -39,7 +39,7 @@ This will call `close()` automatically when the `beforeunload` event is triggere
 Reconnect on errors automatically (disabled by default).
 
 ```ts
-import { useWebSocket } from '@vueuse/core'
+import { useWebSocket } from '@velocity1/vueuse-core'
 // ---cut---
 const { status, data, close } = useWebSocket('ws://websocketurl', {
   autoReconnect: true,
@@ -49,7 +49,7 @@ const { status, data, close } = useWebSocket('ws://websocketurl', {
 Or with more controls over its behavior:
 
 ```ts
-import { useWebSocket } from '@vueuse/core'
+import { useWebSocket } from '@velocity1/vueuse-core'
 // ---cut---
 const { status, data, close } = useWebSocket('ws://websocketurl', {
   autoReconnect: {
@@ -69,7 +69,7 @@ Explicitly calling `close()` won't trigger the auto reconnection.
 It's common practice to send a small message (heartbeat) for every given time passed to keep the connection active. In this function we provide a convenient helper to do it:
 
 ```ts
-import { useWebSocket } from '@vueuse/core'
+import { useWebSocket } from '@velocity1/vueuse-core'
 // ---cut---
 const { status, data, close } = useWebSocket('ws://websocketurl', {
   heartbeat: true,
@@ -79,7 +79,7 @@ const { status, data, close } = useWebSocket('ws://websocketurl', {
 Or with more controls:
 
 ```ts
-import { useWebSocket } from '@vueuse/core'
+import { useWebSocket } from '@velocity1/vueuse-core'
 // ---cut---
 const { status, data, close } = useWebSocket('ws://websocketurl', {
   heartbeat: {
@@ -95,7 +95,7 @@ const { status, data, close } = useWebSocket('ws://websocketurl', {
 List of one or more subprotocols to use, in this case soap and wamp.
 
 ```ts
-import { useWebSocket } from '@vueuse/core'
+import { useWebSocket } from '@velocity1/vueuse-core'
 // ---cut---
 const { status, data, send, open, close } = useWebSocket('ws://websocketurl', {
   protocols: ['soap'], // ['soap', 'wamp']

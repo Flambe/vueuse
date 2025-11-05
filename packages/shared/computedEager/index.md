@@ -25,7 +25,7 @@ Learn more at [Vue: When a computed property can be the wrong tool](https://dev.
 ## Usage
 
 ```ts
-import { computedEager } from '@vueuse/core'
+import { computedEager } from '@velocity1/vueuse-core'
 
 const todos = ref([])
 const hasOpenTodos = computedEager(() => !!todos.length)

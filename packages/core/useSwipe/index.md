@@ -10,7 +10,7 @@ Reactive swipe detection based on [`TouchEvents`](https://developer.mozilla.org/
 
 ```vue
 <script setup lang="ts">
-import { useSwipe } from '@vueuse/core'
+import { useSwipe } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const el = useTemplateRef('el')

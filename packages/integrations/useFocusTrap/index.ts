@@ -1,8 +1,8 @@
-import type { Arrayable, Fn, MaybeComputedElementRef } from '@vueuse/core'
+import type { Arrayable, Fn, MaybeComputedElementRef } from '@velocity1/vueuse-core'
 import type { ActivateOptions, DeactivateOptions, FocusTrap, Options } from 'focus-trap'
 import type { MaybeRefOrGetter, ShallowRef } from 'vue'
-import { toArray, tryOnScopeDispose, unrefElement } from '@vueuse/core'
-import { notNullish } from '@vueuse/shared'
+import { toArray, tryOnScopeDispose, unrefElement } from '@velocity1/vueuse-core'
+import { notNullish } from '@velocity1/vueuse-shared'
 import { createFocusTrap } from 'focus-trap'
 import { computed, shallowRef, toValue, watch } from 'vue'
 

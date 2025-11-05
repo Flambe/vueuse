@@ -9,7 +9,7 @@ Create a ref with manual reset functionality.
 ## Usage
 
 ```ts
-import { refManualReset } from '@vueuse/core'
+import { refManualReset } from '@velocity1/vueuse-core'
 
 const message = refManualReset('default message')
 

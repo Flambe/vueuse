@@ -10,7 +10,7 @@ Make elements draggable.
 
 ```vue
 <script setup lang="ts">
-import { useDraggable } from '@vueuse/core'
+import { useDraggable } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const el = useTemplateRef<HTMLElement>('el')
@@ -31,7 +31,7 @@ const { x, y, style } = useDraggable(el, {
 Set `preventDefault: true` to override the default drag-and-drop behavior of certain elements in the browser.
 
 ```ts
-import { useDraggable } from '@vueuse/core'
+import { useDraggable } from '@velocity1/vueuse-core'
 // ---cut---
 const { x, y, style } = useDraggable(el, {
   preventDefault: true,

@@ -1,4 +1,4 @@
-import type { AnyFn } from '@vueuse/shared'
+import type { AnyFn } from '@velocity1/vueuse-shared'
 import type { Ref } from 'vue'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { effectScope, nextTick, shallowRef } from 'vue'

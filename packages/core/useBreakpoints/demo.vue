@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { breakpointsTailwind, useBreakpoints } from '@vueuse/core'
+import { breakpointsTailwind, useBreakpoints } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const breakpoints = useBreakpoints(breakpointsTailwind)

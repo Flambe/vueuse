@@ -1,6 +1,6 @@
-import type { Fn } from '@vueuse/shared'
+import type { Fn } from '@velocity1/vueuse-shared'
 import type { MaybeRefOrGetter, Ref, ShallowRef } from 'vue'
-import { isClient, toRef, tryOnScopeDispose } from '@vueuse/shared'
+import { isClient, toRef, tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import { ref as deepRef, shallowRef, watch } from 'vue'
 import { useEventListener } from '../useEventListener'
 

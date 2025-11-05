@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onStartTyping } from '@vueuse/core'
+import { onStartTyping } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const input = shallowRef<HTMLInputElement | null>(null)

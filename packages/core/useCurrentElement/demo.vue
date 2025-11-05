@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useCurrentElement } from '@vueuse/core'
+import { useCurrentElement } from '@velocity1/vueuse-core'
 import { watchEffect } from 'vue'
 
 const el = useCurrentElement()

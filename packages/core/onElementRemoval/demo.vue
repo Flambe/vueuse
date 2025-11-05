@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onElementRemoval } from '@vueuse/core'
+import { onElementRemoval } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 // demo1: recreate new element

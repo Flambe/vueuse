@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useFullscreen } from '@vueuse/core'
+import { useFullscreen } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const el = useTemplateRef('el')

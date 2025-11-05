@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useExtractedObservable } from '@vueuse/rxjs'
+import { useExtractedObservable } from '@velocity1/vueuse-rxjs'
 import { interval } from 'rxjs'
 import { mapTo, scan, startWith } from 'rxjs/operators'
 import { shallowRef } from 'vue'

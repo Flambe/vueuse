@@ -9,7 +9,7 @@ Safe `onBeforeUnmount`. Call `onBeforeUnmount()` if it's inside a component life
 ## Usage
 
 ```ts
-import { tryOnBeforeUnmount } from '@vueuse/core'
+import { tryOnBeforeUnmount } from '@velocity1/vueuse-core'
 
 tryOnBeforeUnmount(() => {
 

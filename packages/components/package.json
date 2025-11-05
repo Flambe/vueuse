@@ -1,7 +1,7 @@
 {
-  "name": "@vueuse/components",
+  "name": "@velocity1/vueuse-components",
   "type": "module",
-  "version": "14.0.0",
+  "version": "14.0.1-beta.2",
   "description": "Renderless components for VueUse",
   "author": "Jacob Clevenger<https://github.com/wheatjs>",
   "license": "MIT",
@@ -41,7 +41,7 @@
     "vue": "^3.5.0"
   },
   "dependencies": {
-    "@vueuse/core": "workspace:*",
-    "@vueuse/shared": "workspace:*"
+    "@velocity1/vueuse-core": "workspace:*",
+    "@velocity1/vueuse-shared": "workspace:*"
   }
 }

@@ -10,8 +10,8 @@ alias: not
 ## Usage
 
 ```ts
-import { whenever } from '@vueuse/core'
-import { logicNot } from '@vueuse/math'
+import { whenever } from '@velocity1/vueuse-core'
+import { logicNot } from '@velocity1/vueuse-math'
 
 const a = ref(true)
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useTextSelection } from '@vueuse/core'
+import { useTextSelection } from '@velocity1/vueuse-core'
 import { computed } from 'vue'
 
 const { rects, text } = useTextSelection()

@@ -11,7 +11,7 @@ Utility for creating event hooks
 Creating a function that uses `createEventHook`
 
 ```ts
-import { createEventHook } from '@vueuse/core'
+import { createEventHook } from '@velocity1/vueuse-core'
 
 export function useMyFetch(url) {
   const fetchResult = createEventHook<Response>()

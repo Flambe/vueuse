@@ -1,7 +1,7 @@
-import type { Pausable } from '@vueuse/shared'
+import type { Pausable } from '@velocity1/vueuse-shared'
 import type { MaybeRefOrGetter } from 'vue'
 import type { ConfigurableNavigator } from '../_configurable'
-import { toRef, useIntervalFn } from '@vueuse/shared'
+import { toRef, useIntervalFn } from '@velocity1/vueuse-shared'
 import { defaultNavigator } from '../_configurable'
 import { useSupported } from '../useSupported'
 

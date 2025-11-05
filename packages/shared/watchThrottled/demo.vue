@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { watchThrottled } from '@vueuse/core'
+import { watchThrottled } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const input = shallowRef('')

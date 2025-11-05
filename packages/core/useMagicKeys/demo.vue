@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useMagicKeys } from '@vueuse/core'
+import { useMagicKeys } from '@velocity1/vueuse-core'
 import { computed, defineComponent, h } from 'vue'
 
 const { shift, v, u, e, s, v_u_e, u_s_e, current } = useMagicKeys()

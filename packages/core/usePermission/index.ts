@@ -1,6 +1,6 @@
 import type { ComputedRef, ShallowRef } from 'vue'
 import type { ConfigurableNavigator } from '../_configurable'
-import { createSingletonPromise } from '@vueuse/shared'
+import { createSingletonPromise } from '@velocity1/vueuse-shared'
 import { shallowRef, toRaw } from 'vue'
 import { defaultNavigator } from '../_configurable'
 import { useEventListener } from '../useEventListener'

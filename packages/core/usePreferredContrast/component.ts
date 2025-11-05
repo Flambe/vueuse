@@ -1,6 +1,6 @@
-import type { ConfigurableWindow, ContrastType } from '@vueuse/core'
+import type { ConfigurableWindow, ContrastType } from '@velocity1/vueuse-core'
 import type { ComputedRef, Reactive, SlotsType } from 'vue'
-import { usePreferredContrast } from '@vueuse/core'
+import { usePreferredContrast } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UsePreferredContrastProps extends ConfigurableWindow {}

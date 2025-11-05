@@ -10,7 +10,7 @@ Lock scrolling of the element.
 
 ```vue
 <script setup lang="ts">
-import { useScrollLock } from '@vueuse/core'
+import { useScrollLock } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const el = useTemplateRef<HTMLElement>('el')
@@ -29,7 +29,7 @@ isLocked.value = false // unlock
 
 ```vue
 <script setup lang="ts">
-import { vScrollLock } from '@vueuse/components'
+import { vScrollLock } from '@velocity1/vueuse-components'
 
 const data = ref([1, 2, 3, 4, 5, 6])
 const isLocked = ref(false)

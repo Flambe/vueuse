@@ -10,7 +10,7 @@ Fires when the element or any element containing it is removed.
 
 ```vue {13}
 <script setup lang="ts">
-import { onElementRemoval } from '@vueuse/core'
+import { onElementRemoval } from '@velocity1/vueuse-core'
 import { shallowRef, useTemplateRef } from 'vue'
 
 const btnRef = useTemplateRef<HTMLElement>('btn')

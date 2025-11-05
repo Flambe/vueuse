@@ -9,7 +9,7 @@ Non-nullish checking type guard for Ref.
 ## Usage
 
 ```ts
-import { isDefined } from '@vueuse/core'
+import { isDefined } from '@velocity1/vueuse-core'
 
 const example = ref(Math.random() ? 'example' : undefined) // Ref<string | undefined>
 

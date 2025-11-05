@@ -11,7 +11,7 @@ Shorthand for v-model binding, props + emit -> ref
 ## Usage
 
 ```ts
-import { useVModel } from '@vueuse/core'
+import { useVModel } from '@velocity1/vueuse-core'
 
 const props = defineProps<{
   modelValue: string
@@ -24,7 +24,7 @@ const data = useVModel(props, 'modelValue', emit)
 ### Options API
 
 ```ts
-import { useVModel } from '@vueuse/core'
+import { useVModel } from '@velocity1/vueuse-core'
 
 export default {
   setup(props, { emit }) {

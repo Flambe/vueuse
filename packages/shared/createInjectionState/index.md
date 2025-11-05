@@ -10,7 +10,7 @@ Create global state that can be injected into components.
 
 ```ts twoslash include useCounterStore
 // useCounterStore.ts
-import { createInjectionState } from '@vueuse/core'
+import { createInjectionState } from '@velocity1/vueuse-core'
 import { computed, shallowRef } from 'vue'
 
 const [useProvideCounterStore, useCounterStore] = createInjectionState((initialValue: number) => {
@@ -120,7 +120,7 @@ const { increment } = useCounterStore()!
 
 ```ts
 // useCounterStore.ts
-import { createInjectionState } from '@vueuse/core'
+import { createInjectionState } from '@velocity1/vueuse-core'
 import { computed, shallowRef } from 'vue'
 
 // custom injectionKey
@@ -146,7 +146,7 @@ const [useProvideCounterStore, useCounterStore] = createInjectionState((initialV
 
 ```ts
 // useCounterStore.ts
-import { createInjectionState } from '@vueuse/core'
+import { createInjectionState } from '@velocity1/vueuse-core'
 import { computed, shallowRef } from 'vue'
 
 const [useProvideCounterStore, useCounterStore] = createInjectionState((initialValue: number) => {

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useObjectUrl } from '@vueuse/core'
+import { useObjectUrl } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const file = shallowRef()

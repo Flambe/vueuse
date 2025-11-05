@@ -9,7 +9,7 @@ A basic event bus.
 ## Usage
 
 ```ts
-import { useEventBus } from '@vueuse/core'
+import { useEventBus } from '@velocity1/vueuse-core'
 
 const bus = useEventBus<string>('news')
 
@@ -40,13 +40,13 @@ Using `EventBusKey` is the key to bind the event type to the key, similar to Vue
 
 ```ts
 // fooKey.ts
-import type { EventBusKey } from '@vueuse/core'
+import type { EventBusKey } from '@velocity1/vueuse-core'
 
 export const fooKey: EventBusKey<{ name: foo }> = Symbol('symbol-key')
 ```
 
 ```ts
-import { useEventBus } from '@vueuse/core'
+import { useEventBus } from '@velocity1/vueuse-core'
 
 import { fooKey } from './fooKey'
 

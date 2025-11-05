@@ -57,12 +57,12 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@vueuse/shared': resolve(__dirname, '../shared/index.ts'),
-      '@vueuse/core': resolve(__dirname, '../core/index.ts'),
-      '@vueuse/math': resolve(__dirname, '../math/index.ts'),
-      '@vueuse/integrations': resolve(__dirname, '../integrations'),
-      '@vueuse/components': resolve(__dirname, '../components/index.ts'),
-      '@vueuse/metadata': resolve(__dirname, '../metadata/index.ts'),
+      '@velocity1/vueuse-shared': resolve(__dirname, '../shared/index.ts'),
+      '@velocity1/vueuse-core': resolve(__dirname, '../core/index.ts'),
+      '@velocity1/vueuse-math': resolve(__dirname, '../math/index.ts'),
+      '@velocity1/vueuse-integrations': resolve(__dirname, '../integrations'),
+      '@velocity1/vueuse-components': resolve(__dirname, '../components/index.ts'),
+      '@velocity1/vueuse-metadata': resolve(__dirname, '../metadata/index.ts'),
     },
     dedupe: [
       'vue',
@@ -71,8 +71,8 @@ export default defineConfig({
   },
   optimizeDeps: {
     exclude: [
-      '@vueuse/shared',
-      '@vueuse/core',
+      '@velocity1/vueuse-shared',
+      '@velocity1/vueuse-core',
       'body-scroll-lock',
       '@vue/repl',
     ],
@@ -91,7 +91,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: (id) => {
-          if (id.includes('@vueuse/'))
+          if (id.includes('@velocity1/vueuse-'))
             return 'vueuse'
           if (id.includes('@vue/') || id.includes('/vue/'))
             return 'vue'

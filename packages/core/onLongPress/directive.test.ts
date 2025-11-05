@@ -1,7 +1,7 @@
 import type { VueWrapper } from '@vue/test-utils'
 import type { OnLongPressOptions } from './index'
+import { promiseTimeout } from '@velocity1/vueuse-shared'
 import { mount } from '@vue/test-utils'
-import { promiseTimeout } from '@vueuse/shared'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
 import { defineComponent } from 'vue'

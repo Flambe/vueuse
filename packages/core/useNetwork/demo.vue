@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { reactify, useNetwork } from '@vueuse/core'
+import { reactify, useNetwork } from '@velocity1/vueuse-core'
 import { reactive } from 'vue'
 import YAML from 'yaml'
 

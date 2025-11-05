@@ -1,6 +1,6 @@
 import type { WatchStopHandle } from 'vue'
 import type { ConfigurableWindow } from '../_configurable'
-import { noop, watchImmediate } from '@vueuse/shared'
+import { noop, watchImmediate } from '@velocity1/vueuse-shared'
 import { readonly, shallowRef } from 'vue'
 import { defaultWindow } from '../_configurable'
 import { useMediaQuery } from '../useMediaQuery'

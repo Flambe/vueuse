@@ -1,6 +1,6 @@
-import type { UseIdleOptions, UseIdleReturn } from '@vueuse/core'
+import type { UseIdleOptions, UseIdleReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useIdle } from '@vueuse/core'
+import { useIdle } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UseIdleProps extends UseIdleOptions {

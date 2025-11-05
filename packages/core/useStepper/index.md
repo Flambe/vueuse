@@ -11,7 +11,7 @@ Provides helpers for building a multi-step wizard interface.
 ### Steps as array
 
 ```ts
-import { useStepper } from '@vueuse/core'
+import { useStepper } from '@velocity1/vueuse-core'
 
 const {
   steps,
@@ -44,7 +44,7 @@ console.log(current.value) // 'billing-address'
 ### Steps as object
 
 ```ts
-import { useStepper } from '@vueuse/core'
+import { useStepper } from '@velocity1/vueuse-core'
 
 const {
   steps,

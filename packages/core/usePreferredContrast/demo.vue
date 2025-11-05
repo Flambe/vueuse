@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { usePreferredContrast } from '@vueuse/core'
+import { usePreferredContrast } from '@velocity1/vueuse-core'
 
 const contrast = usePreferredContrast()
 </script>

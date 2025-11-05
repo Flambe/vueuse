@@ -9,7 +9,7 @@ Safe `onUnmounted`. Call `onUnmounted()` if it's inside a component lifecycle, i
 ## Usage
 
 ```ts
-import { tryOnUnmounted } from '@vueuse/core'
+import { tryOnUnmounted } from '@velocity1/vueuse-core'
 
 tryOnUnmounted(() => {
 

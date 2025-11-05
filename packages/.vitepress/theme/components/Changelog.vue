@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { CommitInfo } from '@vueuse/metadata'
-import { functions } from '@vueuse/metadata'
+import type { CommitInfo } from '@velocity1/vueuse-metadata'
+import { functions } from '@velocity1/vueuse-metadata'
 import { computed } from 'vue'
 import ChangelogEntry from './ChangelogEntry.vue'
 // @ts-expect-error virtual

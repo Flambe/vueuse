@@ -10,7 +10,7 @@ Shorthand for binding refs to template elements and components inside `v-for`.
 
 ```vue
 <script setup lang="ts">
-import { useTemplateRefsList } from '@vueuse/core'
+import { useTemplateRefsList } from '@velocity1/vueuse-core'
 import { onUpdated } from 'vue'
 
 const refs = useTemplateRefsList<HTMLDivElement>()

@@ -1,6 +1,6 @@
-import type { EventHookOn, Fn, Stoppable } from '@vueuse/shared'
+import type { EventHookOn, Fn, Stoppable } from '@velocity1/vueuse-shared'
 import type { ComputedRef, MaybeRefOrGetter, ShallowRef } from 'vue'
-import { containsProp, createEventHook, toRef, until, useTimeoutFn } from '@vueuse/shared'
+import { containsProp, createEventHook, toRef, until, useTimeoutFn } from '@velocity1/vueuse-shared'
 import { computed, isRef, readonly, shallowRef, toValue, watch } from 'vue'
 import { defaultWindow } from '../_configurable'
 

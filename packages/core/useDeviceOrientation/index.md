@@ -9,7 +9,7 @@ Reactive [DeviceOrientationEvent](https://developer.mozilla.org/en-US/docs/Web/A
 ## Usage
 
 ```ts
-import { useDeviceOrientation } from '@vueuse/core'
+import { useDeviceOrientation } from '@velocity1/vueuse-core'
 
 const {
   isAbsolute,

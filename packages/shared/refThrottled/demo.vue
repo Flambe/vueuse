@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { refThrottled } from '@vueuse/core'
+import { refThrottled } from '@velocity1/vueuse-core'
 import { shallowRef, watch } from 'vue'
 
 const trailing = shallowRef(true)

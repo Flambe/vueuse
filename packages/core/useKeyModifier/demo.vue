@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useKeyModifier } from '@vueuse/core'
+import { useKeyModifier } from '@velocity1/vueuse-core'
 import { defineComponent, h } from 'vue'
 
 const capsLock = useKeyModifier('CapsLock')

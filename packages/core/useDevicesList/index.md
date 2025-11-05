@@ -9,7 +9,7 @@ Reactive [enumerateDevices](https://developer.mozilla.org/en-US/docs/Web/API/Med
 ## Usage
 
 ```ts
-import { useDevicesList } from '@vueuse/core'
+import { useDevicesList } from '@velocity1/vueuse-core'
 
 const {
   devices,
@@ -24,7 +24,7 @@ const {
 To request permissions, use the `ensurePermissions` method.
 
 ```ts
-import { useDevicesList } from '@vueuse/core'
+import { useDevicesList } from '@velocity1/vueuse-core'
 // ---cut---
 const {
   ensurePermissions,

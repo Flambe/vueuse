@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useTimeAgo } from '@vueuse/core'
-import { functions } from '@vueuse/metadata'
+import { useTimeAgo } from '@velocity1/vueuse-core'
+import { functions } from '@velocity1/vueuse-metadata'
 import { computed } from 'vue'
 import exportSizes from '../../../export-size.json'
 
@@ -31,7 +31,7 @@ function getFunctionLink(fn: string) {
       <div opacity="50">
         Package
       </div>
-      <div><code>@vueuse/{{ info.package }}</code></div>
+      <div><code>@velocity1/vueuse-{{ info.package }}</code></div>
     </template>
     <template v-if="info.lastUpdated">
       <div opacity="50">

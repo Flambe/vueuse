@@ -52,8 +52,8 @@ describe('useScrollLock', () => {
   })
 
   it('handles touchmove event on IOS devices', () => {
-    vi.mock('@vueuse/shared', async () => {
-      const actual = await vi.importActual('@vueuse/shared')
+    vi.mock('@velocity1/vueuse-shared', async () => {
+      const actual = await vi.importActual('@velocity1/vueuse-shared')
       return {
         ...actual,
         isIOS: true,

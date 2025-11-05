@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useActiveElement } from '@vueuse/core'
+import { useActiveElement } from '@velocity1/vueuse-core'
 import { computed } from 'vue'
 
 const activeElement = useActiveElement()

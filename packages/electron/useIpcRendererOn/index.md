@@ -9,7 +9,7 @@ Use [ipcRenderer.on](https://www.electronjs.org/docs/api/ipc-renderer#ipcrendere
 ## Usage
 
 ```ts
-import { useIpcRendererOn } from '@vueuse/electron'
+import { useIpcRendererOn } from '@velocity1/vueuse-electron'
 
 // enable nodeIntegration if you don't provide ipcRenderer explicitly
 // see: https://www.electronjs.org/docs/api/webview-tag#nodeintegration

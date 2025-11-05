@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { UseMouseEventExtractor } from '@vueuse/core'
-import { reactify, useMouse, useParentElement } from '@vueuse/core'
+import type { UseMouseEventExtractor } from '@velocity1/vueuse-core'
+import { reactify, useMouse, useParentElement } from '@velocity1/vueuse-core'
 import { reactive } from 'vue'
 import YAML from 'yaml'
 

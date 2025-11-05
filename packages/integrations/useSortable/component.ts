@@ -1,7 +1,7 @@
-import type { RenderableComponent } from '@vueuse/core'
+import type { RenderableComponent } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
 import type { UseSortableOptions, UseSortableReturn } from './index'
-import { useVModel } from '@vueuse/core'
+import { useVModel } from '@velocity1/vueuse-core'
 import { defineComponent, h, reactive, shallowRef } from 'vue'
 import { useSortable } from './index'
 

@@ -11,7 +11,7 @@ Make isomorphic destructurable for object and array at the same time. See [this 
 TypeScript Example:
 
 ```ts twoslash include main
-import { makeDestructurable } from '@vueuse/core'
+import { makeDestructurable } from '@velocity1/vueuse-core'
 
 const foo = { name: 'foo' }
 const bar = 1024

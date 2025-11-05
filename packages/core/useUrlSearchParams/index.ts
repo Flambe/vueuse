@@ -1,5 +1,5 @@
 import type { ConfigurableWindow } from '../_configurable'
-import { pausableWatch } from '@vueuse/shared'
+import { pausableWatch } from '@velocity1/vueuse-shared'
 import { nextTick, reactive } from 'vue'
 import { defaultWindow } from '../_configurable'
 import { useEventListener } from '../useEventListener'

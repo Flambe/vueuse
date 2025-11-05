@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { reactify, useElementBounding } from '@vueuse/core'
+import { reactify, useElementBounding } from '@velocity1/vueuse-core'
 import { reactive, useTemplateRef } from 'vue'
 import YAML from 'yaml'
 

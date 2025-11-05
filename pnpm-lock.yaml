@@ -264,13 +264,13 @@ catalogs:
       version: 0.0.21
 
 overrides:
-  '@vueuse/core': workspace:*
-  '@vueuse/integrations': workspace:*
-  '@vueuse/math': workspace:*
-  '@vueuse/metadata': workspace:*
-  '@vueuse/nuxt': workspace:*
-  '@vueuse/rxjs': workspace:*
-  '@vueuse/shared': workspace:*
+  '@velocity1/vueuse-core': workspace:*
+  '@velocity1/vueuse-integrations': workspace:*
+  '@velocity1/vueuse-math': workspace:*
+  '@velocity1/vueuse-metadata': workspace:*
+  '@velocity1/vueuse-nuxt': workspace:*
+  '@velocity1/vueuse-rxjs': workspace:*
+  '@velocity1/vueuse-shared': workspace:*
   eslint: ^9.38.0
   vite: ^7.1.11
   vite-plugin-pwa: ^1.1.0
@@ -340,25 +340,25 @@ importers:
       '@vue/test-utils':
         specifier: catalog:test
         version: 2.4.6
-      '@vueuse/core':
+      '@velocity1/vueuse-core':
         specifier: workspace:*
         version: link:packages/core
-      '@vueuse/integrations':
+      '@velocity1/vueuse-integrations':
         specifier: workspace:*
         version: link:packages/integrations
-      '@vueuse/math':
+      '@velocity1/vueuse-math':
         specifier: workspace:*
         version: link:packages/math
-      '@vueuse/metadata':
+      '@velocity1/vueuse-metadata':
         specifier: workspace:*
         version: link:packages/metadata
-      '@vueuse/nuxt':
+      '@velocity1/vueuse-nuxt':
         specifier: workspace:*
         version: link:packages/nuxt
-      '@vueuse/rxjs':
+      '@velocity1/vueuse-rxjs':
         specifier: workspace:*
         version: link:packages/rxjs
-      '@vueuse/shared':
+      '@velocity1/vueuse-shared':
         specifier: workspace:*
         version: link:packages/shared
       axios:
@@ -508,10 +508,10 @@ importers:
 
   packages/components:
     dependencies:
-      '@vueuse/core':
+      '@velocity1/vueuse-core':
         specifier: workspace:*
         version: link:../core
-      '@vueuse/shared':
+      '@velocity1/vueuse-shared':
         specifier: workspace:*
         version: link:../shared
       vue:
@@ -523,10 +523,10 @@ importers:
       '@types/web-bluetooth':
         specifier: catalog:types
         version: 0.0.21
-      '@vueuse/metadata':
+      '@velocity1/vueuse-metadata':
         specifier: workspace:*
         version: link:../metadata
-      '@vueuse/shared':
+      '@velocity1/vueuse-shared':
         specifier: workspace:*
         version: link:../shared
       vue:
@@ -535,7 +535,7 @@ importers:
 
   packages/electron:
     dependencies:
-      '@vueuse/shared':
+      '@velocity1/vueuse-shared':
         specifier: workspace:*
         version: link:../shared
       vue:
@@ -548,7 +548,7 @@ importers:
 
   packages/firebase:
     dependencies:
-      '@vueuse/shared':
+      '@velocity1/vueuse-shared':
         specifier: workspace:*
         version: link:../shared
       firebase:
@@ -560,10 +560,10 @@ importers:
 
   packages/integrations:
     dependencies:
-      '@vueuse/core':
+      '@velocity1/vueuse-core':
         specifier: workspace:*
         version: link:../core
-      '@vueuse/shared':
+      '@velocity1/vueuse-shared':
         specifier: workspace:*
         version: link:../shared
       vue:
@@ -618,7 +618,7 @@ importers:
 
   packages/math:
     dependencies:
-      '@vueuse/shared':
+      '@velocity1/vueuse-shared':
         specifier: workspace:*
         version: link:../shared
       vue:
@@ -632,10 +632,10 @@ importers:
       '@nuxt/kit':
         specifier: catalog:integrations
         version: 4.1.3(magicast@0.3.5)
-      '@vueuse/core':
+      '@velocity1/vueuse-core':
         specifier: workspace:*
         version: link:../core
-      '@vueuse/metadata':
+      '@velocity1/vueuse-metadata':
         specifier: workspace:*
         version: link:../metadata
       local-pkg:
@@ -657,7 +657,7 @@ importers:
 
   packages/router:
     dependencies:
-      '@vueuse/shared':
+      '@velocity1/vueuse-shared':
         specifier: workspace:*
         version: link:../shared
       vue:
@@ -670,7 +670,7 @@ importers:
 
   packages/rxjs:
     dependencies:
-      '@vueuse/shared':
+      '@velocity1/vueuse-shared':
         specifier: workspace:*
         version: link:../shared
       vue:
@@ -18906,8 +18906,8 @@ snapshots:
       '@vitejs/plugin-vue': 6.0.1(rolldown-vite@7.1.20(@types/node@24.9.1)(esbuild@0.25.11)(jiti@2.6.1)(terser@5.24.0)(tsx@4.20.6)(yaml@2.8.1))(vue@3.5.22(typescript@5.9.3))
       '@vue/devtools-api': 8.0.0
       '@vue/shared': 3.5.20
-      '@vueuse/core': link:packages/core
-      '@vueuse/integrations': link:packages/integrations
+      '@velocity1/vueuse-core': link:packages/core
+      '@velocity1/vueuse-integrations': link:packages/integrations
       focus-trap: 7.6.5
       mark.js: 8.11.1
       minisearch: 7.1.2

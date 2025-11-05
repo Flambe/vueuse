@@ -10,7 +10,7 @@ Shorthand for props v-model binding. Think it like `toRefs(props)` but changes w
 ## Usage
 
 ```ts
-import { useVModels } from '@vueuse/core'
+import { useVModels } from '@velocity1/vueuse-core'
 
 const props = defineProps({
   foo: string,
@@ -25,7 +25,7 @@ const { foo, bar } = useVModels(props, emit)
 ### Options API
 
 ```ts
-import { useVModels } from '@vueuse/core'
+import { useVModels } from '@velocity1/vueuse-core'
 
 export default {
   props: {

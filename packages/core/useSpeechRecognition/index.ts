@@ -4,7 +4,7 @@
 import type { MaybeRefOrGetter } from 'vue'
 import type { ConfigurableWindow } from '../_configurable'
 import type { SpeechRecognition, SpeechRecognitionErrorEvent } from './types'
-import { toRef, tryOnScopeDispose } from '@vueuse/shared'
+import { toRef, tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import { shallowRef, toValue, watch } from 'vue'
 import { defaultWindow } from '../_configurable'
 import { useSupported } from '../useSupported'

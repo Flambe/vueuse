@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onKeyStroke } from '@vueuse/core'
+import { onKeyStroke } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const translateX = shallowRef(0)

@@ -11,7 +11,7 @@ Reactive [Modifier State](https://developer.mozilla.org/en-US/docs/Web/API/Keybo
 ## Usage
 
 ```ts
-import { useKeyModifier } from '@vueuse/core'
+import { useKeyModifier } from '@velocity1/vueuse-core'
 
 const capsLockState = useKeyModifier('CapsLock')
 
@@ -23,7 +23,7 @@ console.log(capsLockState.value)
 You can customize which events will prompt the state to update. By default, these are `mouseup`, `mousedown`, `keyup`, `keydown`. To customize these events:
 
 ```ts
-import { useKeyModifier } from '@vueuse/core'
+import { useKeyModifier } from '@velocity1/vueuse-core'
 
 const capsLockState = useKeyModifier('CapsLock', { events: ['mouseup', 'mousedown'] })
 
@@ -41,7 +41,7 @@ console.log(capsLockState) // true
 By default, the returned ref will be `Ref<null>` until the first event is received. You can explicitly pass the initial state to it via:
 
 ```ts
-import { useKeyModifier } from '@vueuse/core'
+import { useKeyModifier } from '@velocity1/vueuse-core'
 // ---cut---
 const capsLockState1 = useKeyModifier('CapsLock') // Ref<boolean | null>
 const capsLockState2 = useKeyModifier('CapsLock', { initial: false }) // Ref<boolean>

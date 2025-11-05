@@ -9,7 +9,7 @@ Safe `onScopeDispose`. Call `onScopeDispose()` if it's inside an effect scope li
 ## Usage
 
 ```ts
-import { tryOnScopeDispose } from '@vueuse/core'
+import { tryOnScopeDispose } from '@velocity1/vueuse-core'
 
 tryOnScopeDispose(() => {
 

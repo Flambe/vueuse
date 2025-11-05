@@ -9,7 +9,7 @@ Reactive [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS
 ## Usage
 
 ```ts
-import { usePreferredColorScheme } from '@vueuse/core'
+import { usePreferredColorScheme } from '@velocity1/vueuse-core'
 
 const preferredColor = usePreferredColorScheme()
 ```

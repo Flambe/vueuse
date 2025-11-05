@@ -1,6 +1,6 @@
 import type { Rules, ValidateError, ValidateOption } from 'async-validator'
 import type { ComputedRef, MaybeRefOrGetter, ShallowRef } from 'vue'
-import { toRef, until } from '@vueuse/shared'
+import { toRef, until } from '@velocity1/vueuse-shared'
 import Schema from 'async-validator'
 import { computed, shallowRef, toValue, watch } from 'vue'
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useScreenSafeArea } from '@vueuse/core'
+import { useScreenSafeArea } from '@velocity1/vueuse-core'
 
 const {
   top,

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useClamp } from '@vueuse/math'
+import { useClamp } from '@velocity1/vueuse-math'
 import { shallowRef } from 'vue'
 
 const min = shallowRef(0)

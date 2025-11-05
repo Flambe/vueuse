@@ -1,4 +1,4 @@
-import type { ContributorInfo } from '@vueuse/metadata'
+import type { ContributorInfo } from '@velocity1/vueuse-metadata'
 import type { Plugin } from 'vite'
 
 const ID = '/virtual-contributors'

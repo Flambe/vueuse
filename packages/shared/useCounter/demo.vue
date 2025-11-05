@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useCounter } from '@vueuse/core'
+import { useCounter } from '@velocity1/vueuse-core'
 
 const { count, inc, dec, set, reset } = useCounter()
 </script>

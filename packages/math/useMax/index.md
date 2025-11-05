@@ -9,14 +9,14 @@ Reactive `Math.max`.
 ## Usage
 
 ```ts
-import { useMax } from '@vueuse/math'
+import { useMax } from '@velocity1/vueuse-math'
 
 const array = ref([1, 2, 3, 4])
 const max = useMax(array) // Ref<4>
 ```
 
 ```ts
-import { useMax } from '@vueuse/math'
+import { useMax } from '@velocity1/vueuse-math'
 
 const a = ref(1)
 const b = ref(3)

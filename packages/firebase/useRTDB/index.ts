@@ -1,6 +1,6 @@
 import type { DatabaseReference, DataSnapshot } from 'firebase/database'
 import type { Ref } from 'vue'
-import { tryOnScopeDispose } from '@vueuse/shared'
+import { tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import { onValue } from 'firebase/database'
 import { ref as deepRef } from 'vue'
 

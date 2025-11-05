@@ -22,7 +22,7 @@ number of milliseconds to vibrate, or an array of integers describing
 a pattern of vibrations and pauses.
 
 ```ts
-import { useVibrate } from '@vueuse/core'
+import { useVibrate } from '@velocity1/vueuse-core'
 
 // This vibrates the device for 300 ms
 // then pauses for 100 ms before vibrating the device again for another 300 ms:

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { usePreferredLanguages } from '@vueuse/core'
+import { usePreferredLanguages } from '@velocity1/vueuse-core'
 
 const languages = usePreferredLanguages()
 </script>

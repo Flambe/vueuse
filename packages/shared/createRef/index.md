@@ -9,7 +9,7 @@ Returns a `deepRef` or `shallowRef` depending on the `deep` param.
 ## Usage
 
 ```ts
-import { createRef } from '@vueuse/core'
+import { createRef } from '@velocity1/vueuse-core'
 import { isShallow, ref } from 'vue'
 
 const initialData = 1

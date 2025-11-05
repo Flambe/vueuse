@@ -1,7 +1,7 @@
-import type { ReadonlyRefOrGetter } from '@vueuse/shared'
+import type { ReadonlyRefOrGetter } from '@velocity1/vueuse-shared'
 import type { ComputedRef, MaybeRef, MaybeRefOrGetter, Ref } from 'vue'
 import type { ConfigurableDocument } from '../_configurable'
-import { toRef } from '@vueuse/shared'
+import { toRef } from '@velocity1/vueuse-shared'
 import { watch } from 'vue'
 import { defaultDocument } from '../_configurable'
 

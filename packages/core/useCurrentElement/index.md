@@ -9,7 +9,7 @@ Get the DOM element of current component as a ref.
 ## Usage
 
 ```ts
-import { useCurrentElement } from '@vueuse/core'
+import { useCurrentElement } from '@velocity1/vueuse-core'
 
 const el = useCurrentElement() // ComputedRef<Element>
 ```
@@ -18,7 +18,7 @@ Or pass a specific vue component
 
 ```vue
 <script setup lang="ts">
-import { useCurrentElement, VueInstance } from '@vueuse/core'
+import { useCurrentElement, VueInstance } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const componentRef = shallowRef<VueInstance>(null as unknown as VueInstance)

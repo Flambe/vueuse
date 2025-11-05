@@ -7,7 +7,7 @@ These show the general configurations for most of the functions in VueUse.
 From v4.0, we provide the Event Filters system to give the flexibility to control when events will get triggered. For example, you can use `throttleFilter` and `debounceFilter` to control the event trigger rate:
 
 ```ts twoslash
-import { debounceFilter, throttleFilter, useLocalStorage, useMouse } from '@vueuse/core'
+import { debounceFilter, throttleFilter, useLocalStorage, useMouse } from '@velocity1/vueuse-core'
 
 // changes will write to localStorage with a throttled 1s
 const storage = useLocalStorage('my-key', { foo: 'bar' }, { eventFilter: throttleFilter(1000) })
@@ -19,7 +19,7 @@ const { x, y } = useMouse({ eventFilter: debounceFilter(100) })
 Moreover, you can utilize `pausableFilter` to temporarily pause some events.
 
 ```ts twoslash
-import { pausableFilter, useDeviceMotion } from '@vueuse/core'
+import { pausableFilter, useDeviceMotion } from '@velocity1/vueuse-core'
 
 const motionControl = pausableFilter()
 
@@ -41,7 +41,7 @@ For `watch`-like composables (e.g. `watchPausable`, `whenever`, `useStorage`, `u
 In the same way as with `watch`, VueUse allows you to configure the timing by passing the `flush` option:
 
 ```ts twoslash
-import { watchPausable } from '@vueuse/core'
+import { watchPausable } from '@velocity1/vueuse-core'
 import { ref } from 'vue'
 
 const counter = ref(0)
@@ -69,7 +69,7 @@ From v4.0, functions that access the browser APIs will provide an option fields 
 ```ts twoslash
 // @lib: dom
 // @noErrors: 18047 2339
-import { useMouse } from '@vueuse/core'
+import { useMouse } from '@velocity1/vueuse-core'
 
 // accessing parent context
 const parentMousePos = useMouse({ window: window.parent })

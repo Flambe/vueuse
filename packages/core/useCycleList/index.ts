@@ -1,5 +1,5 @@
 import type { MaybeRef, MaybeRefOrGetter, ShallowRef, WritableComputedRef } from 'vue'
-import { toRef } from '@vueuse/shared'
+import { toRef } from '@velocity1/vueuse-shared'
 import { computed, shallowRef, toValue, watch } from 'vue'
 
 export interface UseCycleListOptions<T> {

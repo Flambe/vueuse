@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useIdle, useTimestamp } from '@vueuse/core'
+import { useIdle, useTimestamp } from '@velocity1/vueuse-core'
 import { computed } from 'vue'
 
 const { idle, lastActive } = useIdle(5000)

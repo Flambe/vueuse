@@ -9,7 +9,7 @@ Use timeout to poll something. It will trigger callback after last task is done.
 ## Usage
 
 ```ts
-import { useTimeoutPoll } from '@vueuse/core'
+import { useTimeoutPoll } from '@velocity1/vueuse-core'
 
 const count = ref(0)
 

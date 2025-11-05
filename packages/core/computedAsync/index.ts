@@ -1,6 +1,6 @@
-import type { Fn, WatchOptionFlush } from '@vueuse/shared'
+import type { Fn, WatchOptionFlush } from '@velocity1/vueuse-shared'
 import type { ComputedRef, Ref } from 'vue'
-import { noop } from '@vueuse/shared'
+import { noop } from '@velocity1/vueuse-shared'
 import {
   computed,
   ref as deepRef,

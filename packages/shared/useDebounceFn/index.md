@@ -12,7 +12,7 @@ Debounce execution of a function.
 ## Usage
 
 ```ts
-import { useDebounceFn, useEventListener } from '@vueuse/core'
+import { useDebounceFn, useEventListener } from '@velocity1/vueuse-core'
 
 const debouncedFn = useDebounceFn(() => {
   // do something
@@ -24,7 +24,7 @@ useEventListener(window, 'resize', debouncedFn)
 You can also pass a 3rd parameter to this, with a maximum wait time, similar to [lodash debounce](https://lodash.com/docs/4.17.15#debounce)
 
 ```ts
-import { useDebounceFn, useEventListener } from '@vueuse/core'
+import { useDebounceFn, useEventListener } from '@velocity1/vueuse-core'
 
 // If no invokation after 5000ms due to repeated input,
 // the function will be called anyway.
@@ -38,7 +38,7 @@ useEventListener(window, 'resize', debouncedFn)
 Optionally, you can get the return value of the function using promise operations.
 
 ```ts
-import { useDebounceFn } from '@vueuse/core'
+import { useDebounceFn } from '@velocity1/vueuse-core'
 
 const debouncedRequest = useDebounceFn(() => 'response', 1000)
 
@@ -56,7 +56,7 @@ async function doRequest() {
 Since unhandled rejection error is quite annoying when developer doesn't need the return value, the promise will **NOT** be rejected if the function is canceled **by default**. You need to specify the option `rejectOnCancel: true` to capture the rejection.
 
 ```ts
-import { useDebounceFn } from '@vueuse/core'
+import { useDebounceFn } from '@velocity1/vueuse-core'
 
 const debouncedRequest = useDebounceFn(() => 'response', 1000, { rejectOnCancel: true })
 

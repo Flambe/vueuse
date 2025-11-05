@@ -1,5 +1,5 @@
 import type { IncomingMessage } from 'node:http'
-import { tryOnScopeDispose } from '@vueuse/shared'
+import { tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import Cookie from 'universal-cookie'
 import { shallowRef } from 'vue'
 

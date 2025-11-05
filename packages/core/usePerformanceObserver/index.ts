@@ -1,5 +1,5 @@
 import type { ConfigurableWindow } from '../_configurable'
-import { tryOnScopeDispose } from '@vueuse/shared'
+import { tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import { defaultWindow } from '../_configurable'
 import { useSupported } from '../useSupported'
 

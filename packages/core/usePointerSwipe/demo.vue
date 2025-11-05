@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { UseSwipeDirection } from '@vueuse/core'
-import { usePointerSwipe } from '@vueuse/core'
+import type { UseSwipeDirection } from '@velocity1/vueuse-core'
+import { usePointerSwipe } from '@velocity1/vueuse-core'
 import { computed, shallowRef } from 'vue'
 
 const target = shallowRef<HTMLElement | null>(null)

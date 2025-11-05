@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useEventListener, useMouseInElement, useVModel } from '@vueuse/core'
+import { useEventListener, useMouseInElement, useVModel } from '@velocity1/vueuse-core'
 import { shallowRef, watch } from 'vue'
 
 const props = defineProps({

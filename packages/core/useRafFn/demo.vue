@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useRafFn } from '@vueuse/core'
+import { useRafFn } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const fpsLimit = 60

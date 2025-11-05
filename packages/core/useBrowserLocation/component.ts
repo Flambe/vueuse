@@ -1,6 +1,6 @@
-import type { ConfigurableWindow, UseBrowserLocationReturn } from '@vueuse/core'
+import type { ConfigurableWindow, UseBrowserLocationReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useBrowserLocation } from '@vueuse/core'
+import { useBrowserLocation } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 interface UseBrowserLocationProps extends ConfigurableWindow {}

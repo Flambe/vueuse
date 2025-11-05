@@ -1,6 +1,6 @@
-import type { ConfigurableDocument, UseDocumentVisibilityReturn } from '@vueuse/core'
+import type { ConfigurableDocument, UseDocumentVisibilityReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useDocumentVisibility } from '@vueuse/core'
+import { useDocumentVisibility } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UseDocumentVisibilityProps extends ConfigurableDocument {}

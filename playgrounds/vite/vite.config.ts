@@ -10,8 +10,8 @@ export default defineConfig(({ command }) => ({
     ? {}
     : {
         alias: {
-          '@vueuse/core': resolve(__dirname, '../../packages/core/index.ts'),
-          '@vueuse/shared': resolve(__dirname, '../../packages/shared/index.ts'),
+          '@velocity1/vueuse-core': resolve(__dirname, '../../packages/core/index.ts'),
+          '@velocity1/vueuse-shared': resolve(__dirname, '../../packages/shared/index.ts'),
         },
       },
   build: {
@@ -19,7 +19,7 @@ export default defineConfig(({ command }) => ({
     rollupOptions: {
       output: {
         manualChunks: (id) => {
-          if (id.includes('@vueuse/'))
+          if (id.includes('@velocity1/vueuse-'))
             return 'vueuse'
           else
             return 'vendor'

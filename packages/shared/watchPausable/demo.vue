@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onStartTyping, watchPausable } from '@vueuse/core'
+import { onStartTyping, watchPausable } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const input = shallowRef<HTMLInputElement | null>()

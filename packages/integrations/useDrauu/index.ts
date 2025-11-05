@@ -1,9 +1,9 @@
-import type { EventHookOn, MaybeComputedElementRef } from '@vueuse/core'
-import type { Fn } from '@vueuse/shared'
+import type { EventHookOn, MaybeComputedElementRef } from '@velocity1/vueuse-core'
+import type { Fn } from '@velocity1/vueuse-shared'
 import type { Brush, Drauu, DrawingMode, Options } from 'drauu'
 import type { Ref, ShallowRef } from 'vue'
-import { createEventHook, unrefElement } from '@vueuse/core'
-import { tryOnScopeDispose } from '@vueuse/shared'
+import { createEventHook, unrefElement } from '@velocity1/vueuse-core'
+import { tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import { createDrauu } from 'drauu'
 import { ref as deepRef, shallowRef, watch } from 'vue'
 

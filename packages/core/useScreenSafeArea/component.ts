@@ -1,6 +1,6 @@
-import type { RenderableComponent, UseScreenSafeAreaReturn } from '@vueuse/core'
+import type { RenderableComponent, UseScreenSafeAreaReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useScreenSafeArea } from '@vueuse/core'
+import { useScreenSafeArea } from '@velocity1/vueuse-core'
 import { defineComponent, h, reactive } from 'vue'
 
 export interface UseScreenSafeAreaProps extends RenderableComponent {

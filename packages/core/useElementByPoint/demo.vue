@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { useElementBounding, useElementByPoint, useEventListener, useMouse } from '@vueuse/core'
+import { useElementBounding, useElementByPoint, useEventListener, useMouse } from '@velocity1/vueuse-core'
 import { computed, reactive } from 'vue'
 
 const { x, y } = useMouse({ type: 'client' })

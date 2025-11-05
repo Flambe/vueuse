@@ -6,7 +6,7 @@ date: 2025-07-11T09:34:53.844Z
 
 > Please note this is bundle size for each individual APIs (excluding Vue). Since we have a lot shared utilities underneath each function, importing two different functions does NOT necessarily mean the bundle size will be the sum of them (usually smaller). Depends on the bundler and minifier you use, the final result might vary, this list is for reference only.
 
-<kbd>@vueuse/core</kbd>
+<kbd>@velocity1/vueuse-core</kbd>
 
 | Function                          | min+gzipped |
 | --------------------------------- | ----------- |
@@ -306,7 +306,7 @@ date: 2025-07-11T09:34:53.844Z
 | `cloneFnJSON`                     | 78 B        |
 | `customStorageEventName`          | 67 B        |
 
-<kbd>@vueuse/components</kbd>
+<kbd>@velocity1/vueuse-components</kbd>
 
 | Function                          | min+gzipped |
 | --------------------------------- | ----------- |
@@ -371,7 +371,7 @@ date: 2025-07-11T09:34:53.844Z
 | `UseDeviceMotion`                 | 1.33 kB     |
 | `vScrollLock`                     | 1.28 kB     |
 
-<kbd>@vueuse/math</kbd>
+<kbd>@velocity1/vueuse-math</kbd>
 
 | Function                  | min+gzipped |
 | ------------------------- | ----------- |
@@ -397,13 +397,13 @@ date: 2025-07-11T09:34:53.844Z
 | `logicNot`                | 83 B        |
 | `not`                     | 83 B        |
 
-<kbd>@vueuse/nuxt</kbd>
+<kbd>@velocity1/vueuse-nuxt</kbd>
 
 | Function  | min+gzipped |
 | --------- | ----------- |
 | `default` | 831 B       |
 
-<kbd>@vueuse/router</kbd>
+<kbd>@velocity1/vueuse-router</kbd>
 
 | Function         | min+gzipped |
 | ---------------- | ----------- |
@@ -411,7 +411,7 @@ date: 2025-07-11T09:34:53.844Z
 | `useRouteQuery`  | 506 B       |
 | `useRouteHash`   | 359 B       |
 
-<kbd>@vueuse/integrations</kbd>
+<kbd>@velocity1/vueuse-integrations</kbd>
 
 | Function            | min+gzipped |
 | ------------------- | ----------- |
@@ -432,7 +432,7 @@ date: 2025-07-11T09:34:53.844Z
 | `insertNodeAt`      | 201 B       |
 | `removeNode`        | 174 B       |
 
-<kbd>@vueuse/rxjs</kbd>
+<kbd>@velocity1/vueuse-rxjs</kbd>
 
 | Function                   | min+gzipped |
 | -------------------------- | ----------- |
@@ -445,7 +445,7 @@ date: 2025-07-11T09:34:53.844Z
 | `from`                     | 122 B       |
 | `toObserver`               | 73 B        |
 
-<kbd>@vueuse/firebase</kbd>
+<kbd>@velocity1/vueuse-firebase</kbd>
 
 | Function       | min+gzipped |
 | -------------- | ----------- |
@@ -453,7 +453,7 @@ date: 2025-07-11T09:34:53.844Z
 | `useRTDB`      | 257 B       |
 | `useAuth`      | 160 B       |
 
-<kbd>@vueuse/electron</kbd>
+<kbd>@velocity1/vueuse-electron</kbd>
 
 | Function               | min+gzipped |
 | ---------------------- | ----------- |
@@ -463,7 +463,7 @@ date: 2025-07-11T09:34:53.844Z
 | `useIpcRendererOn`     | 267 B       |
 | `useIpcRendererInvoke` | 213 B       |
 
-<kbd>@vueuse/shared</kbd>
+<kbd>@velocity1/vueuse-shared</kbd>
 
 | Function                 | min+gzipped |
 | ------------------------ | ----------- |

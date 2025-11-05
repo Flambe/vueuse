@@ -9,7 +9,7 @@ Wrapper for `useIntervalFn` that provides a countdown timer.
 ## Usage
 
 ```ts
-import { useCountdown } from '@vueuse/core'
+import { useCountdown } from '@velocity1/vueuse-core'
 
 const countdownSeconds = 5
 const { remaining, start, stop, pause, resume } = useCountdown(countdownSeconds, {
@@ -26,7 +26,7 @@ You can use a `ref` to change the initial countdown.
 `start()` and `resume()` also accept a new countdown value for the next countdown.
 
 ```ts
-import { useCountdown } from '@vueuse/core'
+import { useCountdown } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const countdown = shallowRef(5)

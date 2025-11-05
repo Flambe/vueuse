@@ -1,4 +1,4 @@
-import type { CommitInfo, ContributorInfo } from '@vueuse/metadata'
+import type { CommitInfo, ContributorInfo } from '@velocity1/vueuse-metadata'
 import md5 from 'md5'
 import Git from 'simple-git'
 import { functions } from '../packages/metadata/metadata'

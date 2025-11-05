@@ -1,6 +1,6 @@
-import type { UseClipboardOptions, UseClipboardReturn } from '@vueuse/core'
+import type { UseClipboardOptions, UseClipboardReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useClipboard } from '@vueuse/core'
+import { useClipboard } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UseClipboardProps<Source = string> extends UseClipboardOptions<Source> {}

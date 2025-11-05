@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useAxios } from '@vueuse/integrations/useAxios'
-import { reactify } from '@vueuse/shared'
+import { useAxios } from '@velocity1/vueuse-integrations/useAxios'
+import { reactify } from '@velocity1/vueuse-shared'
 import YAML from 'yaml'
 
 const stringify = reactify(

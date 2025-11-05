@@ -15,7 +15,7 @@ Reactive dark mode with auto data persistence.
 ## Basic Usage
 
 ```ts
-import { useDark, useToggle } from '@vueuse/core'
+import { useDark, useToggle } from '@velocity1/vueuse-core'
 
 const isDark = useDark()
 const toggleDark = useToggle(isDark)
@@ -48,7 +48,7 @@ Still, you can also customize it to make it work with most CSS frameworks.
 For example:
 
 ```ts
-import { useDark } from '@vueuse/core'
+import { useDark } from '@velocity1/vueuse-core'
 // ---cut---
 const isDark = useDark({
   selector: 'body',
@@ -79,7 +79,7 @@ will work like
 If the configuration above still does not fit your needs, you can use the`onChanged` option to take full control over how you handle updates.
 
 ```ts
-import { useDark } from '@vueuse/core'
+import { useDark } from '@velocity1/vueuse-core'
 // ---cut---
 const isDark = useDark({
   onChanged(dark) {

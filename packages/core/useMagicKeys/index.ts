@@ -1,5 +1,5 @@
 import type { ComputedRef, MaybeRefOrGetter } from 'vue'
-import { noop } from '@vueuse/shared'
+import { noop } from '@velocity1/vueuse-shared'
 import { computed, reactive, shallowRef, toValue } from 'vue'
 import { defaultWindow } from '../_configurable'
 import { useEventListener } from '../useEventListener'

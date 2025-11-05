@@ -1,4 +1,4 @@
-import type { RenderableComponent } from '@vueuse/core'
+import type { RenderableComponent } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
 import type { UseFocusTrapOptions, UseFocusTrapReturn } from './index'
 import { defineComponent, h, reactive, shallowRef } from 'vue'

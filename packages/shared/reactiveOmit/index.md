@@ -11,7 +11,7 @@ Reactively omit fields from a reactive object.
 ### Basic Usage
 
 ```ts
-import { reactiveOmit } from '@vueuse/core'
+import { reactiveOmit } from '@velocity1/vueuse-core'
 
 const obj = reactive({
   x: 0,
@@ -26,7 +26,7 @@ const picked = reactiveOmit(obj, 'x', 'elementX') // { y: number, elementY: numb
 ### Predicate Usage
 
 ```ts
-import { reactiveOmit } from '@vueuse/core'
+import { reactiveOmit } from '@velocity1/vueuse-core'
 
 const obj = reactive({
   bar: 'bar',
@@ -45,7 +45,7 @@ const picked = reactiveOmit(obj, (value, key) => key === 'baz' || value === true
 
 ```vue
 <script setup lang="ts">
-import { reactiveOmit } from '@vueuse/core'
+import { reactiveOmit } from '@velocity1/vueuse-core'
 
 const props = defineProps<{
   value: string

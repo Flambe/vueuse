@@ -1,6 +1,6 @@
-import type { RenderableComponent, UseFullscreenOptions, UseFullscreenReturn } from '@vueuse/core'
+import type { RenderableComponent, UseFullscreenOptions, UseFullscreenReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useFullscreen } from '@vueuse/core'
+import { useFullscreen } from '@velocity1/vueuse-core'
 import { defineComponent, h, reactive, shallowRef } from 'vue'
 
 export interface UseFullscreenProps extends UseFullscreenOptions, RenderableComponent {}

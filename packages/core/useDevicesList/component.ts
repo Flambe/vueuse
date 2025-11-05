@@ -1,6 +1,6 @@
-import type { UseDevicesListOptions, UseDevicesListReturn } from '@vueuse/core'
+import type { UseDevicesListOptions, UseDevicesListReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useDevicesList } from '@vueuse/core'
+import { useDevicesList } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UseDevicesListProps extends UseDevicesListOptions {}

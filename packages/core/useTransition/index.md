@@ -11,7 +11,7 @@ Transition between values
 Define a source value to follow, and when changed the output will transition to the new value. If the source changes while a transition is in progress, a new transition will begin from where the previous one was interrupted.
 
 ```ts
-import { TransitionPresets, useTransition } from '@vueuse/core'
+import { TransitionPresets, useTransition } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const source = shallowRef(0)
@@ -25,7 +25,7 @@ const output = useTransition(source, {
 Transition easing can be customized using [cubic bezier curves](https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function/cubic-bezier#description).
 
 ```ts
-import { useTransition } from '@vueuse/core'
+import { useTransition } from '@velocity1/vueuse-core'
 // ---cut---
 useTransition(source, {
   easing: [0.75, 0, 0.25, 1],
@@ -63,7 +63,7 @@ The following transitions are available via the `TransitionPresets` constant.
 For more complex easing, a custom function can be provided.
 
 ```ts
-import { useTransition } from '@vueuse/core'
+import { useTransition } from '@velocity1/vueuse-core'
 // ---cut---
 function easeOutElastic(n) {
   return n === 0
@@ -81,7 +81,7 @@ useTransition(source, {
 By default the `source` must be a number, or array of numbers. For more complex values, define a custom `interpolation` function. For example, the following would transition a Three.js rotation.
 
 ```ts
-import { useTransition } from '@vueuse/core'
+import { useTransition } from '@velocity1/vueuse-core'
 // ---cut---
 import { Quaternion } from 'three'
 
@@ -95,7 +95,7 @@ const output = useTransition(source, {
 To control when a transition starts, set a `delay` value. To choreograph behavior around a transition, define `onStarted` or `onFinished` callbacks.
 
 ```ts
-import { useTransition } from '@vueuse/core'
+import { useTransition } from '@velocity1/vueuse-core'
 // ---cut---
 useTransition(source, {
   delay: 1000,
@@ -113,7 +113,7 @@ To stop transitioning, define a boolean `disabled` property. Be aware, this is n
 For even more control, transitions can be executed manually via the `transition` function. This function returns a promise that resolves when the transition is complete. Manual transitions can be cancelled by defining an `abort` function that returns a truthy value.
 
 ```ts
-import { transition } from '@vueuse/core'
+import { transition } from '@velocity1/vueuse-core'
 
 await transition(source, from, to, {
   abort() {

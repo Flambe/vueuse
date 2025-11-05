@@ -9,7 +9,7 @@ Reactive [Screen Orientation API](https://developer.mozilla.org/en-US/docs/Web/A
 ## Usage
 
 ```ts
-import { useScreenOrientation } from '@vueuse/core'
+import { useScreenOrientation } from '@velocity1/vueuse-core'
 
 const {
   isSupported,
@@ -23,7 +23,7 @@ const {
 To lock the orientation, you can pass an [OrientationLockType](https://developer.mozilla.org/en-US/docs/Web/API/ScreenOrientation/type) to the lockOrientation function:
 
 ```ts
-import { useScreenOrientation } from '@vueuse/core'
+import { useScreenOrientation } from '@velocity1/vueuse-core'
 
 const {
   isSupported,
@@ -39,7 +39,7 @@ lockOrientation('portrait-primary')
 and then unlock again, with the following:
 
 ```ts
-import { useScreenOrientation } from '@vueuse/core'
+import { useScreenOrientation } from '@velocity1/vueuse-core'
 
 const { unlockOrientation } = useScreenOrientation()
 // ---cut---

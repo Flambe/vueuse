@@ -1,5 +1,5 @@
 <script lang="ts">
-import { useStorage } from '@vueuse/core'
+import { useStorage } from '@velocity1/vueuse-core'
 import { watchEffect } from 'vue'
 
 const preferJS = useStorage('vueuse-prefer-js', false)

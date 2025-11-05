@@ -9,7 +9,7 @@ Reactive state to show whether the mouse leaves the page.
 ## Usage
 
 ```ts
-import { usePageLeave } from '@vueuse/core'
+import { usePageLeave } from '@velocity1/vueuse-core'
 
 const isLeft = usePageLeave()
 ```

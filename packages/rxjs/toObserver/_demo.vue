@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { from, fromEvent, toObserver, useSubscription } from '@vueuse/rxjs'
+import { from, fromEvent, toObserver, useSubscription } from '@velocity1/vueuse-rxjs'
 import { interval } from 'rxjs'
 import {
   map,

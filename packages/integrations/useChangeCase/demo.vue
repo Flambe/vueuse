@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { ChangeCaseType } from '@vueuse/integrations/useChangeCase'
-import { useChangeCase } from '@vueuse/integrations/useChangeCase'
+import type { ChangeCaseType } from '@velocity1/vueuse-integrations/useChangeCase'
+import { useChangeCase } from '@velocity1/vueuse-integrations/useChangeCase'
 import * as ChangeCase from 'change-case'
 import { shallowRef } from 'vue'
 

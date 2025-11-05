@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useFocusWithin } from '@vueuse/core'
+import { useFocusWithin } from '@velocity1/vueuse-core'
 import { useTemplateRef } from 'vue'
 
 const target = useTemplateRef<HTMLFormElement>('target')

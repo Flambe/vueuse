@@ -9,7 +9,7 @@ Reactive time ago with i18n supported. Automatically update the time ago string 
 ## Usage
 
 ```js
-import { useTimeAgoIntl } from '@vueuse/core'
+import { useTimeAgoIntl } from '@velocity1/vueuse-core'
 
 const timeAgoIntl = useTimeAgoIntl(new Date(2021, 0, 1))
 ```
@@ -19,7 +19,7 @@ const timeAgoIntl = useTimeAgoIntl(new Date(2021, 0, 1))
 In case you don't need the reactivity, you can use the `formatTimeAgo` function to get the formatted string instead of a Ref.
 
 ```js
-import { formatTimeAgoIntl } from '@vueuse/core'
+import { formatTimeAgoIntl } from '@velocity1/vueuse-core'
 
 const timeAgoIntl = formatTimeAgoIntl(new Date(2021, 0, 1)) // string
 ```

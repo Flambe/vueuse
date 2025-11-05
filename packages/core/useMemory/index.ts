@@ -1,5 +1,5 @@
-import type { UseIntervalFnOptions } from '@vueuse/shared'
-import { useIntervalFn } from '@vueuse/shared'
+import type { UseIntervalFnOptions } from '@velocity1/vueuse-shared'
+import { useIntervalFn } from '@velocity1/vueuse-shared'
 import { ref as deepRef } from 'vue'
 import { useSupported } from '../useSupported'
 

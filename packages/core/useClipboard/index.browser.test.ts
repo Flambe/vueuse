@@ -1,4 +1,4 @@
-import { useClipboard, usePermission } from '@vueuse/core'
+import { useClipboard, usePermission } from '@velocity1/vueuse-core'
 import { describe, expect, it } from 'vitest'
 
 describe('useClipboard', () => {

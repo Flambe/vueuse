@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { usePreferredReducedTransparency } from '@vueuse/core'
+import { usePreferredReducedTransparency } from '@velocity1/vueuse-core'
 
 const transparency = usePreferredReducedTransparency()
 </script>

@@ -1,6 +1,6 @@
 import type { Observable } from 'rxjs'
 import type { Ref, UnwrapRef } from 'vue'
-import { tryOnScopeDispose } from '@vueuse/shared'
+import { tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import { ref as deepRef } from 'vue'
 
 export interface UseObservableOptions<I> {

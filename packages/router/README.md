@@ -1,13 +1,13 @@
-# @vueuse/router
+# @velocity1/vueuse-router
 
-[![NPM version](https://img.shields.io/npm/v/@vueuse/router?color=a1b858)](https://www.npmjs.com/package/@vueuse/router)
+[![NPM version](https://img.shields.io/npm/v/@velocity1/vueuse-router?color=a1b858)](https://www.npmjs.com/package/@velocity1/vueuse-router)
 
 > This is an add-on of [VueUse](https://github.com/vueuse/vueuse), providing utilities for vue-router.
 
 ## Install
 
 ```bash
-npm i @vueuse/router vue-router@4
+npm i @velocity1/vueuse-router vue-router@4
 ```
 
 ## Functions

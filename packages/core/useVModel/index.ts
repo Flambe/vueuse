@@ -1,6 +1,6 @@
 import type { Ref, UnwrapRef, WritableComputedRef } from 'vue'
 import type { CloneFn } from '../useCloned'
-import { isDef } from '@vueuse/shared'
+import { isDef } from '@velocity1/vueuse-shared'
 import { computed, ref as deepRef, getCurrentInstance, nextTick, watch } from 'vue'
 import { cloneFnJSON } from '../useCloned'
 

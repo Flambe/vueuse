@@ -9,7 +9,7 @@ Reactive mouse position
 ## Basic Usage
 
 ```ts twoslash
-import { useMouse } from '@vueuse/core'
+import { useMouse } from '@velocity1/vueuse-core'
 
 const { x, y, sourceType } = useMouse()
 ```
@@ -18,7 +18,7 @@ Touch is enabled by default. To only detect mouse changes, set `touch` to `false
 The `dragover` event is used to track mouse position while dragging.
 
 ```ts twoslash
-import { useMouse } from '@vueuse/core'
+import { useMouse } from '@velocity1/vueuse-core'
 // ---cut---
 const { x, y } = useMouse({ touch: false })
 ```
@@ -28,8 +28,8 @@ const { x, y } = useMouse({ touch: false })
 It's also possible to provide a custom extractor function to get the position from the event.
 
 ```ts twoslash
-import type { UseMouseEventExtractor } from '@vueuse/core'
-import { useMouse, useParentElement } from '@vueuse/core'
+import type { UseMouseEventExtractor } from '@velocity1/vueuse-core'
+import { useMouse, useParentElement } from '@velocity1/vueuse-core'
 
 const parentEl = useParentElement()
 

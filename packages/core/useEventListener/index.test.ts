@@ -1,4 +1,4 @@
-import type { Fn } from '@vueuse/shared'
+import type { Fn } from '@velocity1/vueuse-shared'
 import type { MockInstance } from 'vitest'
 import type { Ref } from 'vue'
 import { beforeEach, describe, expect, it, vi } from 'vitest'

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useInfiniteScroll } from '@vueuse/core'
+import { useInfiniteScroll } from '@velocity1/vueuse-core'
 import { ref as deepRef, useTemplateRef } from 'vue'
 
 const el = useTemplateRef<HTMLElement>('el')

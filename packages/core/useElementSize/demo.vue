@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { reactify, useElementSize } from '@vueuse/core'
+import { reactify, useElementSize } from '@velocity1/vueuse-core'
 import { reactive, useTemplateRef } from 'vue'
 import YAML from 'yaml'
 

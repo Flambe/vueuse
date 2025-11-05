@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { refAutoReset } from '@vueuse/core'
+import { refAutoReset } from '@velocity1/vueuse-core'
 
 const message = refAutoReset('Default message', 1000)
 

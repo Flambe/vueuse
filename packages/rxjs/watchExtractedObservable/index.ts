@@ -1,7 +1,7 @@
-import type { MapOldSources, MapSources, MultiWatchSources } from '@vueuse/shared'
+import type { MapOldSources, MapSources, MultiWatchSources } from '@velocity1/vueuse-shared'
 import type { Observable, Subscription } from 'rxjs'
 import type { WatchHandle, WatchOptions, WatchSource } from 'vue'
-import { tryOnScopeDispose } from '@vueuse/shared'
+import { tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import { watch } from 'vue'
 
 export type OnCleanup = (cleanupFn: () => void) => void

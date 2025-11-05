@@ -16,7 +16,7 @@ Due to Safari browser limitations, file type validation is only possible during 
 
 ```vue
 <script setup lang="ts">
-import { useDropZone } from '@vueuse/core'
+import { useDropZone } from '@velocity1/vueuse-core'
 import { ref } from 'vue'
 
 const dropZoneRef = ref<HTMLDivElement>()

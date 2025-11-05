@@ -1,6 +1,6 @@
-import type { ConfigurableWindow } from '@vueuse/core'
+import type { ConfigurableWindow } from '@velocity1/vueuse-core'
 import type { Reactive, Ref, SlotsType } from 'vue'
-import { usePreferredLanguages } from '@vueuse/core'
+import { usePreferredLanguages } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UsePreferredLanguagesProps extends ConfigurableWindow {}

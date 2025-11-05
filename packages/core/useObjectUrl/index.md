@@ -12,7 +12,7 @@ Creates an URL for the provided `File`, `Blob`, or `MediaSource` via [URL.create
 
 ```vue
 <script setup lang="ts">
-import { useObjectUrl } from '@vueuse/core'
+import { useObjectUrl } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const file = shallowRef()

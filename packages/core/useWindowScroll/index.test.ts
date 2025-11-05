@@ -1,4 +1,4 @@
-import { useScroll } from '@vueuse/core'
+import { useScroll } from '@velocity1/vueuse-core'
 import { describe, expect, it } from 'vitest'
 import { reactive } from 'vue'
 import { useWindowScroll } from './index'

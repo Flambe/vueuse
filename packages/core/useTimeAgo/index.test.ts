@@ -1,5 +1,5 @@
 import type { ComputedRef } from 'vue'
-import { timestamp } from '@vueuse/shared'
+import { timestamp } from '@velocity1/vueuse-shared'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { computed, shallowRef } from 'vue'
 import { useTimeAgo } from './index'

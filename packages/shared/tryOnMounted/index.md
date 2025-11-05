@@ -9,7 +9,7 @@ Safe `onMounted`. Call `onMounted()` if it's inside a component lifecycle, if no
 ## Usage
 
 ```ts
-import { tryOnMounted } from '@vueuse/core'
+import { tryOnMounted } from '@velocity1/vueuse-core'
 
 tryOnMounted(() => {
 

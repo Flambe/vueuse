@@ -10,7 +10,7 @@ Extended `inject` with ability to call `provideLocal` to provide the value in th
 
 ```vue
 <script setup>
-import { injectLocal, provideLocal } from '@vueuse/core'
+import { injectLocal, provideLocal } from '@velocity1/vueuse-core'
 
 provideLocal('MyInjectionKey', 1)
 const injectedValue = injectLocal('MyInjectionKey') // injectedValue === 1

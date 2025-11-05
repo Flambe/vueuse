@@ -9,7 +9,7 @@ Shorthand for a reactive `route.query`.
 ## Usage
 
 ```ts
-import { useRouteQuery } from '@vueuse/router'
+import { useRouteQuery } from '@velocity1/vueuse-router'
 
 const search = useRouteQuery('search')
 

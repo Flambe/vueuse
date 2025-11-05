@@ -9,7 +9,7 @@ Observe performance metrics.
 ## Usage
 
 ```ts
-import { usePerformanceObserver } from '@vueuse/core'
+import { usePerformanceObserver } from '@velocity1/vueuse-core'
 
 const entrys = ref<PerformanceEntry[]>([])
 usePerformanceObserver({

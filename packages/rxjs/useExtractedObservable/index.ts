@@ -1,9 +1,9 @@
-import type { MapOldSources, MapSources, MultiWatchSources } from '@vueuse/shared'
+import type { MapOldSources, MapSources, MultiWatchSources } from '@velocity1/vueuse-shared'
 import type { Subscription } from 'rxjs'
 import type { ShallowRef, WatchOptions, WatchSource } from 'vue'
 import type { UseObservableOptions } from '../useObservable'
 import type { WatchExtractedObservableCallback } from '../watchExtractedObservable'
-import { tryOnScopeDispose } from '@vueuse/shared'
+import { tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import { readonly, shallowRef, watch } from 'vue'
 
 export interface UseExtractedObservableOptions<E> extends UseObservableOptions<E> {

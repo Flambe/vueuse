@@ -16,7 +16,7 @@ Reactive [Clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipbo
 
 ```vue
 <script setup lang="ts">
-import { useClipboardItems } from '@vueuse/core'
+import { useClipboardItems } from '@velocity1/vueuse-core'
 
 const mime = 'text/plain'
 const source = ref([

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { createTemplatePromise } from '@vueuse/core'
+import { createTemplatePromise } from '@velocity1/vueuse-core'
 
 type DialogResult = 'ok' | 'cancel'
 

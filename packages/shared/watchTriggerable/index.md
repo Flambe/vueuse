@@ -11,7 +11,7 @@ Watch that can be triggered manually
 A `watch` wrapper that supports manual triggering of `WatchCallback`, which returns an additional `trigger` to execute a `WatchCallback` immediately.
 
 ```ts
-import { watchTriggerable } from '@vueuse/core'
+import { watchTriggerable } from '@velocity1/vueuse-core'
 import { nextTick, shallowRef } from 'vue'
 
 const source = shallowRef(0)
@@ -35,7 +35,7 @@ When you want to manually call a `watch` that uses the onCleanup parameter; simp
 Using `watchTriggerable` will solve this problem.
 
 ```ts
-import { watchTriggerable } from '@vueuse/core'
+import { watchTriggerable } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const source = shallowRef(0)

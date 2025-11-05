@@ -1,6 +1,6 @@
-import type { ReadonlyRefOrGetter } from '@vueuse/shared'
+import type { ReadonlyRefOrGetter } from '@velocity1/vueuse-shared'
 import type { ComputedRef, MaybeRefOrGetter, Ref } from 'vue'
-import { clamp } from '@vueuse/shared'
+import { clamp } from '@velocity1/vueuse-shared'
 import { computed, ref as deepRef, isReadonly, toValue } from 'vue'
 
 /**

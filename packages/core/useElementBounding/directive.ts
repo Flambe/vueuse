@@ -1,6 +1,6 @@
-import type { UseElementBoundingOptions, UseElementBoundingReturn } from '@vueuse/core'
+import type { UseElementBoundingOptions, UseElementBoundingReturn } from '@velocity1/vueuse-core'
 import type { ObjectDirective } from 'vue'
-import { useElementBounding } from '@vueuse/core'
+import { useElementBounding } from '@velocity1/vueuse-core'
 import { watch } from 'vue'
 
 type ElementBounding = Omit<UseElementBoundingReturn, 'update'>

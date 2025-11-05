@@ -1,5 +1,5 @@
-import type { Awaitable, StorageLikeAsync } from '@vueuse/core'
-import { createEventHook, useStorageAsync } from '@vueuse/core'
+import type { Awaitable, StorageLikeAsync } from '@velocity1/vueuse-core'
+import { createEventHook, useStorageAsync } from '@velocity1/vueuse-core'
 import { beforeEach, describe, expect, it } from 'vitest'
 
 const KEY = 'custom-key'

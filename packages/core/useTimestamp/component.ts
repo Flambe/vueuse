@@ -1,6 +1,6 @@
-import type { UseTimestampOptions, UseTimestampReturn } from '@vueuse/core'
+import type { UseTimestampOptions, UseTimestampReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { useTimestamp } from '@vueuse/core'
+import { useTimestamp } from '@velocity1/vueuse-core'
 import { defineComponent, reactive } from 'vue'
 
 export interface UseTimestampProps extends Omit<UseTimestampOptions<true>, 'controls'> {}

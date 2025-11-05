@@ -1,6 +1,6 @@
-import type { ElementSize } from '@vueuse/core'
+import type { ElementSize } from '@velocity1/vueuse-core'
 import type { ObjectDirective } from 'vue'
-import { useElementSize } from '@vueuse/core'
+import { useElementSize } from '@velocity1/vueuse-core'
 import { watch } from 'vue'
 
 type RemoveFirstFromTuple<T extends any[]>

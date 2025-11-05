@@ -1,6 +1,6 @@
 import type { MaybeComputedElementRef } from '../unrefElement'
 import type { UseResizeObserverOptions } from '../useResizeObserver'
-import { toArray, tryOnMounted } from '@vueuse/shared'
+import { toArray, tryOnMounted } from '@velocity1/vueuse-shared'
 import { computed, shallowRef, watch } from 'vue'
 import { defaultWindow } from '../_configurable'
 import { unrefElement } from '../unrefElement'

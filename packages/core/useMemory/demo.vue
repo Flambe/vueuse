@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { useMemory } from '@vueuse/core'
+import { useMemory } from '@velocity1/vueuse-core'
 
 function size(v: number) {
   const kb = v / 1024 / 1024

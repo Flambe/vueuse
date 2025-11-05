@@ -18,7 +18,7 @@ Check out [⚗️ Vue Chemistry](https://github.com/antfu/vue-chemistry)!
 Basic example
 
 ```ts
-import { reactify } from '@vueuse/core'
+import { reactify } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 // a plain function
@@ -46,7 +46,7 @@ An example of implementing a reactive [Pythagorean theorem](https://en.wikipedia
 <!-- eslint-skip -->
 
 ```ts
-import { reactify } from '@vueuse/core'
+import { reactify } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const pow = reactify(Math.pow)
@@ -67,7 +67,7 @@ console.log(c.value) // 13
 You can also do it this way:
 
 ```ts
-import { reactify } from '@vueuse/core'
+import { reactify } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 function pythagorean(a: number, b: number) {
@@ -84,7 +84,7 @@ console.log(c.value) // 5
 Another example of making reactive `stringify`
 
 ```ts
-import { reactify } from '@vueuse/core'
+import { reactify } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const stringify = reactify(JSON.stringify)

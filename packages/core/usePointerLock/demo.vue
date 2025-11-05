@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useMouse, usePointerLock } from '@vueuse/core'
+import { useMouse, usePointerLock } from '@velocity1/vueuse-core'
 import { shallowRef, watch } from 'vue'
 
 const { lock, unlock, element } = usePointerLock()

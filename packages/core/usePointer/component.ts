@@ -1,6 +1,6 @@
-import type { UsePointerOptions, UsePointerReturn } from '@vueuse/core'
+import type { UsePointerOptions, UsePointerReturn } from '@velocity1/vueuse-core'
 import type { Reactive, SlotsType } from 'vue'
-import { defaultWindow, usePointer } from '@vueuse/core'
+import { defaultWindow, usePointer } from '@velocity1/vueuse-core'
 import { defineComponent, reactive, shallowRef } from 'vue'
 
 export interface UsePointerProps extends Omit<UsePointerOptions, 'target'> {

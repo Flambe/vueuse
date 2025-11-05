@@ -1,7 +1,7 @@
 /* this implementation is a vue port of https://github.com/alewin/useWorker by Alessio Koci */
 
 import type { ConfigurableWindow } from '../_configurable'
-import { tryOnScopeDispose } from '@vueuse/shared'
+import { tryOnScopeDispose } from '@velocity1/vueuse-shared'
 import { ref as deepRef, shallowRef } from 'vue'
 import { defaultWindow } from '../_configurable'
 import createWorkerBlobUrl from './lib/createWorkerBlobUrl'

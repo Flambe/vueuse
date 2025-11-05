@@ -10,7 +10,7 @@ Explicitly define the dependencies of computed.
 ## Usage
 
 ```ts twoslash include main
-import { computedWithControl } from '@vueuse/core'
+import { computedWithControl } from '@velocity1/vueuse-core'
 
 const source = ref('foo')
 const counter = ref(0)

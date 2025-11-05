@@ -2,7 +2,7 @@
 
 import type { Ref } from 'vue'
 import type { ConfigurableWindow } from '../_configurable'
-import { objectEntries } from '@vueuse/shared'
+import { objectEntries } from '@velocity1/vueuse-shared'
 import { ref as deepRef, reactive, watch } from 'vue'
 import { defaultWindow } from '../_configurable'
 import { useEventListener } from '../useEventListener'

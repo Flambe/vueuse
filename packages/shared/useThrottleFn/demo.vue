@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useThrottleFn } from '@vueuse/core'
+import { useThrottleFn } from '@velocity1/vueuse-core'
 import { shallowRef } from 'vue'
 
 const updated = shallowRef(0)

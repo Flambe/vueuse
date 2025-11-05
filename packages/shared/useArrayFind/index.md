@@ -9,7 +9,7 @@ Reactive `Array.find`.
 ## Usage
 
 ```ts
-import { useArrayFind } from '@vueuse/core'
+import { useArrayFind } from '@velocity1/vueuse-core'
 
 const list = [ref(1), ref(-1), ref(2)]
 const positive = useArrayFind(list, val => val > 0)
@@ -19,7 +19,7 @@ const positive = useArrayFind(list, val => val > 0)
 ### Use with reactive array
 
 ```ts
-import { useArrayFind } from '@vueuse/core'
+import { useArrayFind } from '@velocity1/vueuse-core'
 
 const list = reactive([-1, -2])
 const positive = useArrayFind(list, val => val > 0)

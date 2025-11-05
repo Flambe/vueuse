@@ -9,7 +9,7 @@ Reactive `Array.findLast`.
 ## Usage
 
 ```ts
-import { useArrayFindLast } from '@vueuse/core'
+import { useArrayFindLast } from '@velocity1/vueuse-core'
 
 const list = [ref(1), ref(-1), ref(2)]
 const positive = useArrayFindLast(list, val => val > 0)
@@ -19,7 +19,7 @@ const positive = useArrayFindLast(list, val => val > 0)
 ### Use with reactive array
 
 ```ts
-import { useArrayFindLast } from '@vueuse/core'
+import { useArrayFindLast } from '@velocity1/vueuse-core'
 
 const list = reactive([-1, -2])
 const positive = useArrayFindLast(list, val => val > 0)

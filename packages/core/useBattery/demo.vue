@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { reactify, useBattery } from '@vueuse/core'
+import { reactify, useBattery } from '@velocity1/vueuse-core'
 import { reactive } from 'vue'
 import YAML from 'yaml'
 

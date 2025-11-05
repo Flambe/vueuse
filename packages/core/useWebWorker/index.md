@@ -10,7 +10,7 @@ Simple [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Worker
 ## Usage
 
 ```ts
-import { useWebWorker } from '@vueuse/core'
+import { useWebWorker } from '@velocity1/vueuse-core'
 
 const { data, post, terminate, worker } = useWebWorker('/path/to/worker.js')
 ```

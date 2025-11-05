@@ -1,4 +1,4 @@
-import type { RemovableRef } from '@vueuse/shared'
+import type { RemovableRef } from '@velocity1/vueuse-shared'
 import type { MaybeRefOrGetter } from 'vue'
 import type { UseStorageOptions } from '../useStorage'
 import { defaultWindow } from '../_configurable'

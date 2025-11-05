@@ -9,13 +9,13 @@ Reactive current timestamp
 ## Usage
 
 ```ts
-import { useTimestamp } from '@vueuse/core'
+import { useTimestamp } from '@velocity1/vueuse-core'
 
 const timestamp = useTimestamp({ offset: 0 })
 ```
 
 ```ts
-import { useTimestamp } from '@vueuse/core'
+import { useTimestamp } from '@velocity1/vueuse-core'
 // ---cut---
 const { timestamp, pause, resume } = useTimestamp({ controls: true })
 ```

@@ -18,7 +18,7 @@ N.B. This API is not available in Web Workers (not exposed via WorkerNavigator).
 
 ```vue
 <script setup lang="ts">
-import { useBluetooth } from '@vueuse/core'
+import { useBluetooth } from '@velocity1/vueuse-core'
 
 const {
   isSupported,
@@ -48,7 +48,7 @@ Here, we use the characteristicvaluechanged event listener to handle reading bat
 
 ```vue
 <script setup lang="ts">
-import { useBluetooth, useEventListener, watchPausable } from '@vueuse/core'
+import { useBluetooth, useEventListener, watchPausable } from '@velocity1/vueuse-core'
 
 const {
   isSupported,

@@ -10,7 +10,7 @@ Reports changes to the dimensions of an Element's content or the border-box
 
 ```vue
 <script setup lang="ts">
-import { useResizeObserver } from '@vueuse/core'
+import { useResizeObserver } from '@velocity1/vueuse-core'
 import { ref, useTemplateRef } from 'vue'
 
 const el = useTemplateRef('el')
@@ -34,7 +34,7 @@ useResizeObserver(el, (entries) => {
 
 ```vue
 <script setup lang="ts">
-import { vResizeObserver } from '@vueuse/components'
+import { vResizeObserver } from '@velocity1/vueuse-components'
 
 const text = ref('')
 
