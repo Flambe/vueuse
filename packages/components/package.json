@@ -1,7 +1,7 @@
 {
   "name": "@velocity1/vueuse-components",
   "type": "module",
-  "version": "14.0.1-beta.4",
+  "version": "14.0.1-beta.5",
   "description": "Renderless components for VueUse",
   "author": "Jacob Clevenger<https://github.com/wheatjs>",
   "license": "MIT",
