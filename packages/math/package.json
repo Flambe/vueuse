@@ -1,7 +1,7 @@
 {
   "name": "@velocity1/vueuse-math",
   "type": "module",
-  "version": "14.0.1-beta.5",
+  "version": "14.0.1-beta.6",
   "description": "Math functions for VueUse",
   "author": "Anthony Fu <https://github.com/antfu>",
   "license": "MIT",
